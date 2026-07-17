@@ -1,0 +1,12 @@
+{
+    "navbar":{
+        "Home":"Home",
+        "About":"AboutUs",
+        "TargetAudience":"Target Audience",
+        "OurServices":"Our Services",
+        "ContactUs":"Contact Us",
+        "Clients":"Clients",
+        "Certifications":"Certifications",
+        "ConsulationRequest":"Consulation Request"
+    }
+}

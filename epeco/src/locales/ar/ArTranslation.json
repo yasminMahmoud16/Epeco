@@ -1,0 +1,14 @@
+{
+
+    "navbar":{
+        "Home":"الرئيسية",
+        "About":" عن المكتب",
+        "TargetAudience":" الجمهور المستهدف",
+        "OurServices":"مجالات العمل",
+        "ContactUs":"تواصل معنا",
+        "Clients":"عملاؤنا",
+        "Certifications":"إعتماداتنا",
+        "ConsulationRequest":"طلب استشاراة"
+    }
+}
+
