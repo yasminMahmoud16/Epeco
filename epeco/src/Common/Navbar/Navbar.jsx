@@ -8,7 +8,7 @@ export default function Navbar() {
   const { t } = useTranslation("navbar");
   return (
     <>
-      <nav className="bg-neutral-primary fixed w-full z-20 top-0 start-0 shadow-md  ">
+      <nav className="bg-white fixed w-full z-20 top-0 start-0 shadow-md  ">
         <div className="flex flex-wrap lg:flex-nowrap items-center justify-between lg:justify-evenly ">
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -28,8 +28,8 @@ export default function Navbar() {
             >
               <path
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeWidth="2"
                 d="M5 7h14M5 12h14M5 17h14"
               />
             </svg>

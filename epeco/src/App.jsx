@@ -5,7 +5,7 @@ import RouterLayout from './Layout/RouterLayout.jsx';
 
 
 // pages 
-import Home from './Pages/Home.jsx';
+import Home from './Pages/Home/Home.jsx';
 
 const router = createHashRouter([
   {

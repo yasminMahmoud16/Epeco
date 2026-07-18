@@ -14,7 +14,29 @@
         "PrivacyPolicy":"Privacy Policy",
         "Contact":"Contact Us",
         "description":"Neqaa Al-Biah Office. All rights reserved"
+    },
 
+        "home":{
+        "subTitleHero":"Towards Vision 2030 — Your Reliable Environmental Partner",
+        "titleHero1":"Protect Environment",
+        "titleHero2":"Build our Future",
+        "descriptionHero":"Integrated environmental services combining technical expertise and environmental commitment to achieve a sustainable future for the Kingdom of Saudi Arabia.",
+        "buttonHero1":"Our Services",
+        "buttonHero2":"About us",
+        "SatisfiedCustomer":"Satisfied Customer",
+        "ProfessionalExperience":"Professional Experience",
+        "ExecutedProjects":"Executed Projects"
+    },
+        "policy":{
+        "secTitle":"Our Policy",
+        "description":"We are committed to environmental protection and building national capabilities. Through our high-quality environmental services, we drive compliance with environmental regulations and contribute to achieving sustainable development goals.",
+        "aboutSec":"More About us ",
+        "cardDesc1":"Natural resources and preserving them for future generations.",
+        "cardTitle1":"Safeguarding ",
+        "cardDesc2":"National competencies and fostering a team specialized in environmental sustainability.",
+        "cardTitle2":"Empowering ",
+        "cardDesc3":"Mitigating environmental pollution through state-of-the-art technologies and modern approaches.",
+        "cardTitle3":"Constantly "
 
     }
 }
