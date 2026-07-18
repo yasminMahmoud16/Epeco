@@ -8,5 +8,13 @@
         "Clients":"Clients",
         "Certifications":"Certifications",
         "ConsulationRequest":"Consulation Request"
+    },
+     "footer":{
+        "terms":"Terms",
+        "PrivacyPolicy":"Privacy Policy",
+        "Contact":"Contact Us",
+        "description":"Neqaa Al-Biah Office. All rights reserved"
+
+
     }
 }

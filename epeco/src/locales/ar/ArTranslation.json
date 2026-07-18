@@ -9,6 +9,13 @@
         "Clients":"عملاؤنا",
         "Certifications":"إعتماداتنا",
         "ConsulationRequest":"طلب استشاراة"
+    },
+    "footer":{
+        "terms":"شروط الاستخدام",
+        "PrivacyPolicy":"سياسة الخصوصية",
+        "Contact":"تواصل معنا",
+        "description":"مكتب نقاء البيئة   جميع الحقوق محفوظة"
+
     }
 }
 
