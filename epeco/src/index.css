@@ -1,6 +1,5 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     font-family: "Cairo", sans-serif;
 }
@@ -8,4 +7,5 @@
 
 @theme{
     --color-title:#249643;
+    --font-RobotoCondensed: 'Roboto Condensed', sans-serif;
 }
