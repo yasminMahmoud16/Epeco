@@ -24,7 +24,7 @@ export default function HomePolicy() {
           <div className="mt-3">
             <Link
               to={"/"}
-              className="flex items-center justify-center text-[#2D7A45] font-extrabold text-2xl"
+              className={`flex items-center justify-center text-[#2D7A45] font-extrabold text-2xl   ${isArabic ? "duration-300 transition-all ease-in-out hover:-translate-x-2" : "duration-300 transition-all ease-in-out hover:translate-x-2"}`}
             >
               {t("aboutSec")}
               {isArabic ? (

@@ -1,42 +1,101 @@
 {
-    "navbar":{
-        "Home":"Home",
-        "About":"AboutUs",
-        "TargetAudience":"Target Audience",
-        "OurServices":"Our Services",
-        "ContactUs":"Contact Us",
-        "Clients":"Clients",
-        "Certifications":"Certifications",
-        "ConsulationRequest":"Consulation Request"
+    "navbar": {
+        "Home": "Home",
+        "About": "AboutUs",
+        "TargetAudience": "Target Audience",
+        "OurServices": "Our Services",
+        "ContactUs": "Contact Us",
+        "Clients": "Clients",
+        "Certifications": "Certifications",
+        "ConsulationRequest": "Consulation Request"
     },
-     "footer":{
-        "terms":"Terms",
-        "PrivacyPolicy":"Privacy Policy",
-        "Contact":"Contact Us",
-        "description":"Neqaa Al-Biah Office. All rights reserved"
+    "footer": {
+        "terms": "Terms",
+        "PrivacyPolicy": "Privacy Policy",
+        "Contact": "Contact Us",
+        "description": "Neqaa Al-Biah Office. All rights reserved"
     },
-
-        "home":{
-        "subTitleHero":"Towards Vision 2030 — Your Reliable Environmental Partner",
-        "titleHero1":"Protect Environment",
-        "titleHero2":"Build our Future",
-        "descriptionHero":"Integrated environmental services combining technical expertise and environmental commitment to achieve a sustainable future for the Kingdom of Saudi Arabia.",
-        "buttonHero1":"Our Services",
-        "buttonHero2":"About us",
-        "SatisfiedCustomer":"Satisfied Customer",
-        "ProfessionalExperience":"Professional Experience",
-        "ExecutedProjects":"Executed Projects"
+    "home": {
+        "subTitleHero": "Towards Vision 2030 — Your Reliable Environmental Partner",
+        "titleHero1": "Protect Environment",
+        "titleHero2": "Build our Future",
+        "descriptionHero": "Integrated environmental services combining technical expertise and environmental commitment to achieve a sustainable future for the Kingdom of Saudi Arabia.",
+        "buttonHero1": "Our Services",
+        "buttonHero2": "About us",
+        "SatisfiedCustomer": "Satisfied Customer",
+        "ProfessionalExperience": "Professional Experience",
+        "ExecutedProjects": "Executed Projects"
     },
-        "policy":{
-        "secTitle":"Our Policy",
-        "description":"We are committed to environmental protection and building national capabilities. Through our high-quality environmental services, we drive compliance with environmental regulations and contribute to achieving sustainable development goals.",
-        "aboutSec":"More About us ",
-        "cardDesc1":"Natural resources and preserving them for future generations.",
-        "cardTitle1":"Safeguarding ",
-        "cardDesc2":"National competencies and fostering a team specialized in environmental sustainability.",
-        "cardTitle2":"Empowering ",
-        "cardDesc3":"Mitigating environmental pollution through state-of-the-art technologies and modern approaches.",
-        "cardTitle3":"Constantly "
-
+    "policy": {
+        "secTitle": "Our Policy",
+        "description": "We are committed to environmental protection and building national capabilities. Through our high-quality environmental services, we drive compliance with environmental regulations and contribute to achieving sustainable development goals.",
+        "aboutSec": "More About us ",
+        "cardDesc1": "Natural resources and preserving them for future generations.",
+        "cardTitle1": "Safeguarding ",
+        "cardDesc2": "National competencies and fostering a team specialized in environmental sustainability.",
+        "cardTitle2": "Empowering ",
+        "cardDesc3": "Mitigating environmental pollution through state-of-the-art technologies and modern approaches.",
+        "cardTitle3": "Constantly "
+    },
+    "services": {
+        "secTitle": "Hands-On Experience",
+        "subTitle": "our services",
+        "description": "From inspection to compliance: Your comprehensive environmental partner",
+        "gallery1": "Development of Environmental Rehabilitation Plans",
+        "gallery2": "Mobile Laboratory Service",
+        "gallery3": "Preparation of Periodic Environmental Records",
+        "galleryDesc3": "Conducting Environmental Impact Assessments (EIA)",
+        "gallery4": "Environmental Quality Monitoring",
+        "galleryDesc4": "Air, Water, and Soil Testin",
+        "gallery5": "Environmental Licensing & NCEC Regulatory Compliance",
+        "gallery6": "Sustainability and ESG Consulting"
+    },
+    "audience": {
+        "secTitle": "Target Audience",
+        "subTitle": "Explore All Audience",
+        "items": [
+            {
+                "id": 1,
+                "title": "Construction & Contracting Companies",
+                "description": "Supporting your construction projects with the finest materials and engineering solutions that meet the highest standards of quality.",
+                "linkText": "Details"
+            },
+            {
+                "id": 2,
+                "title": "Water Utilities and Wastewater Treatment",
+                "description": "Advanced systems and solutions for efficient water management and recycling, ensuring complete environmental sustainability.",
+                "linkText": "Details"
+            },
+            {
+                "id": 3,
+                "title": "Power Generation & Electrical Substations",
+                "description": "Securing energy supplies and developing distribution networks to support infrastructure and economic growth.",
+                "linkText": "Details"
+            },
+            {
+                "id": 4,
+                "title": "Healthcare & Medical Facilities",
+                "description": "Precision equipment and secure infrastructure that guarantee healthcare stability and patient safety.",
+                "linkText": "Details"
+            },
+            {
+                "id": 5,
+                "title": "Industrial Facilities Sector",
+                "description": "This includes factories and major production facilities that require operational solutions, continuous maintenance, and uninterrupted power supplies to guarantee production efficiency.",
+                "linkText": "Details"
+            },
+            {
+                "id": 6,
+                "title": "Engineering Consultancy Companies",
+                "description": "Your trusted partner in turning engineering blueprints and innovations into tangible reality with precision and professionalism.",
+                "linkText": "Details"
+            },
+            {
+                "id": 7,
+                "title": "Waste Management & Recycling Enterprises",
+                "description": "Innovative technologies for safe and sustainable waste management.",
+                "linkText": "Details"
+            }
+        ]
     }
 }
