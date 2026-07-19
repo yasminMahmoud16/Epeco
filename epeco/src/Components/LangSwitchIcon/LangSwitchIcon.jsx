@@ -15,8 +15,8 @@ export default function LangSwitchIcon() {
           onClick={toggleLanguage}
           className=" w-12 h-12 flex items-center justify-center  relative group"
         >
-          <CiGlobe className="text-title w-8 h-8 md:w-10 md:h-10 transition-all duration-300 ease-in-out group-hover:text-green-800 group-hover:cursor-pointer " />
-          <span className="absolute top-8 left-7 md:top-9 md:right-6 transition-all duration-300 ease-in-out  text-title font-semibold group-hover:text-green-800 group-hover:cursor-pointer  ">
+          <CiGlobe className="text-title w-8 h-8 md:w-10 md:h-8 transition-all duration-300 ease-in-out group-hover:text-green-800 group-hover:cursor-pointer " />
+          <span className="absolute top-8 left-7 md:top-8 md:right-6 transition-all duration-300 ease-in-out  text-title font-semibold group-hover:text-green-800 group-hover:cursor-pointer  ">
             {i18n.language === "ar" ? "En" : "ع"}
           </span>
         </div>

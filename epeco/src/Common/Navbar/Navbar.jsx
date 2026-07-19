@@ -3,12 +3,15 @@ import LangSwitchIcon from "../../Components/LangSwitchIcon/LangSwitchIcon.jsx";
 import logo from "../../assets/Images/EPECO flayer 2 1.png";
 import { Link } from "react-router";
 import { useState } from "react";
+import i18next from "i18next";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+    const isArabic = i18next.language === "ar";
+
   const { t } = useTranslation("navbar");
   return (
     <>
-      <nav className="bg-neutral-primary fixed w-full z-20 top-0 start-0 shadow-md  ">
+      <nav className="bg-white fixed w-full z-20 top-0 start-0 shadow-md  ">
         <div className="flex flex-wrap lg:flex-nowrap items-center justify-between lg:justify-evenly ">
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -28,8 +31,8 @@ export default function Navbar() {
             >
               <path
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeWidth="2"
                 d="M5 7h14M5 12h14M5 17h14"
               />
             </svg>
@@ -44,7 +47,7 @@ export default function Navbar() {
             } order-3 w-full lg:block lg:w-auto lg:order-none`}
           >
             <ul
-              className="
+              className={`
     font-medium
     flex
     items-center
@@ -60,8 +63,7 @@ export default function Navbar() {
     gap-2
     lg:gap-0
     lg:space-x-8
-    rtl:space-x-reverse
-"
+    rtl:space-x-reverse  ${isArabic ? "" : "font-RobotoCondensed"}`}
             >
               <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <Link
@@ -226,7 +228,7 @@ lg:hover:after:w-full"
                 </button>
 
                 <div className="flex items-center justify-center gap-4 mt-4">
-                  <LangSwitchIcon />
+                  <LangSwitchIcon  />
 
                   <img
                     src={logo}
@@ -240,8 +242,10 @@ lg:hover:after:w-full"
 
           {/* requests button */}
           <div>
-            <button className="hidden lg:block bg-[#2D7A45] lg:py-1 lg:px-1  xl:py-2.5 xl:px-5 rounded-2xl text-[#F0EDE6]  
-            lg:text-md lg:ml-2  xl:text-xl font-normal transition-all duration-300 hover:bg-[#25683A] hover:cursor-pointer">
+            <button
+              className={`hidden lg:block bg-[#2D7A45] lg:py-1 lg:px-1   xl:px-5 xl:mr-2 rounded-2xl text-[#F0EDE6]  
+            lg:text-md lg:ml-2  xl:text-xl font-normal transition-all duration-300 hover:bg-[#25683A] hover:cursor-pointer ${isArabic ? "xl:py-2.5" : "font-RobotoCondensed rounded-3xl "}`}
+            >
               {t("ConsulationRequest")}
             </button>
           </div>
