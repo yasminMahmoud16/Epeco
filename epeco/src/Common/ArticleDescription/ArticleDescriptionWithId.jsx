@@ -1,8 +1,13 @@
-export default function ArticleDescription({ list, activeSlug }) {
+export default function ArticleDescriptionWithId({ list, activeId }) {
   const activeItem = Array.isArray(list)
-    ? list.find((item) => item.slug === activeSlug)
+    ? list.find((item) => item.id === activeId)
     : null;
 
+  
+  
+  console.log("activeId:", activeId);
+  
+  console.log("activeId:", activeId, typeof activeId);
   return (
     <>
       <div className="">
@@ -10,7 +15,7 @@ export default function ArticleDescription({ list, activeSlug }) {
           <div className=" flex flex-col">
             <div className="flex flex-col sm:flex-row-reverse gap-6">
               <div className="flex-1 space-y-4 w-fit">
-                <h2 className="text-3xl md:text-4xl font-normal text-heading mb-8 text-[#1A5C2C]  leading-12">
+                <h2 className="text-3xl md:text-4xl font-normal text-heading mb-8 text-[#1A5C2C] leading-12 ">
                   {activeItem.label}
                 </h2>
                 {activeItem.style === "bulleted" ? (
@@ -40,7 +45,7 @@ export default function ArticleDescription({ list, activeSlug }) {
                   activeItem.paragraphs.map((paragraph, id) => (
                     <p
                       key={id}
-                      className="text-body leading-[1.65] text-sm md:text-xl text-[#366b43] font-normal "
+                      className="text-body leading-[1.65] text-sm md:text-xl text-[#366b43] font-normal"
                     >
                       {paragraph.map((segment, sid) =>
                         segment.type === "highlight" ? (

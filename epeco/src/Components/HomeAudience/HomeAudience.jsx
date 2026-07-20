@@ -14,12 +14,13 @@ export default function HomeAudience() {
     <>
       <div className="flex  items-center justify-between mb-10">
         <TitleSec
-          title={t("secTitle")}
+          title={t("audience.secTitle")}
           className={`text-[#1A2E1D]!  font-normal ${isArabic ? "text-right" : "text-left"} `}
         />
         <Link
-          className={`flex items-center justify-center text-[#2D7A45] text-2xl font-light  ${isArabic ? "duration-300 transition-all ease-in-out hover:-translate-x-2" : "duration-300 transition-all ease-in-out hover:translate-x-2"} `}>
-          <p>{t("subTitle")}</p>
+          className={`flex items-center justify-center text-[#2D7A45] text-2xl font-light  ${isArabic ? "duration-300 transition-all ease-in-out hover:-translate-x-2" : "duration-300 transition-all ease-in-out hover:translate-x-2"} `}
+        >
+          <p>{t("audience.subTitle")}</p>
           {isArabic ? <IoIosArrowRoundBack /> : <IoIosArrowRoundForward />}
         </Link>
       </div>
@@ -31,7 +32,7 @@ export default function HomeAudience() {
             title={item.title}
             description={item.description}
             linkText={item.linkText}
-            // onDetailsClick={() => console.log("Clicked:", item.id)}
+            href={"/audience"}
           />
         ))}
       </div>

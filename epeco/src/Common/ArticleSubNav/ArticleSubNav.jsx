@@ -39,8 +39,14 @@ export default function ArticleSubNav({ slug, mainTitle, main }) {
         </nav>
         <div>
           <TitleSec
-            title={slug.slice(0,25)+"..."}
-            className={`${isArabic ? "text-right" : "text-left"}  font-normal text-[#1A5C2C] text-xl md:text-5xl `}
+            title={slug?.slice(0, 30) + "..."}
+            className={`block md:hidden mt-2 ${isArabic ? "text-right" : "text-left"} font-normal text-[#1A5C2C] text-xl md:text-4xl`}
+          />
+
+          {/* Full version - visible from md breakpoint up */}
+          <TitleSec
+            title={slug}
+            className={`hidden md:block ${isArabic ? "text-right" : "text-left"} font-normal text-[#1A5C2C] text-xl md:text-4xl mt-2`}
           />
         </div>
       </div>

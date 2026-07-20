@@ -9,6 +9,7 @@ import Home from './Pages/Home/Home.jsx';
 import About from './Pages/About/About.jsx';
 import Services from './Pages/Services/Services.jsx';
 import Audience from './Pages/Audience/Audience.jsx';
+import ServicesWithId from './Pages/Services/ServicesWithId.jsx';
 
 const router = createHashRouter([
   {
@@ -17,8 +18,12 @@ const router = createHashRouter([
     children: [
       { index: true, element: <Home /> },
       { path: "about", element: <About /> },
+      { path: "عن-المكتب", element: <About /> },
       { path: "services", element: <Services /> },
+      { path: "services/:id", element: <ServicesWithId /> },
+      { path: "مجالات-العمل", element: <Services /> },
       { path: "audience", element: <Audience /> },
+      { path: "الجمهور-المستهدف", element: <Audience /> },
     ],
   },
 ]);
