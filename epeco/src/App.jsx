@@ -10,6 +10,7 @@ import About from './Pages/About/About.jsx';
 import Services from './Pages/Services/Services.jsx';
 import Audience from './Pages/Audience/Audience.jsx';
 import ServicesWithId from './Pages/Services/ServicesWithId.jsx';
+import Contact from './Pages/Contact/Contact.jsx';
 
 const router = createHashRouter([
   {
@@ -24,6 +25,8 @@ const router = createHashRouter([
       { path: "مجالات-العمل", element: <Services /> },
       { path: "audience", element: <Audience /> },
       { path: "الجمهور-المستهدف", element: <Audience /> },
+      { path: "contact", element: <Contact /> },
+      { path: "تواصل-معنا", element: <Contact /> },
     ],
   },
 ]);

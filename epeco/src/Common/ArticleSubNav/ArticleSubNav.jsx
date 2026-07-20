@@ -18,7 +18,7 @@ export default function ArticleSubNav({ slug, mainTitle, main }) {
                 </span>
               </div>
             </li>
-            {isArabic ? <CgFormatSlash /> : <TbBackslash />}
+            {slug ? isArabic ? <CgFormatSlash /> : <TbBackslash /> : null}
 
             <li className="inline-flex items-center">
               <p className="inline-flex items-center text-sm font-medium text-body hover:text-fg-brand">
