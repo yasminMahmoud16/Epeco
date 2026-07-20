@@ -9,8 +9,6 @@ export default function HomeService() {
   const { t } = useTranslation();
   const galleries = t("services.galleries", { returnObjects: true });
     const isArabic = i18next.language === "ar";
-  console.log(galleries + "تتتتتتتتتتتتت");
-  console.log("galleries:", galleries);
   return (
     <>
       <Link
