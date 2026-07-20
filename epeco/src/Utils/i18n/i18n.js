@@ -8,29 +8,39 @@ import ar from '../../locales/ar/ArTranslation.json';
 const resources = {
     en: {
         // navbar: en.navbar
-        ...en
+        // ...en
+        translation: en,
+
     },
     ar: {
         // navbar: ar.navbar
-        ...ar
+        // ...ar
+        translation: ar,
     }
 };
 
 
 
 
+// i18n.use(initReactI18next).init({
+//     resources,
+//     lng: "ar",
+//     fallbackLng: "ar",
+//     ns: ["navbar"],
+//     defaultNS: "navbar",
+//     fallbackNS: "navbar",
+//     interpolation: {
+//         escapeValue: false,
+//     },
+// });
 i18n.use(initReactI18next).init({
     resources,
     lng: "ar",
     fallbackLng: "ar",
-    ns: ["navbar"],
-    defaultNS: "navbar",
-    fallbackNS: "navbar",
     interpolation: {
         escapeValue: false,
     },
 });
-
 // control the direction
 
 export const htmlDirections = (lng) => {

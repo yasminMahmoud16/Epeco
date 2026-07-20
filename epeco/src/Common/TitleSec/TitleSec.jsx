@@ -1,6 +1,6 @@
 export default function TitleSec({ title, className = "" }) {
   return (
-    <h2 className={`font-bold text-5xl text-center text-[#2D7A45] ${className}`}>
+    <h2 className={`font-bold  text-5xl text-center text-[#2D7A45] ${className}`}>
       {title}
     </h2>
   );

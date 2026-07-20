@@ -1,14 +1,14 @@
 import { useTranslation } from "react-i18next";
 import LangSwitchIcon from "../../Components/LangSwitchIcon/LangSwitchIcon.jsx";
 import logo from "../../assets/Images/EPECO flayer 2 1.png";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 import { useState } from "react";
 import i18next from "i18next";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
     const isArabic = i18next.language === "ar";
 
-  const { t } = useTranslation("navbar");
+  const { t } = useTranslation();
   return (
     <>
       <nav className="bg-white fixed w-full z-20 top-0 start-0 shadow-md  ">
@@ -66,8 +66,8 @@ export default function Navbar() {
     rtl:space-x-reverse  ${isArabic ? "" : "font-RobotoCondensed"}`}
             >
               <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
-                <Link
-                  href="#"
+                <NavLink
+                  to={"/"}
                   className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl text-title font-medium
 transition-all duration-300
 hover:text-green-700 hover:translate-x-1
@@ -79,12 +79,12 @@ after:transition-all after:duration-300
 lg:hover:after:w-full"
                   aria-current="page"
                 >
-                  {t("Home")}
-                </Link>
+                  {t("navbar.Home")}
+                </NavLink>
               </li>
               <li className="   hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
-                <Link
-                  href="#"
+                <NavLink
+                  to={"/about"}
                   className="relative block py-2 pr-2 lg:px-3  lg:text-md xl:text-xl  text-title font-medium
 transition-all duration-300
 hover:text-green-700 hover:translate-x-1
@@ -95,12 +95,12 @@ after:bg-green-700
 after:transition-all after:duration-300
 lg:hover:after:w-full"
                 >
-                  {t("About")}
-                </Link>
+                  {t("navbar.About")}
+                </NavLink>
               </li>
               <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
-                <Link
-                  href="#"
+                <NavLink
+                  to={"audience"}
                   className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
 transition-all duration-300
 hover:text-green-700 hover:translate-x-1
@@ -111,12 +111,12 @@ after:bg-green-700
 after:transition-all after:duration-300
 lg:hover:after:w-full"
                 >
-                  {t("TargetAudience")}
-                </Link>
+                  {t("navbar.TargetAudience")}
+                </NavLink>
               </li>
               <li className="lg:mr-6 hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <Link
-                  href="#"
+                  to="/services"
                   className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
 transition-all duration-300
 hover:text-green-700 hover:translate-x-1
@@ -127,7 +127,7 @@ after:bg-green-700
 after:transition-all after:duration-300
 lg:hover:after:w-full"
                 >
-                  {t("OurServices")}
+                  {t("navbar.OurServices")}
                 </Link>
               </li>
             </ul>
@@ -184,7 +184,7 @@ after:transition-all after:duration-300
 lg:hover:after:w-full"
                   aria-current="page"
                 >
-                  {t("ContactUs")}
+                  {t("navbar.ContactUs")}
                 </Link>
               </li>
               <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
@@ -200,7 +200,7 @@ after:bg-green-700
 after:transition-all after:duration-300
 lg:hover:after:w-full"
                 >
-                  {t("Certifications")}
+                  {t("navbar.Certifications")}
                 </Link>
               </li>
               <li className="lg:mr-6 hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
@@ -216,7 +216,7 @@ after:bg-green-700
 after:transition-all after:duration-300
 lg:hover:after:w-full"
                 >
-                  {t("Clients")}
+                  {t("navbar.Clients")}
                 </Link>
               </li>
             </ul>
@@ -228,7 +228,7 @@ lg:hover:after:w-full"
                 </button>
 
                 <div className="flex items-center justify-center gap-4 mt-4">
-                  <LangSwitchIcon  />
+                  <LangSwitchIcon />
 
                   <img
                     src={logo}
@@ -246,7 +246,7 @@ lg:hover:after:w-full"
               className={`hidden lg:block bg-[#2D7A45] lg:py-1 lg:px-1   xl:px-5 xl:mr-2 rounded-2xl text-[#F0EDE6]  
             lg:text-md lg:ml-2  xl:text-xl font-normal transition-all duration-300 hover:bg-[#25683A] hover:cursor-pointer ${isArabic ? "xl:py-2.5" : "font-RobotoCondensed rounded-3xl "}`}
             >
-              {t("ConsulationRequest")}
+              {t("navbar.ConsulationRequest")}
             </button>
           </div>
         </div>

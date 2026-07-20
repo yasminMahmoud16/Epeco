@@ -97,5 +97,307 @@
                 "linkText": "Details"
             }
         ]
+    },
+    "aboutArticle":{
+        "mainTitle":"More About us",
+        "main":"Home",
+        "list": [
+      {
+        "id": 1,
+        "slug": "مــن نـحــن",
+        "label": "Who We Are",
+        "image":"/public/who_we_are.jpg",
+        "paragraphs": [
+    [
+      {  "text": "EPECO Office is one of the leading environmental consulting firms in the Kingdom of Saudi Arabia. Certified as a " },
+      { "type": "highlight", "text": " Class A" },
+      {  "text": "consultant by the National Center for Environmental Compliance (NCEC), the office boasts a team of specialized experts dedicated to achieving the highest standards of sustainability." }
+    ],
+    [
+      {  "text": "EPECO Office delivers its services through a multidisciplinary team that combines scientific expertise, hands-on experience, and a deep understanding of environmental regulations, helping clients achieve the highest standards of environmental compliance." }
+    ],
+    [
+      {  "text": "We are committed to supporting Saudi Vision 2030 by promoting sustainable development, protecting natural resources, and ensuring environmental resilience and sustainability across all sectors." }
+    ]
+  ]},
+  {
+  "id": 2,
+  "slug": "سياستنا",
+  "label": "Our Policy",
+  "image":"/public/policy.jpg",
+  "style": "bulleted",
+
+  "paragraphs": [
+    [
+      { "text": "We believe that true success lies in creating a lasting, sustainable impact. Therefore, our operational policy is anchored on three non-negotiable pillars:" }
+    ],
+    [
+      { "text": " First, Uncompromising Quality: A strict commitment to the highest quality standards across all our endeavors and projects to ensure we meet and exceed our clients' expectations." }
+    ],
+    [
+      { "text": "Second, Environmental Advocacy: Investing in building an environmentally conscious community by adopting educational initiatives and fostering a culture of sustainability to preserve our natural resources."  }
+    ],
+    [
+      { "text": "Third, Human Capital Development: Continuously advancing our human capital by sharpening our team’s skills and equipping them with the latest knowledge and technologies, believing that our excellence begins with the competence of our people." }
+    ]
+  ]
+},
+  {
+  "id": 3,
+  "slug": "رؤيــتـــنـــــا",
+  "label": "Our Mission",
+  "image":"/public/vision.png",
+  "style": "bulleted",
+  "paragraphs": [
+    [
+      { "text": "For us, environmental commitment is a continuous scientific and practical practice, not just a slogan. Addressing today’s environmental challenges demands blending academic expertise with cutting-edge technology. Therefore, we stay at the forefront of the technological revolution and latest scientific breakthroughs in the environmental field. Our mission is to bridge the gap between research and field practice, becoming the leading technical and advisory partner in the Kingdom and the Arab world. By relentlessly investing in our capabilities, we ensure the delivery of exceptional quality and innovative solutions that elevate the quality of life and support a resilient, sustainable environment. "
+     }
+    ]
+  ]
+}
+
+    ]
+    
+
+    },
+        "servciesArticle":{
+        "mainTitle":" خبراتنا الميدانية",
+        "main":"الرئيسية",
+        "list": [
+      {
+        "id": 1,
+        "slug": "إعداد خطط إعادة التأهيل",
+        "label": "Development of Environmental Rehabilitation Plans",
+        "image":"/public/service1.png",
+        "paragraphs": [
+
+    [
+      {  "text": "Driven by our belief in sustainability and regeneration, we deliver advanced engineering solutions for environmental and technical rehabilitation planning. We meticulously assess the current status and design innovative corrective pathways that restore site vitality and efficiency, transforming environmental and operational challenges into sustainable opportunities for success" }
+    ]
+
+  ]},
+  {
+  "id": 2,
+  "slug": "إعداد سجلات بيئية دورية",
+  "label": "Mobile Laboratory Service",
+  "image":"/public/service2.jpg",
+  "style": "bulleted",
+
+  "paragraphs": [
+    [
+      { "text": "We provide you with an advanced ecosystem of environmental laboratories and a team of qualified specialists to conduct the most precise physical, chemical, and microbiological analyses. Our services encompass wastewater testing (both industrial and domestic), drinking and groundwater quality assessment, and soil and ambient environment pollution analysis. We deliver an accurate, scientific reading of your environmental profile, empowering you to optimize facility efficiency and secure full legal compliance" }
+    ]
+
+  ]
+},
+  {
+  "id": 3,
+  "slug": "الإستشارات المتعلقة بالإستدامة ومعايير الـESG (البيئية والاجتماعية والحوكمة)",
+  "label": "Preparation of Periodic Environmental Records",
+  "image":"/public/service3.png",
+  "style": "bulleted",
+  "paragraphs": [
+    [
+      { "text": "We provide you with an advanced ecosystem of environmental laboratories and a team of qualified specialists to conduct the most precise physical, chemical, and microbiological analyses. Our services encompass wastewater testing (both industrial and domestic), drinking and groundwater quality assessment, and soil and ambient environment pollution analysis. We deliver an accurate, scientific reading of your environmental profile, empowering you to optimize facility efficiency and secure full legal compliance"
+     }
+    ]
+  ]
+},
+  {
+  "id": 4,
+  "slug": "التصاريح والإلتزام بمتطلبات المركز  الوطني للرقابة على الإلتزام البيئي (NCEC)",
+  "label": "Sustainability and ESG Consulting",
+  "image":"/public/service4.jpg",
+  "style": "bulleted",
+  "paragraphs": [
+    [
+      { "text": "Helping businesses lead the future by embedding sustainability and ESG standards into their core operations. Our expert consultancy enables you to reduce risks, attract investors, and drive responsible growth—balancing profitability with a lasting positive impact on society and the planet."
+     }
+    ]
+  ]
+},
+  {
+  "id": 5,
+  "slug": "إستــــشـــارات بــــيئيـــــة",
+  "label": "NCEC Permits & Regulatory Compliance",
+  "image":"/public/service5.jpg",
+  "style": "bulleted",
+  "paragraphs": [
+    [
+      { "text": "As your trusted environmental liaison with regulatory bodies, we manage your compliance portfolio. We align your facility with NCEC requirements by handling everything from essential studies and reports to securing and renewing environmental permits, ensuring your operations remain entirely unhindered by legal obstacles."
+     }
+    ]
+  ]
+},
+  {
+  "id": 6,
+  "slug": "إعداد خطط إدارة بيئية",
+  "label": "Expert Environmental Consulting",
+  "image":"/public/service6.jpg",
+  "style": "bulleted",
+  "paragraphs": [
+    [
+      { "text": "Empowering our clients with clear scientific and practical insights to navigate all environmental challenges. Our consultancy spans project baseline analysis, technical recommendations to boost environmental efficiency, and tailored engineering solutions. We ensure your operations balance productivity with local and international compliance, guiding your business toward stable, sustainable growth."
+     }
+    ]
+  ]
+},
+  {
+  "id": 7,
+  "slug": "إعداد دراسات تقييم الأثر البيئي",
+  "label": "Environmental Impact Assessment (EIA)",
+  "image":"/public/service7.png",
+  "style": "bulleted",
+  "paragraphs": [
+    [
+      { "text": "Positioning your project for sustainable success through high-caliber Environmental Impact Assessment (EIA) studies. We handle comprehensive baseline site assessments, environmental forecasting, and the design of innovative mitigation strategies. Our solutions perfectly balance your investment objectives with ecosystem protection, shielding your business from long-term environmental and legal risks."
+     }
+    ]
+  ]
+},
+  {
+  "id": 8,
+  "slug": "رصد جودة الأوساط",
+  "label": "Environmental Quality Monitoring",
+  "image":"/public/service8.jpg",
+  "style": "bulleted",
+  "paragraphs": [
+    [
+      { "text": "Helping you maintain a safe, compliant work environment with periodic and continuous monitoring of all environmental media. Our technical experts measure and analyze air, water, soil, and noise emissions from your operations. We deliver comprehensive technical reports and engineering solutions to rectify any deviations from environmental standards, safeguarding both your facility and the surrounding community. "
+     }
+    ]
+  ]
+},
+  {
+  "id": 9,
+  "slug": "المختبرات البيئية",
+  "label": "Environmental Management Plans (EMP) Development",
+  "image":"/public/service9.jpg",
+  "style": "bulleted",
+  "paragraphs": [
+    [
+      { "text": "Protecting your investments through proactive and scientific environmental management plans. We evaluate your facility's operations to implement structured frameworks for emissions control, waste management, and resource optimization. This provides senior leadership with a robust tool for self-monitoring, ensuring your project remains fully compliant with environmental permit terms. "
+     }
+    ]
+  ]
+}
+
+
+    ]
+    
+
+    },
+
+        "audienceArticle":{
+        "mainTitle":" Target Audience",
+        "main":"الرئيسية",
+        "list": [
+      {
+        "id": 1,
+        "slug": "شركات الإنشاءات / شركات المقاولات ",
+        "label": "Construction & Contracting Companies",
+        "image":"/public/audience1.jpg",
+        "paragraphs": [
+
+    [
+      {  "text": "We recognize that timing and schedule compliance are critical to the construction and contracting industries. That is why we ensure your projects move forward without a single delay. From conducting EIA studies and site-specific environmental management plans to securing official permits swiftly and efficiently, we shield your business from legal obstacles, guaranteeing a project delivered with absolute compliance." }
+    ]
+
+  ]},
+  {
+  "id": 2,
+  "slug": "شركات الاستشارات الهندسية",
+  "label": "Engineering Consulting Companies",
+  "image":"/public/audience2.jpg",
+  "style": "bulleted",
+
+  "paragraphs": [
+    [
+      { "text": "Great engineering is driven by environmental sustainability. We partner with engineering consultancies to seamlessly integrate eco-dimensions into their designs and blueprints. By managing EIA studies, environmental management plans, and regulatory technical support on your behalf, we guarantee smooth project approvals and certifications from official bodies, adding premium value and reliability to your final deliverables." }
+    ]
+   
+  ]
+},
+  {
+  "id": 3,
+  "slug": "شركات إدارة النفايات",
+  "label": "Waste Management & Recycling Companies",
+  "image":"/public/audience3.jpg",
+  "style": "bulleted",
+  "paragraphs": [
+    [
+      { "text": "Waste management is the bedrock of a circular economy. We empower businesses in this sector with expert environmental consultancy and monitoring solutions to guarantee clean, efficient operations. By monitoring the environmental media around your facilities—including air, soil, and groundwater—and crafting robust environmental management plans, we enable you to deliver safe, sustainable recycling and treatment solutions."
+     }
+
+    ]
+  ]
+},
+  {
+  "id": 4,
+  "slug": "مرافق المياه ومعالجة مياه الصرف الصحي",
+  "label": "Water Utilities and Wastewater Treatment",
+  "image":"/public/audience4.jpg",
+  "style": "bulleted",
+  "paragraphs": [
+    [
+      { "text": "Delivering comprehensive environmental and advisory solutions to drive efficiency and sustainability in water treatment plants. We specialize in monitoring environmental media around facilities, crafting environmental management plans, and maintaining periodic compliance records. Through our expert technical and laboratory support, we optimize your treatment processes in strict accordance with KSA’s regulatory and oversight standards."
+     }
+    ]
+  ]
+},
+  {
+  "id": 5,
+  "slug": "المرافق الصناعية",
+  "label": "Industrial Facilities Sector",
+  "image":"/public/audience5.jpg",
+  "style": "bulleted",
+  "paragraphs": [
+    [
+      { "text": "Empowering factories and manufacturing facilities to balance peak production with strict environmental compliance. Our turnkey solutions cover stack and gaseous emissions testing, periodic environmental record-keeping, and streamlining NCEC permit issuance and renewals. We ensure your production lines run safely and legally, shielding your industrial investments from costly fines or operational shutdowns."
+     }
+    ]
+  ]
+},
+  {
+  "id": 6,
+  "slug": "محطات الطاقة والكهرباء",
+  "label": "Power & Energy Utilities",
+  "image":"/public/audience6..jpg",
+  "style": "bulleted",
+  "paragraphs": [
+    [
+      { "text": "We provide power and electricity plants with the consulting and laboratory solutions required to ensure safe and sustainable operations. We assist you in environmental impact assessments for new projects or expansions, offer sustainability and ESG compliance consulting, and develop innovative strategies to control environmental footprints—thereby contributing to the protection of the surrounding environment and enhancing the operational efficiency of the plants."
+     }
+
+    ]
+  ]
+},
+  {
+  "id": 7,
+  "slug": "المستشفيات والمنشآت الطبية",
+  "label": "Healthcare & Medical Facilities EIA",
+  "image":"/public/audience7.jpg",
+  "style": "bulleted",
+  "paragraphs": [
+    [
+      { "text": "Understanding the critical and sensitive nature of environmental compliance in healthcare, we deliver turnkey, specialized solutions for hospitals and medical centers, covering:"
+     },
+      { "text": " Hazardous Medical Waste Management Consulting."
+     },
+      { "text": " Facility-wide Air & Water Quality Monitoring."
+     },
+      { "text": " Full Compliance Alignment with NCEC and Ministry of Health Regulations."
+     },
+      { "text": " We safeguard your operations, ensuring a secure healing environment entirely free from legal and operational hazards."
+     }
+    ]
+  ]
+}
+
+
+
+    ]
+    
+
     }
 }

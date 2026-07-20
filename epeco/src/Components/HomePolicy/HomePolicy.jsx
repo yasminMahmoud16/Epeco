@@ -12,21 +12,21 @@ import card3 from "../../assets/Images/card3.jpg"
 export default function HomePolicy() {
     const isArabic = i18next.language === "ar";
 
-    const { t } = useTranslation("policy")
+    const { t } = useTranslation()
     return (
       <>
-        <TitleSec title={t("secTitle")} />
+        <TitleSec title={t("policy.secTitle")} />
 
         <div className="mt-5">
           <p className="font-normal text-lg xl:text-2xl text-center text-[#2D7A45] leading-10">
-            {t("description")}
+            {t("policy.description")}
           </p>
           <div className="mt-3">
             <Link
-              to={"/"}
+              to={"/about"}
               className={`flex items-center justify-center text-[#2D7A45] font-extrabold text-2xl   ${isArabic ? "duration-300 transition-all ease-in-out hover:-translate-x-2" : "duration-300 transition-all ease-in-out hover:translate-x-2"}`}
             >
-              {t("aboutSec")}
+              {t("policy.aboutSec")}
               {isArabic ? (
                 <IoIosArrowRoundBack className="md:text-lg xl:text-3xl font-extrabold   " />
               ) : (
@@ -39,25 +39,25 @@ export default function HomePolicy() {
           <CardSec
             className="p-7 w-full md:w-1/3"
             titleClassName="text-xl md:text-3xl font-extrabold text-[#2D7A45] leading-none pb-2"
-            highlightWord={t("cardTitle1")}
+            highlightWord={t("policy.cardTitle1")}
             image={card1}
-            description={t("cardDesc1")}
+            description={t("policy.cardDesc1")}
             descriptionClassName={`text-[#2D7A45] font-semibold h-16 ${isArabic ? "text-md lg:text-xl" : "text-lg"}`}
           />
           <CardSec
             className="p-7 w-full md:w-1/3"
             titleClassName="text-xl md:text-3xl font-extrabold text-[#2D7A45] leading-none pb-2"
-            highlightWord={t("cardTitle2")}
+            highlightWord={t("policy.cardTitle2")}
             image={card2}
-            description={t("cardDesc2")}
+            description={t("policy.cardDesc2")}
             descriptionClassName={`text-[#2D7A45] font-semibold h-16 ${isArabic ? "text-md lg:text-xl" : "text-lg"}`}
           />
           <CardSec
             className="p-7 w-full md:w-1/3"
             titleClassName="text-xl md:text-3xl font-extrabold text-[#2D7A45] leading-none pb-2"
-            highlightWord={t("cardTitle3")}
+            highlightWord={t("policy.cardTitle3")}
             image={card3}
-            description={t("cardDesc3")}
+            description={t("policy.cardDesc3")}
             descriptionClassName={`text-[#2D7A45] font-semibold h-16 ${isArabic ? "text-md lg:text-xl" : "text-lg"}`}
           />
         </div>

@@ -6,9 +6,9 @@ import CardAudience from "./CardAudience.jsx";
 import { Link } from "react-router";
 
 export default function HomeAudience() {
-  const { t } = useTranslation("audience");
+  const { t } = useTranslation();
   const isArabic = i18next.language === "ar";
-    const items = t("items", { returnObjects: true });
+    const items = t("audience.items", { returnObjects: true });
 
   return (
     <>
