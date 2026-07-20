@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import LangSwitchIcon from "../../Components/LangSwitchIcon/LangSwitchIcon.jsx";
 import logo from "../../assets/Images/EPECO flayer 2 1.png";
-import { Link, NavLink } from "react-router";
+import {  NavLink } from "react-router";
 import { useState } from "react";
 import i18next from "i18next";
 export default function Navbar() {
@@ -67,8 +67,8 @@ export default function Navbar() {
             >
               <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <NavLink
-                  to={"/"}
-                  className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl text-title font-medium
+                  to="/"
+                  className="relative block py-2 pr-2 lg:px-3  lg:text-md xl:text-xl  text-title font-medium
 transition-all duration-300
 hover:text-green-700 hover:translate-x-1
 lg:hover:translate-x-0
@@ -77,14 +77,14 @@ after:h-[2px] after:w-0
 after:bg-green-700
 after:transition-all after:duration-300
 lg:hover:after:w-full"
-                  aria-current="page"
                 >
                   {t("navbar.Home")}
                 </NavLink>
               </li>
               <li className="   hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <NavLink
-                  to={"/about"}
+                  // to="/about"
+                  to={t("navbarPath.About")}
                   className="relative block py-2 pr-2 lg:px-3  lg:text-md xl:text-xl  text-title font-medium
 transition-all duration-300
 hover:text-green-700 hover:translate-x-1
@@ -100,7 +100,7 @@ lg:hover:after:w-full"
               </li>
               <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <NavLink
-                  to={"audience"}
+                  to={t("navbarPath.TargetAudience")}
                   className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
 transition-all duration-300
 hover:text-green-700 hover:translate-x-1
@@ -115,8 +115,8 @@ lg:hover:after:w-full"
                 </NavLink>
               </li>
               <li className="lg:mr-6 hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
-                <Link
-                  to="/services"
+                <NavLink
+                  to={t("navbarPath.OurServices")}
                   className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
 transition-all duration-300
 hover:text-green-700 hover:translate-x-1
@@ -128,7 +128,7 @@ after:transition-all after:duration-300
 lg:hover:after:w-full"
                 >
                   {t("navbar.OurServices")}
-                </Link>
+                </NavLink>
               </li>
             </ul>
 
@@ -171,8 +171,8 @@ lg:hover:after:w-full"
 "
             >
               <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
-                <Link
-                  href="#"
+                <NavLink
+                  to={t("navbarPath.ContactUs")}
                   className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
 transition-all duration-300
 hover:text-green-700 hover:translate-x-1
@@ -185,11 +185,11 @@ lg:hover:after:w-full"
                   aria-current="page"
                 >
                   {t("navbar.ContactUs")}
-                </Link>
+                </NavLink>
               </li>
               <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
-                <Link
-                  href="#"
+                <NavLink
+                  to={t("navbarPath.Certifications")}
                   className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
 transition-all duration-300
 hover:text-green-700 hover:translate-x-1
@@ -201,11 +201,11 @@ after:transition-all after:duration-300
 lg:hover:after:w-full"
                 >
                   {t("navbar.Certifications")}
-                </Link>
+                </NavLink>
               </li>
               <li className="lg:mr-6 hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
-                <Link
-                  href="#"
+                <NavLink
+                  to={t("navbarPath.Clients")}
                   className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
 transition-all duration-300
 hover:text-green-700 hover:translate-x-1
@@ -217,7 +217,7 @@ after:transition-all after:duration-300
 lg:hover:after:w-full"
                 >
                   {t("navbar.Clients")}
-                </Link>
+                </NavLink>
               </li>
             </ul>
             {/* Mobile menu */}

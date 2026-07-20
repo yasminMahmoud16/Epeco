@@ -3,7 +3,7 @@ import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
 import { Link } from "react-router";
 
 export default function CardAudience({ title, description, linkText = "", href }) {
-    const isArabic = i18next.language === "ar";
+  const isArabic = i18next.language === "ar";
 
     return (
       <>
@@ -20,23 +20,13 @@ export default function CardAudience({ title, description, linkText = "", href }
               </p>
             </div>
 
-            {/* {href ? (
-                    <Link
-                        to={href}
-                        className="inline-flex items-center gap-2 text-primary font-medium hover:underline"
-                    >
-                        {linkText}
-                        {isArabic ? <IoIosArrowRoundBack /> : <IoIosArrowRoundForward />}
-                    </Link>
-                ) : ( */}
-            <Link
-              to={"/audience"}
-              // onClick={onDetailsClick}
+
+            <span
               className={`text-[#2D7A45] flex items-center gap-2 text-primary font-medium   ${isArabic ? "duration-300 transition-all ease-in-out hover:-translate-x-2" : "duration-300 transition-all ease-in-out hover:translate-x-2"}`}
             >
               {linkText}
               {isArabic ? <IoIosArrowRoundBack /> : <IoIosArrowRoundForward />}
-            </Link>
+            </span>
             {/* )} */}
           </div>
         </Link>

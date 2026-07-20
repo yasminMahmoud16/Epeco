@@ -9,6 +9,15 @@
         "Certifications": "Certifications",
         "ConsulationRequest": "Consulation Request"
     },
+    "navbarPath": {
+        "Home": "/",
+        "About": "about",
+        "TargetAudience": "audience",
+        "OurServices": "services",
+        "ContactUs": "contact",
+        "Clients": "clients",
+        "Certifications": "certifications"
+    },
     "footer": {
         "terms": "Terms",
         "PrivacyPolicy": "Privacy Policy",
@@ -41,14 +50,54 @@
         "secTitle": "Hands-On Experience",
         "subTitle": "our services",
         "description": "From inspection to compliance: Your comprehensive environmental partner",
-        "gallery1": "Development of Environmental Rehabilitation Plans",
-        "gallery2": "Mobile Laboratory Service",
-        "gallery3": "Preparation of Periodic Environmental Records",
-        "galleryDesc3": "Conducting Environmental Impact Assessments (EIA)",
-        "gallery4": "Environmental Quality Monitoring",
-        "galleryDesc4": "Air, Water, and Soil Testin",
-        "gallery5": "Environmental Licensing & NCEC Regulatory Compliance",
-        "gallery6": "Sustainability and ESG Consulting"
+
+
+"galleries": [
+  {
+    "id": 1,
+    "detailsId": 1,
+    "gallery1": "Development of Environmental Rehabilitation Plans",
+    "galleryimage": "/public/Gallery1.png",
+    "size": "tall"
+  },
+  {
+    "id": 2,
+    "detailsId": 9,
+    "gallery1": "Mobile Laboratory Service",
+    "galleryimage": "/public/Gallery2.jpg",
+    "size": "normal"
+  },
+  {
+    "id": 3,
+    "detailsId": 3,
+    "gallery1": "Preparation of Periodic Environmental Records",
+    "galleryDesc1": "Conducting Environmental Impact Assessments (EIA)",
+    "galleryimage": "/public/Gallery3.png",
+    "size": "normal"
+  },
+  {
+    "id": 4,
+    "detailsId": 2,
+    "gallery1": "Sustainability and ESG Consulting",
+    "galleryimage": "/public/Gallery6.png",
+    "size": "tall"
+  },
+  {
+    "id": 5,
+    "detailsId": 4,
+    "gallery1": "Environmental Licensing & NCEC Regulatory Compliance",
+    "galleryimage": "/public/Gallery5.jpg",
+    "size": "normal"
+  },
+  {
+    "id": 6,
+    "detailsId": 8,
+    "gallery1": "Environmental Quality Monitoring",
+    "galleryDesc1": "Air, Water, and Soil Testing",
+    "galleryimage": "/public/Gallery4.jpg",
+    "size": "normal"
+  }
+]
     },
     "audience": {
         "secTitle": "Target Audience",
@@ -161,8 +210,8 @@
 
     },
         "servciesArticle":{
-        "mainTitle":" خبراتنا الميدانية",
-        "main":"الرئيسية",
+        "mainTitle":" Hands-On Experience",
+        "main":"Home",
         "list": [
       {
         "id": 1,
@@ -181,7 +230,7 @@
   "slug": "إعداد سجلات بيئية دورية",
   "label": "Mobile Laboratory Service",
   "image":"/public/service2.jpg",
-  "style": "bulleted",
+  "style": "",
 
   "paragraphs": [
     [
@@ -195,7 +244,7 @@
   "slug": "الإستشارات المتعلقة بالإستدامة ومعايير الـESG (البيئية والاجتماعية والحوكمة)",
   "label": "Preparation of Periodic Environmental Records",
   "image":"/public/service3.png",
-  "style": "bulleted",
+  "style": "",
   "paragraphs": [
     [
       { "text": "We provide you with an advanced ecosystem of environmental laboratories and a team of qualified specialists to conduct the most precise physical, chemical, and microbiological analyses. Our services encompass wastewater testing (both industrial and domestic), drinking and groundwater quality assessment, and soil and ambient environment pollution analysis. We deliver an accurate, scientific reading of your environmental profile, empowering you to optimize facility efficiency and secure full legal compliance"
@@ -208,7 +257,7 @@
   "slug": "التصاريح والإلتزام بمتطلبات المركز  الوطني للرقابة على الإلتزام البيئي (NCEC)",
   "label": "Sustainability and ESG Consulting",
   "image":"/public/service4.jpg",
-  "style": "bulleted",
+  "style": "",
   "paragraphs": [
     [
       { "text": "Helping businesses lead the future by embedding sustainability and ESG standards into their core operations. Our expert consultancy enables you to reduce risks, attract investors, and drive responsible growth—balancing profitability with a lasting positive impact on society and the planet."
@@ -221,7 +270,7 @@
   "slug": "إستــــشـــارات بــــيئيـــــة",
   "label": "NCEC Permits & Regulatory Compliance",
   "image":"/public/service5.jpg",
-  "style": "bulleted",
+  "style": "",
   "paragraphs": [
     [
       { "text": "As your trusted environmental liaison with regulatory bodies, we manage your compliance portfolio. We align your facility with NCEC requirements by handling everything from essential studies and reports to securing and renewing environmental permits, ensuring your operations remain entirely unhindered by legal obstacles."
@@ -234,7 +283,7 @@
   "slug": "إعداد خطط إدارة بيئية",
   "label": "Expert Environmental Consulting",
   "image":"/public/service6.jpg",
-  "style": "bulleted",
+  "style": "",
   "paragraphs": [
     [
       { "text": "Empowering our clients with clear scientific and practical insights to navigate all environmental challenges. Our consultancy spans project baseline analysis, technical recommendations to boost environmental efficiency, and tailored engineering solutions. We ensure your operations balance productivity with local and international compliance, guiding your business toward stable, sustainable growth."
@@ -247,7 +296,7 @@
   "slug": "إعداد دراسات تقييم الأثر البيئي",
   "label": "Environmental Impact Assessment (EIA)",
   "image":"/public/service7.png",
-  "style": "bulleted",
+  "style": "",
   "paragraphs": [
     [
       { "text": "Positioning your project for sustainable success through high-caliber Environmental Impact Assessment (EIA) studies. We handle comprehensive baseline site assessments, environmental forecasting, and the design of innovative mitigation strategies. Our solutions perfectly balance your investment objectives with ecosystem protection, shielding your business from long-term environmental and legal risks."
@@ -260,7 +309,7 @@
   "slug": "رصد جودة الأوساط",
   "label": "Environmental Quality Monitoring",
   "image":"/public/service8.jpg",
-  "style": "bulleted",
+  "style": "",
   "paragraphs": [
     [
       { "text": "Helping you maintain a safe, compliant work environment with periodic and continuous monitoring of all environmental media. Our technical experts measure and analyze air, water, soil, and noise emissions from your operations. We deliver comprehensive technical reports and engineering solutions to rectify any deviations from environmental standards, safeguarding both your facility and the surrounding community. "
@@ -273,7 +322,7 @@
   "slug": "المختبرات البيئية",
   "label": "Environmental Management Plans (EMP) Development",
   "image":"/public/service9.jpg",
-  "style": "bulleted",
+  "style": "",
   "paragraphs": [
     [
       { "text": "Protecting your investments through proactive and scientific environmental management plans. We evaluate your facility's operations to implement structured frameworks for emissions control, waste management, and resource optimization. This provides senior leadership with a robust tool for self-monitoring, ensuring your project remains fully compliant with environmental permit terms. "
@@ -290,7 +339,7 @@
 
         "audienceArticle":{
         "mainTitle":" Target Audience",
-        "main":"الرئيسية",
+        "main":"Home",
         "list": [
       {
         "id": 1,
@@ -309,7 +358,7 @@
   "slug": "شركات الاستشارات الهندسية",
   "label": "Engineering Consulting Companies",
   "image":"/public/audience2.jpg",
-  "style": "bulleted",
+  "style": "",
 
   "paragraphs": [
     [
@@ -323,7 +372,7 @@
   "slug": "شركات إدارة النفايات",
   "label": "Waste Management & Recycling Companies",
   "image":"/public/audience3.jpg",
-  "style": "bulleted",
+  "style": "",
   "paragraphs": [
     [
       { "text": "Waste management is the bedrock of a circular economy. We empower businesses in this sector with expert environmental consultancy and monitoring solutions to guarantee clean, efficient operations. By monitoring the environmental media around your facilities—including air, soil, and groundwater—and crafting robust environmental management plans, we enable you to deliver safe, sustainable recycling and treatment solutions."
@@ -337,7 +386,7 @@
   "slug": "مرافق المياه ومعالجة مياه الصرف الصحي",
   "label": "Water Utilities and Wastewater Treatment",
   "image":"/public/audience4.jpg",
-  "style": "bulleted",
+  "style": "",
   "paragraphs": [
     [
       { "text": "Delivering comprehensive environmental and advisory solutions to drive efficiency and sustainability in water treatment plants. We specialize in monitoring environmental media around facilities, crafting environmental management plans, and maintaining periodic compliance records. Through our expert technical and laboratory support, we optimize your treatment processes in strict accordance with KSA’s regulatory and oversight standards."
@@ -350,7 +399,7 @@
   "slug": "المرافق الصناعية",
   "label": "Industrial Facilities Sector",
   "image":"/public/audience5.jpg",
-  "style": "bulleted",
+  "style": "",
   "paragraphs": [
     [
       { "text": "Empowering factories and manufacturing facilities to balance peak production with strict environmental compliance. Our turnkey solutions cover stack and gaseous emissions testing, periodic environmental record-keeping, and streamlining NCEC permit issuance and renewals. We ensure your production lines run safely and legally, shielding your industrial investments from costly fines or operational shutdowns."
@@ -363,7 +412,7 @@
   "slug": "محطات الطاقة والكهرباء",
   "label": "Power & Energy Utilities",
   "image":"/public/audience6..jpg",
-  "style": "bulleted",
+  "style": "",
   "paragraphs": [
     [
       { "text": "We provide power and electricity plants with the consulting and laboratory solutions required to ensure safe and sustainable operations. We assist you in environmental impact assessments for new projects or expansions, offer sustainability and ESG compliance consulting, and develop innovative strategies to control environmental footprints—thereby contributing to the protection of the surrounding environment and enhancing the operational efficiency of the plants."
