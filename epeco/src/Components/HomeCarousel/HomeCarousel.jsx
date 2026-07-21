@@ -52,28 +52,28 @@ useEffect(() => {
             <img
               src={carouselImage1}
               className="w-full h-full object-cover"
-              alt=""
+              alt="image"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={carouselImage3}
               className="w-full h-full object-cover"
-              alt=""
+              alt="image"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={carouselImage4}
               className="w-full h-full object-cover"
-              alt=""
+              alt="image"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={carouselImage2}
               className="w-full h-full object-cover"
-              alt=""
+              alt="image"
             />
           </SwiperSlide>
         </Swiper>

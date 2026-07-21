@@ -12,7 +12,7 @@ export default function CardSec({
     >
       <img
         src={image}
-        alt=""
+        alt="card"
         className="absolute inset-0 w-full h-full object-cover "
       />
 
