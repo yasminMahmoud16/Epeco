@@ -541,7 +541,7 @@
   },
   "clients": {
     "mainTitle": " Clients",
-    "main": "الرئيسية",
+    "main": "Home",
     "title": " They Trust US",
     "description": "Proudly trusted by leading government entities and private corporations across the Kingdom of Saudi Arabia.",
     "question": "Our Clients' Voices",
@@ -560,5 +560,12 @@
         "color": "light"
       }
     ]
+  },
+  
+  "certifications":{
+        "mainTitle": "Certifications",
+    "main": "Home",
+    "title": "Our Credentials",
+    "description": "Our compliance and certifications reflect our commitment to the highest environmental standards"
   }
 }
