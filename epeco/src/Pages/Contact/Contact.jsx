@@ -14,7 +14,7 @@ export default function Contact() {
       <>
         <section className="">
           {/* first part */}
-          <div className="w-full h-40 bg-[#F3F4F5] mt-16 lg:mt-19 py-5 px-20">
+          <div className="hidden md:block w-full h-40 bg-[#F3F4F5] mt-16 lg:mt-19 py-5 px-20">
             <ArticleSubNav
               mainTitle={t("contact.mainTitle")}
               main={t("contact.main")}
@@ -27,7 +27,7 @@ export default function Contact() {
           </div>
 
           {/* Second part */}
-          <div className="flex flex-col md:flex-row bg-white py-6 px-14">
+          <div className="mt-16 md:mt-0 flex flex-col md:flex-row bg-white py-6 px-14">
             <div className="w-full md:w-1/2">
               <ContactForm />
             </div>

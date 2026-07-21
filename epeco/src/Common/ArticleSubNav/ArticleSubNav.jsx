@@ -3,7 +3,8 @@ import { CgFormatSlash } from "react-icons/cg";
 import { TbBackslash } from "react-icons/tb";
 import TitleSec from "../TitleSec/TitleSEC.jsx";
 
-export default function ArticleSubNav({ slug, mainTitle, main }) {
+export default function ArticleSubNav({ slug=""
+  , mainTitle, main }) {
   const isArabic = i18next.language === "ar";
 
   return (
@@ -39,7 +40,7 @@ export default function ArticleSubNav({ slug, mainTitle, main }) {
         </nav>
         <div>
           <TitleSec
-            title={slug?.slice(0, 30) + "..."}
+            title={slug? slug.slice(0, 30) + "...":null}
             className={`block md:hidden mt-2 ${isArabic ? "text-right" : "text-left"} font-normal text-[#1A5C2C] text-xl md:text-4xl`}
           />
 

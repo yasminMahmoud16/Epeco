@@ -187,22 +187,6 @@ lg:hover:after:w-full"
                   {t("navbar.ContactUs")}
                 </NavLink>
               </li>
-              <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
-                <NavLink
-                  to={t("navbarPath.Certifications")}
-                  className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
-transition-all duration-300
-hover:text-green-700 hover:translate-x-1
-lg:hover:translate-x-0
-after:absolute after:left-0 after:-bottom-1
-after:h-[2px] after:w-0
-after:bg-green-700
-after:transition-all after:duration-300
-lg:hover:after:w-full"
-                >
-                  {t("navbar.Certifications")}
-                </NavLink>
-              </li>
               <li className="lg:mr-6 hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <NavLink
                   to={t("navbarPath.Clients")}
@@ -217,6 +201,22 @@ after:transition-all after:duration-300
 lg:hover:after:w-full"
                 >
                   {t("navbar.Clients")}
+                </NavLink>
+              </li>
+              <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
+                <NavLink
+                  to={t("navbarPath.Certifications")}
+                  className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
+transition-all duration-300
+hover:text-green-700 hover:translate-x-1
+lg:hover:translate-x-0
+after:absolute after:left-0 after:-bottom-1
+after:h-[2px] after:w-0
+after:bg-green-700
+after:transition-all after:duration-300
+lg:hover:after:w-full"
+                >
+                  {t("navbar.Certifications")}
                 </NavLink>
               </li>
             </ul>
