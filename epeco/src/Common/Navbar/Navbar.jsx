@@ -135,11 +135,15 @@ lg:hover:after:w-full"
             {/* logo */}
           </div>
           <div
-            className={`w-16 h-16 order-6 lg:order-none ${
+            className={`w-15 h-16 order-6 lg:order-none ${
               isOpen ? "hidden lg:block" : "block"
             }`}
           >
-            <img src={logo} className="w-full object-fill" alt="Logo" />
+            <img
+              src={logo}
+              className="w-full object-fill"
+              alt={t("navbar.logo")}
+            />
           </div>
 
           {/* second links  */}
@@ -232,7 +236,7 @@ lg:hover:after:w-full"
 
                   <img
                     src={logo}
-                    alt="Logo"
+                    alt={t("navbar.logo")}
                     className="w-14 h-14 object-contain"
                   />
                 </div>
