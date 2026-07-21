@@ -12,6 +12,7 @@ import Audience from './Pages/Audience/Audience.jsx';
 import ServicesWithId from './Pages/Services/ServicesWithId.jsx';
 import Contact from './Pages/Contact/Contact.jsx';
 import Clients from './Pages/Clients/Clients.jsx';
+import Certification from './Pages/Certification/Certification.jsx';
 
 const router = createHashRouter([
   {
@@ -30,6 +31,8 @@ const router = createHashRouter([
       { path: "تواصل-معنا", element: <Contact /> },
       { path: "clients", element: <Clients /> },
       { path: "عملاؤنا", element: <Clients /> },
+      { path: "certifications", element: <Certification /> },
+      { path: "إعتماداتنا", element: <Certification /> },
     ],
   },
 ]);
