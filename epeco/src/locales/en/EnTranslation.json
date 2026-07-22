@@ -481,7 +481,7 @@
         "list": [
       {
         "id": 1,
-        "slug": "Al-Tadamuniah Power Generation Plant Project",
+"slug": "محطات شركة \"التضامنية\" لتوليد الطاقة الكهربائية",
         "label": "Al-Tadamuniah Power Generation Plant Project",
         "images":[
           "Client1.png"
@@ -505,7 +505,7 @@
       },
       {
         "id": 2,
-        "slug": "Air Products Abdullah Hashim Industrial Gases Co. (AHG)",
+        "slug": "شركة إيربرودكتس عبد الله هاشم للغازات الصناعية",
         "label": "Air Products Abdullah Hashim Industrial Gases Co. (AHG)",
         "images":[
           "Client2.1.png",
@@ -531,7 +531,7 @@
       },
       {
         "id": 3,
-        "slug":" Aldrees Petrol Stations / For Aldrees Gas Stations",
+        "slug":" محطات وقود \"الدريس\"",
         "label": "Aldrees Petrol Stations / For Aldrees Gas Stations",
         "images":[
           "Client3.1.png",
@@ -557,7 +557,7 @@
       },
       {
         "id": 4,
-        "slug":" Maramer Contracting Company",
+        "slug":" شركة مرامر للمقاولات",
         "label":" Maramer Contracting Company",
         "images":[
           "Client4.1.png",
@@ -582,7 +582,7 @@
       },
       {
         "id": 5,
-        "slug":" Maydan Al-Tanmiah Fuel Stations",
+        "slug":" محطات وقود \"ميدان التنمية \"",
         "label":" Maydan Al-Tanmiah Fuel Stations",
         "images":[
           "Client5.1.png",
@@ -611,7 +611,7 @@
       },
       {
         "id": 6,
-        "slug":" Tabuk Fisheries Company (Climate Stress Initiative)",
+        "slug":" شركة تبوك للأسماك (مبادرة إجهاد المناخ)",
         "label":" Tabuk Fisheries Company (Climate Stress Initiative)",
         "images":[
           "Client6.1.png",
@@ -635,7 +635,7 @@
       },
       {
         "id": 7,
-        "slug":" New Murabba Project",
+        "slug":" مشروع نيو مربع ",
         "label":" New Murabba Project",
         "images":[
           "Client7.1.png",
@@ -661,7 +661,7 @@
       {
         "id": 8,
         "slug":" مشروع إنشاء مدينة ضرماء الصناعية",
-        "label":" مشروع إنشاء مدينة ضرماء الصناعية",
+        "label":" Dhurma Industrial City Project",
         "images":[
           "Client8.png"
         ],
@@ -670,10 +670,10 @@
         "paragraphs": [
           [
             {
-              "text": " تُعد منطقة ضرماء الصناعية من الوجهات الاستثمارية الحيوية والواعدة التي تدعم التوسع الصناعي في المملكة. يفخر مكتب \"نقاء البيئة \" بكونه الشريك الاستشاري والبيئي المعتمد لعدد من المصانع والمرافق الحيوية داخل المدينة؛ حيث نتولى إعداد دراسات تقييم الأثر البيئي (EIA)، واستخراج وتجديد التصاريح البيئية، وضمان الامتثال التام للمنشآت وفقاً لاشتراطات الجهات الرقابية. "
+              "text": " As a cornerstone of Saudi Arabia's industrial growth, Dhurma Industrial Zone is a premier investment destination. At Naqaa Al-Bee’ah, we take pride in serving as the certified environmental consultant for key factories and vital facilities across the city—handling comprehensive EIA studies, securing environmental licensing, and guaranteeing peak operational compliance with all oversight regulations."
             },
             {
-              "text": " فريق \"نقاء البيئة \" في قلب الميدان، يضع الركائز البيئية والهندسية لتأسيس واحدة من أهم المدن الصناعية الصاعدة في المملكة وفق أعلى المعايير الرسمية."
+              "text": " On the ground and at the heart of the action, the Naqaa Al-Bee’ah team is laying the environmental and engineering foundations for one of Saudi Arabia’s key rising industrial cities—driven by peak official and regulatory standards."
             }
        
           ]

@@ -22,7 +22,6 @@ const router = createHashRouter([
     children: [
       { index: true, element: <Home /> },
       { path: "about", element: <About /> },
-      // { path: "عن-المكتب", element: <About /> },
       { path: "services", element: <Services /> },
       { path: "services/:id", element: <ServicesWithId /> },
       // { path: "مجالات-العمل", element: <Services /> },
