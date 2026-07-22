@@ -13,7 +13,11 @@ import client12 from "../../assets/Images/client12.png";
 import client13 from "../../assets/Images/client13.png";
 import client14 from "../../assets/Images/client14.png";
 import client15 from "../../assets/Images/client15.png";
+import { Link } from "react-router";
+import { useTranslation } from "react-i18next";
 export default function ClientsImg() {
+        const { t } = useTranslation();
+    
     const images = [
         {
             src: client1,
@@ -86,7 +90,9 @@ export default function ClientsImg() {
       <>
         <div className="w-6xl flex flex-wrap items-center justify-center gap-12">
           {images.map((img, index) => (
-            <img key={index} src={img.src} alt={img.alt} loading="lazy" />
+            <Link to={t("navbarPath.clientsDetails")}>
+              <img key={index} src={img.src} alt={img.alt} loading="lazy" />
+            </Link>
           ))}
         </div>
       </>
