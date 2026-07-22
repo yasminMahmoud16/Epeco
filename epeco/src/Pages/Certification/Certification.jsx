@@ -9,15 +9,15 @@ export default function Certification() {
     const { t } = useTranslation();
     return (
       <>
-        <section >
+        <section>
           <div className="hidden md:block w-full h-40 bg-[#F3F4F5] mt-16 lg:mt-19 py-5 px-20">
             <ArticleSubNav
-              mainTitle={t("clients.mainTitle")}
-              main={t("clients.main")}
+              mainTitle={t("certifications.mainTitle")}
+              main={t("certifications.main")}
             />
 
             <TitleSec
-              title={t("clients.mainTitle")}
+              title={t("certifications.mainTitle")}
               className={`hidden md:block ${isArabic ? "text-right" : "text-left"} font-normal text-[#1A5C2C] text-xl md:text-4xl mt-2`}
             />
           </div>
@@ -26,7 +26,7 @@ export default function Certification() {
             <div className="mt-20 md:mt-5 flex flex-col gap-6 items-center pt-10 ">
               <TitleSec
                 title={t("certifications.title")}
-                className="text-title font-normal leading-none "
+                className="text-title font-normal leading-none text-4xl"
               />
 
               <p className="font-normal text-lg  xl:text-xl text-center text-[#1A5C2C] leading-10">

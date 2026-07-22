@@ -6,7 +6,7 @@ export default function ClientsArticleImages({ activeItem }) {
         {activeItem?.images?.map((image, index) => (
           <div
             key={index}
-            className="overflow-hidden rounded-3xl shadow aspect-[4/3]"
+            className="overflow-hidden rounded-3xl  aspect-[4/3]"
           >
             <img
               src={`${baseUrl}${image}`}

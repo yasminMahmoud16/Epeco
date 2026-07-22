@@ -26,8 +26,8 @@ export default function ClientsDetails() {
         <div className="w-full h-40 bg-[#F3F4F5] mt-16 lg:mt-19 py-5 px-20">
           <ArticleSubNav
             slug={activeItem?.label}
-            main={t("aboutArticle.main")}
-            mainTitle={t("aboutArticle.mainTitle")}
+            main={t("clientsArticle.main")}
+            mainTitle={t("clientsArticle.mainTitle")}
           />
           <div className=" flex  mt-6 md:flex-row-reverse gap-1.5 items-center">
             <AiOutlineMail className="text-[#1A5C2C]" />
