@@ -4,7 +4,7 @@ export default function ArticleList({ mainTitle, list, activeSlug, onSelect }) {
 
         <div className="flex flex-col">
 
-            <div className=" text-sm font-medium text-heading bg-neutral-primary-soft border-[0.5px] border-[#DBE1DD]  w-2xs">
+            <div className=" text-sm font-medium text-heading bg-neutral-primary-soft border-[0.5px] border-[#DBE1DD]  xl:w-2xs">
                 <p className="block w-full px-4 py-2 text-lg font-bold text-white bg-[#1A5C2C] border-b border-default rounded-t-base cursor-pointer">
                     {mainTitle}
                 </p>

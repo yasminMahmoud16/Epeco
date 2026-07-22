@@ -13,22 +13,22 @@ export default function HomeService() {
     <>
       <Link
         to={"/services"}
-        className="flex justify-between items-center py-2.5"
+        className={`flex flex-col justify-center  md:flex-row md:justify-between items-center py-2.5  ${isArabic?"":""}`}
       >
-        <div className="flex flex-col  w-auto ">
+        <div className="flex flex-col  w-auto  ">
           <h5
-            className={`text-title text-xl font-semibold pb-2.5  ${isArabic ? "" : "font-RobotoCondensed capitalize"} `}
+            className={`text-title text-xl font-semibold pb-2.5   ${isArabic ? "" : "font-RobotoCondensed capitalize"} `}
           >
             {t("services.subTitle")}
           </h5>
           <TitleSec
             title={t("services.secTitle")}
-            className={`font-normal text-2xl text-[#F0EDE6]  ${isArabic ? "text-right" : "text-left text-2xl"}`}
+            className={`font-normal  mb-4  md:text-2xl text-[#F0EDE6]  ${isArabic ? "text-right" : "text-left text-2xl"}`}
           />
         </div>
         <div>
           <p
-            className={`text-[#F0EDE6] text-xl font-light ${isArabic ? "" : "font-RobotoCondensed"}`}
+            className={`text-[#F0EDE6] text-sm md:text-base xl:text-xl font-light ${isArabic ? "" : "font-RobotoCondensed"}`}
           >
             {t("services.description")}
           </p>
@@ -38,7 +38,7 @@ export default function HomeService() {
       {/* Gallery */}
 
       <div
-        className="grid grid-cols-2 md:grid-cols-4 grid-flow-row-dense gap-4 mt-10"
+        className="grid grid-cols-1 md:grid-cols-4 grid-flow-row-dense gap-4 mt-10"
         dir={isArabic ? "rtl" : "ltr"}
       >
         {galleries.map((gallery) => (
@@ -62,7 +62,7 @@ export default function HomeService() {
             </div>
 
             <div className="absolute bottom-0 left-0 right-0 p-3">
-              <h3 className="text-xl leading-tight font-bold text-white">
+              <h3 className="text-sm xl:text-xl leading-tight font-bold text-white">
                 {gallery.gallery1}
               </h3>
               <p className="text-sm font-bold text-white mt-1">

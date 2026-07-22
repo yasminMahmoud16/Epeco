@@ -13,7 +13,7 @@ export default function ClientsReview() {
       <div className="my-10 md:mt-5 flex flex-col gap-6 items-center ">
         <TitleSec
           title={t("clients.question")}
-          className="text-[#F0EDE6] font-normal leading-none"
+          className="text-[#F0EDE6] font-normal leading-tight"
         />
 
         <p className="font-normal text-lg xl:text-xl text-center text-[#7AAB87] leading-10">
@@ -38,7 +38,7 @@ export default function ClientsReview() {
 
             {/* Review */}
             <p
-              className={`flex-1 text-right text-sm md:text-base leading-8 font-bold line-clamp-6 ${
+              className={`flex-1 text-right  text-sm md:text-base leading-8 font-bold line-clamp-6 ${
                 rev.color === "dark" ? "text-[#F0EDE6]" : "text-white"
               }`}
             >

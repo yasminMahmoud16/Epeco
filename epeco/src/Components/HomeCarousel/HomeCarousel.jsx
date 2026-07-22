@@ -36,6 +36,7 @@ useEffect(() => {
     <>
       <div className="relative ">
         <Swiper
+          className="h-52 md:h-full "
           key={i18n.language}
           dir={i18n.language === "ar" ? "rtl" : "ltr"}
           modules={[Autoplay, EffectFade]}
@@ -48,46 +49,46 @@ useEffect(() => {
             disableOnInteraction: false,
           }}
         >
-          <SwiperSlide>
+          <SwiperSlide className="">
             <img
               src={carouselImage1}
               className="w-full h-full object-cover"
-              alt=""
+              alt="image"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={carouselImage3}
               className="w-full h-full object-cover"
-              alt=""
+              alt="image"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={carouselImage4}
               className="w-full h-full object-cover"
-              alt=""
+              alt="image"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={carouselImage2}
               className="w-full h-full object-cover"
-              alt=""
+              alt="image"
             />
           </SwiperSlide>
         </Swiper>
 
         <div
           className={`absolute  ${
-            isArabic ? "top-2 md:top-10" : "top-5 md:top-32 xl:gap-4"
-          } z-10 max-w-[85%] md:max-w-xl px-4 md:px-9 flex flex-col gap-1 md:gap-8`}
+            isArabic ? "top-2 md:top-6" : "top-5  xl:gap-4"
+          } z-10 max-w-[95%] md:max-w-xl px-4 md:px-9 flex flex-col gap-1 md:gap-8`}
         >
           <div
             className={`${
               isArabic
                 ? "font-bold text-xs xl:text-xl flex items-center justify-center"
-                : "font-RobotoCondensed flex items-center justify-center text-xs xl:text-lg xl:w-96"
+                : "font-RobotoCondensed flex items-center justify-center text-xs xl:text-lg xl:w-96 "
             } bg-[#2D7A45] text-white px-3 py-1 xl:px-6 xl:py-3 rounded-2xl w-fit min-h-5 xl:min-h-16`}
           >
             {t("home.subTitleHero")}
@@ -98,22 +99,22 @@ useEffect(() => {
               className={`${
                 isArabic
                   ? "text-md md:text-2xl xl:text-5xl font-semibold"
-                  : "font-RobotoCondensed text-md md:text-2xl xl:text-4xl font-semibold"
+                  : "font-RobotoCondensed text-sm md:text-2xl xl:text-4xl font-semibold"
               } text-[#1A5C2C] leading-tight`}
             >
               {t("home.titleHero1")}
             </h1>
 
-            <h1 className="text-md md:text-2xl xl:text-4xl font-semibold text-white leading-tight">
+            <h1 className="text-sm md:text-2xl xl:text-4xl font-semibold text-white leading-tight">
               {t("home.titleHero2")}
             </h1>
           </div>
 
-          <div className=" w-80">
+          <div className=" w-full">
             <p
               className={`${
                 isArabic
-                  ? "text-xs md:text-md xl:text-2xl"
+                  ? "text-xs md:text-xl xl:text-2xl"
                   : "font-RobotoCondensed text-xs xl:text-lg"
               } font-light text-white max-w-lg leading-relaxed`}
             >

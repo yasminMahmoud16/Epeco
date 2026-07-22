@@ -21,7 +21,7 @@ export default function Navbar() {
           >
             <span className="sr-only">Open main menu</span>
             <svg
-              className="w-6 h-6"
+              className="w-6 h-6 text-title"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -135,8 +135,8 @@ lg:hover:after:w-full"
             {/* logo */}
           </div>
           <div
-            className={`w-15 h-16 order-6 lg:order-none ${
-              isOpen ? "hidden lg:block" : "block"
+            className={`w-15 h-16 p-2 order-6 lg:order-none ${
+              isOpen ? "hidden lg:block " : "block"
             }`}
           >
             <img

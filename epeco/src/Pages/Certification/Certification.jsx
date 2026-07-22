@@ -9,7 +9,7 @@ export default function Certification() {
     const { t } = useTranslation();
     return (
       <>
-        <section>
+        <section >
           <div className="hidden md:block w-full h-40 bg-[#F3F4F5] mt-16 lg:mt-19 py-5 px-20">
             <ArticleSubNav
               mainTitle={t("clients.mainTitle")}
@@ -22,14 +22,14 @@ export default function Certification() {
             />
           </div>
 
-          <div className="bg-white flex flex-col items-center justify-center gap-14 py-6 px-14">
-            <div className="mt-20 md:mt-5 flex flex-col gap-6 items-center ">
+          <div className="bg-white min-h-screen flex flex-col items-center justify-center gap-14 py-6 px-14">
+            <div className="mt-20 md:mt-5 flex flex-col gap-6 items-center pt-10 ">
               <TitleSec
                 title={t("certifications.title")}
-                className="text-title font-normal leading-none"
+                className="text-title font-normal leading-none "
               />
 
-              <p className="font-normal text-lg xl:text-xl text-center text-[#1A5C2C] leading-10">
+              <p className="font-normal text-lg  xl:text-xl text-center text-[#1A5C2C] leading-10">
                 {t("certifications.description")}
               </p>
             </div>
