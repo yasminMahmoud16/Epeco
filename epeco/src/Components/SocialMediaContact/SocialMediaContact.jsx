@@ -40,7 +40,7 @@ export default function SocialMediaContact() {
           </p>
 
           {/* Email + Complaints cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
+          <div className="grid grid-cols-1   lg:grid-cols-2 gap-3 md:gap-4">
             {/*  complains  */}
             <div className="border border-gray-200 rounded-2xl p-4 md:p-6">
               <h3
@@ -84,7 +84,7 @@ export default function SocialMediaContact() {
           </div>
 
           {/* Head office and eastern region*/}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-4">
             {/* Head office */}
             <div className="border border-gray-200 rounded-2xl p-4 md:p-6">
               <div className="flex flex-col  gap-3 mb-3 md:mb-4">

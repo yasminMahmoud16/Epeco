@@ -12,12 +12,15 @@ export default function HomeAudience() {
 
   return (
     <>
-      <div className="flex  items-center justify-between mb-10">
+      <div
+        className={`flex flex-col gap-4 md:flex-row items-center justify-between mb-10`}
+      >
         <TitleSec
           title={t("audience.secTitle")}
-          className={`text-[#1A2E1D]!  font-normal ${isArabic ? "text-right" : "text-left"} `}
+          className={`text-[#1A2E1D]! text-4xl! font-normal ${isArabic ? "text-right" : "text-left"} `}
         />
         <Link
+          to={"/audience"}
           className={`flex items-center justify-center text-[#2D7A45] text-2xl font-light  ${isArabic ? "duration-300 transition-all ease-in-out hover:-translate-x-2" : "duration-300 transition-all ease-in-out hover:translate-x-2"} `}
         >
           <p>{t("audience.subTitle")}</p>
@@ -25,7 +28,9 @@ export default function HomeAudience() {
         </Link>
       </div>
 
-      <div className=" flex flex-wrap gap-7">
+      <div
+        className={`flex flex-col md:flex-row items-center justify-center xl:justify-start md:flex-wrap gap-7`}
+      >
         {items.map((item) => (
           <CardAudience
             key={item.id}

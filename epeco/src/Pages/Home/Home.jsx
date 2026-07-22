@@ -4,6 +4,7 @@ import HomePolicy from "../../Components/HomePolicy/HomePolicy.jsx";
 import HomeService from "../../Components/HomeService/HomeService.jsx";
 
 export default function Home() {
+  
     return (
       <>
         <main>

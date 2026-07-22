@@ -31,7 +31,10 @@ export default function Audience() {
           />
           <div className=" flex  mt-6 md:flex-row-reverse gap-1.5 items-center">
             <AiOutlineMail className="text-[#1A5C2C]" />
-            <FiPrinter className="text-[#1A5C2C]" />
+            <FiPrinter
+              className="text-[#1A5C2C] hover:cursor-pointer transition-all duration-300 ease-in-out hover:text-[#31974d]"
+              onClick={() => window.print()}
+            />
             <MdArrowOutward className="text-[#1A5C2C]" />
           </div>
         </div>

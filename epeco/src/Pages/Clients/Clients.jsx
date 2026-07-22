@@ -30,10 +30,10 @@ export default function Clients() {
           <div className="mt-20 md:mt-5 flex flex-col gap-6 items-center ">
             <TitleSec
               title={t("clients.title")}
-              className="text-title font-normal leading-none"
+              className="text-title font-normal leading-none text-2xl "
             />
 
-            <p className="font-normal text-lg xl:text-xl text-center text-[#1A5C2C] leading-10">
+            <p className="font-normal text-lg  px-4 xl:text-xl text-center text-[#1A5C2C] leading-10">
               {t("clients.description")}
             </p>
           </div>
