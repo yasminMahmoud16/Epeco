@@ -2,16 +2,40 @@ import { useTranslation } from "react-i18next";
 import LangSwitchIcon from "../../Components/LangSwitchIcon/LangSwitchIcon.jsx";
 import logo from "../../assets/Images/EPECO flayer 2 1.png";
 import {  NavLink } from "react-router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import i18next from "i18next";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
     const isArabic = i18next.language === "ar";
-
   const { t } = useTranslation();
+
+
+
+    const [showNavbar, setShowNavbar] = useState(true);
+    const [lastScrollY, setLastScrollY] = useState(0);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        if (window.scrollY > lastScrollY) {
+          // نازل لتحت
+          setShowNavbar(false);
+        } else {
+          // طالع لفوق
+          setShowNavbar(true);
+        }
+
+        setLastScrollY(window.scrollY);
+      };
+
+      window.addEventListener("scroll", handleScroll);
+
+      return () => window.removeEventListener("scroll", handleScroll);
+    }, [lastScrollY]);
   return (
     <>
-      <nav className="bg-white fixed w-full z-20 top-0 start-0 shadow-md  ">
+      <nav
+        className={`bg-white fixed w-full z-20 top-0 start-0 shadow-md  ${showNavbar? "translate-y-0" : "-translate-y-full"} `}
+      >
         <div className="flex flex-wrap lg:flex-nowrap items-center justify-between lg:justify-evenly ">
           <button
             onClick={() => setIsOpen(!isOpen)}
