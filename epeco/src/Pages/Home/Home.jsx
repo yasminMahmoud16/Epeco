@@ -13,13 +13,13 @@ export default function Home() {
           </section>
 
           <section className="flex flex-col items-center justify-center py-6 px-16 gap-0.5 bg-[#F5F0E8] ">
-              <HomePolicy />
+            <HomePolicy />
           </section>
 
           <section className="py-6 px-16 bg-[#053510]">
             <HomeService />
           </section>
-          <section className="py-6 px-16 ">
+          <section className="py-6 px-16 bg-[#F5F0E8] ">
             <HomeAudience />
           </section>
         </main>
