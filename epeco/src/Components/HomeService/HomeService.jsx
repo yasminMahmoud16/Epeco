@@ -9,7 +9,7 @@ export default function HomeService() {
   const { t } = useTranslation();
   const galleries = t("services.galleries", { returnObjects: true });
   const isArabic = i18next.language === "ar";
-  
+  const baseUrl = "https://yasminMahmoud16.github.io/Epeco/";
   return (
     <>
       <Link
@@ -43,7 +43,6 @@ export default function HomeService() {
         dir={isArabic ? "rtl" : "ltr"}
       >
         {galleries.map((gallery) => (
-          
           <Link
             key={gallery.id}
             to={`/services/${gallery.detailsId}`}
@@ -53,7 +52,7 @@ export default function HomeService() {
           >
             <img
               className="h-full w-full object-sill"
-              src={`${import.meta.env.BASE_URL}${gallery.galleryimage.replace(/^\//, "")}`}
+              src={`${baseUrl}${gallery.galleryimage}`}
               alt={gallery.gallery1}
             />
 
