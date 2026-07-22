@@ -8,12 +8,13 @@ import { Link } from "react-router";
 export default function HomeService() {
   const { t } = useTranslation();
   const galleries = t("services.galleries", { returnObjects: true });
-    const isArabic = i18next.language === "ar";
+  const isArabic = i18next.language === "ar";
+  
   return (
     <>
       <Link
         to={"/services"}
-        className={`flex flex-col justify-center  md:flex-row md:justify-between items-center py-2.5  ${isArabic?"":""}`}
+        className={`flex flex-col justify-center  md:flex-row md:justify-between items-center py-2.5  ${isArabic ? "" : ""}`}
       >
         <div className="flex flex-col  w-auto  ">
           <h5
@@ -42,6 +43,7 @@ export default function HomeService() {
         dir={isArabic ? "rtl" : "ltr"}
       >
         {galleries.map((gallery) => (
+          
           <Link
             key={gallery.id}
             to={`/services/${gallery.detailsId}`}
@@ -51,7 +53,7 @@ export default function HomeService() {
           >
             <img
               className="h-full w-full object-sill"
-              src={gallery.galleryimage}
+              src={`${import.meta.env.BASE_URL}${gallery.galleryimage.replace(/^\//, "")}`}
               alt={gallery.gallery1}
             />
 
