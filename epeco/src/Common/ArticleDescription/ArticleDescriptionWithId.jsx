@@ -66,7 +66,7 @@ export default function ArticleDescriptionWithId({ list, activeId }) {
                 <div className="sm:w-56 w-full shrink-0 aspect-[3/5] overflow-hidden rounded-3xl shadow">
                   <img
                     className="h-full w-full object-fill"
-                    rc={`${baseUrl}${activeItem.image}`}
+                    src={`${baseUrl}${activeItem.image}`}
                     alt={activeItem.label}
                   />
                 </div>

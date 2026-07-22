@@ -61,14 +61,12 @@ export default function Navbar() {
     bg-neutral-secondary-soft
     lg:bg-neutral-primary
     gap-2
-    lg:gap-0
-    lg:space-x-8
-    rtl:space-x-reverse  ${isArabic ? "" : "font-RobotoCondensed"}`}
+     ${isArabic ? "" : "font-RobotoCondensed"}`}
             >
               <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <NavLink
                   to="/"
-                  className="relative block py-2 pr-2 lg:px-3  lg:text-md xl:text-xl  text-title font-medium
+                  className="relative block py-2 pr-2 lg:px-3  lg:text-base xl:text-xl  text-title font-medium
 transition-all duration-300
 hover:text-green-700 hover:translate-x-1
 lg:hover:translate-x-0
@@ -114,7 +112,7 @@ lg:hover:after:w-full"
                   {t("navbar.TargetAudience")}
                 </NavLink>
               </li>
-              <li className="lg:mr-6 hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
+              <li className=" hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <NavLink
                   to={t("navbarPath.OurServices")}
                   className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
@@ -169,9 +167,7 @@ lg:hover:after:w-full"
     bg-neutral-secondary-soft
     lg:bg-neutral-primary
     gap-2
-    lg:gap-0
-    lg:space-x-8
-    rtl:space-x-reverse
+
 "
             >
               <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
@@ -191,7 +187,7 @@ lg:hover:after:w-full"
                   {t("navbar.ContactUs")}
                 </NavLink>
               </li>
-              <li className="lg:mr-6 hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
+              <li className=" hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <NavLink
                   to={t("navbarPath.Clients")}
                   className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
