@@ -205,6 +205,7 @@ export default function SocialMediaContact() {
           <img
             src={KSA}
             alt="Saudi Arabia"
+            loading="lazy"
             className="w-full h-auto object-contain"
           />
         </div>

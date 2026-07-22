@@ -11,7 +11,6 @@ export default function Audience() {
     const { t } = useTranslation();
     const list = t("audienceArticle.list", { returnObjects: true });
   const mainTitle = t("audienceArticle.mainTitle");
-  console.log("audienceArticle.mainTitle");
 
     const [activeSlug, setActiveSlug] = useState(
         Array.isArray(list) && list.length > 0 ? list[0].slug : null,

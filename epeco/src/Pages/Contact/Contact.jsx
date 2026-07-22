@@ -4,7 +4,7 @@ import TitleSec from "../../Common/TitleSec/TitleSEC.jsx";
 import i18next from "i18next";
 import ContactForm from "../../Components/ContactForm/ContactForm.jsx";
 import SocialMediaContact from "../../Components/SocialMediaContact/SocialMediaContact.jsx";
-// import ContactImages from "../../Components/ContactImages/ContactImages.jsx";
+
 
 export default function Contact() {
     const isArabic = i18next.language === "ar";

@@ -14,7 +14,7 @@ export default function Clients() {
 
     return (
       <>
-        <section>
+        <section className="bg-[#F5F0E8]">
           <div className="hidden md:block w-full h-40 bg-[#F3F4F5] mt-16 lg:mt-19 py-5 px-20">
             <ArticleSubNav
               mainTitle={t("clients.mainTitle")}
@@ -43,9 +43,7 @@ export default function Clients() {
           </div>
           <div className=" bg-[#0D1A10] flex flex-col items-center justify-center my-6 px-20 py-6">
             <ClientsReview />
-                </div>
-                
-                
+          </div>
         </section>
       </>
     );

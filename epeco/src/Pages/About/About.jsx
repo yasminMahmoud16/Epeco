@@ -6,7 +6,6 @@ import ArticleSubNav from "../../Common/ArticleSubNav/ArticleSubNav.jsx";
 import { AiOutlineMail } from "react-icons/ai";
 import { FiPrinter } from "react-icons/fi";
 import { MdArrowOutward } from "react-icons/md";
-// import i18next from "i18next";
 
 export default function About() {
     const { t } = useTranslation();

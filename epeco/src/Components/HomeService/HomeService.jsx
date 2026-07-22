@@ -8,12 +8,14 @@ import { Link } from "react-router";
 export default function HomeService() {
   const { t } = useTranslation();
   const galleries = t("services.galleries", { returnObjects: true });
-    const isArabic = i18next.language === "ar";
+  const isArabic = i18next.language === "ar";
+  const baseUrl = "https://yasminMahmoud16.github.io/Epeco/";
+
   return (
     <>
       <Link
         to={"/services"}
-        className={`flex flex-col justify-center  md:flex-row md:justify-between items-center py-2.5  ${isArabic?"":""}`}
+        className={`flex flex-col justify-center  md:flex-row md:justify-between items-center py-2.5  ${isArabic ? "" : ""}`}
       >
         <div className="flex flex-col  w-auto  ">
           <h5
@@ -51,8 +53,9 @@ export default function HomeService() {
           >
             <img
               className="h-full w-full object-sill"
-              src={gallery.galleryimage}
+              src={`${baseUrl}${gallery.galleryimage}`}
               alt={gallery.gallery1}
+              loading="lazy"
             />
 
             <div className="absolute inset-0 bg-gradient-to-b from-[#2D7A45]/85 to-[#7AAB87]/50" />

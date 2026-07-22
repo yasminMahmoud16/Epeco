@@ -56,14 +56,14 @@
         "id": 1,
         "detailsId": 1,
         "gallery1": "Development of Environmental Rehabilitation Plans",
-        "galleryimage": "/public/Gallery1.png",
+        "galleryimage": "Gallery1.png",
         "size": "tall"
       },
       {
         "id": 2,
         "detailsId": 9,
         "gallery1": "Mobile Laboratory Service",
-        "galleryimage": "/public/Gallery2.jpg",
+        "galleryimage": "Gallery2.jpg",
         "size": "normal"
       },
       {
@@ -71,21 +71,21 @@
         "detailsId": 3,
         "gallery1": "Preparation of Periodic Environmental Records",
         "galleryDesc1": "Conducting Environmental Impact Assessments (EIA)",
-        "galleryimage": "/public/Gallery3.png",
+        "galleryimage": "Gallery3.png",
         "size": "normal"
       },
       {
         "id": 4,
         "detailsId": 2,
         "gallery1": "Sustainability and ESG Consulting",
-        "galleryimage": "/public/Gallery6.png",
+        "galleryimage": "Gallery6.png",
         "size": "tall"
       },
       {
         "id": 5,
         "detailsId": 4,
         "gallery1": "Environmental Licensing & NCEC Regulatory Compliance",
-        "galleryimage": "/public/Gallery5.jpg",
+        "galleryimage": "Gallery5.jpg",
         "size": "normal"
       },
       {
@@ -93,7 +93,7 @@
         "detailsId": 8,
         "gallery1": "Environmental Quality Monitoring",
         "galleryDesc1": "Air, Water, and Soil Testing",
-        "galleryimage": "/public/Gallery4.jpg",
+        "galleryimage": "Gallery4.jpg",
         "size": "normal"
       }
     ]
@@ -154,7 +154,7 @@
         "id": 1,
         "slug": "مــن نـحــن",
         "label": "Who We Are",
-        "image": "/public/who_we_are.jpg",
+        "image": "who_we_are.jpg",
         "paragraphs": [
           [
             {
@@ -184,7 +184,7 @@
         "id": 2,
         "slug": "سياستنا",
         "label": "Our Policy",
-        "image": "/public/policy.jpg",
+        "image": "policy.jpg",
         "style": "bulleted",
         "paragraphs": [
           [
@@ -213,7 +213,7 @@
         "id": 3,
         "slug": "رؤيــتـــنـــــا",
         "label": "Our Mission",
-        "image": "/public/vision.png",
+        "image": "vision.png",
         "style": "bulleted",
         "paragraphs": [
           [
@@ -233,7 +233,7 @@
         "id": 1,
         "slug": "إعداد خطط إعادة التأهيل",
         "label": "Development of Environmental Rehabilitation Plans",
-        "image": "/public/service1.png",
+        "image": "service1.png",
         "paragraphs": [
           [
             {
@@ -246,7 +246,7 @@
         "id": 2,
         "slug": "إعداد سجلات بيئية دورية",
         "label": "Mobile Laboratory Service",
-        "image": "/public/service2.jpg",
+        "image": "service2.jpg",
         "style": "",
         "paragraphs": [
           [
@@ -260,7 +260,7 @@
         "id": 3,
         "slug": "الإستشارات المتعلقة بالإستدامة ومعايير الـESG (البيئية والاجتماعية والحوكمة)",
         "label": "Preparation of Periodic Environmental Records",
-        "image": "/public/service3.png",
+        "image": "service3.png",
         "style": "",
         "paragraphs": [
           [
@@ -274,7 +274,7 @@
         "id": 4,
         "slug": "التصاريح والإلتزام بمتطلبات المركز  الوطني للرقابة على الإلتزام البيئي (NCEC)",
         "label": "Sustainability and ESG Consulting",
-        "image": "/public/service4.jpg",
+        "image": "service4.jpg",
         "style": "",
         "paragraphs": [
           [
@@ -288,7 +288,7 @@
         "id": 5,
         "slug": "إستــــشـــارات بــــيئيـــــة",
         "label": "NCEC Permits & Regulatory Compliance",
-        "image": "/public/service5.jpg",
+        "image": "service5.jpg",
         "style": "",
         "paragraphs": [
           [
@@ -302,7 +302,7 @@
         "id": 6,
         "slug": "إعداد خطط إدارة بيئية",
         "label": "Expert Environmental Consulting",
-        "image": "/public/service6.jpg",
+        "image": "service6.jpg",
         "style": "",
         "paragraphs": [
           [
@@ -316,7 +316,7 @@
         "id": 7,
         "slug": "إعداد دراسات تقييم الأثر البيئي",
         "label": "Environmental Impact Assessment (EIA)",
-        "image": "/public/service7.png",
+        "image": "service7.png",
         "style": "",
         "paragraphs": [
           [
@@ -330,7 +330,7 @@
         "id": 8,
         "slug": "رصد جودة الأوساط",
         "label": "Environmental Quality Monitoring",
-        "image": "/public/service8.jpg",
+        "image": "service8.jpg",
         "style": "",
         "paragraphs": [
           [
@@ -344,7 +344,7 @@
         "id": 9,
         "slug": "المختبرات البيئية",
         "label": "Environmental Management Plans (EMP) Development",
-        "image": "/public/service9.jpg",
+        "image": "service9.jpg",
         "style": "",
         "paragraphs": [
           [
@@ -364,7 +364,7 @@
         "id": 1,
         "slug": "شركات الإنشاءات / شركات المقاولات ",
         "label": "Construction & Contracting Companies",
-        "image": "/public/audience1.jpg",
+        "image": "audience1.jpg",
         "paragraphs": [
           [
             {
@@ -377,7 +377,7 @@
         "id": 2,
         "slug": "شركات الاستشارات الهندسية",
         "label": "Engineering Consulting Companies",
-        "image": "/public/audience2.jpg",
+        "image": "audience2.jpg",
         "style": "",
         "paragraphs": [
           [
@@ -391,7 +391,7 @@
         "id": 3,
         "slug": "شركات إدارة النفايات",
         "label": "Waste Management & Recycling Companies",
-        "image": "/public/audience3.jpg",
+        "image": "audience3.jpg",
         "style": "",
         "paragraphs": [
           [
@@ -405,7 +405,7 @@
         "id": 4,
         "slug": "مرافق المياه ومعالجة مياه الصرف الصحي",
         "label": "Water Utilities and Wastewater Treatment",
-        "image": "/public/audience4.jpg",
+        "image": "audience4.jpg",
         "style": "",
         "paragraphs": [
           [
@@ -419,7 +419,7 @@
         "id": 5,
         "slug": "المرافق الصناعية",
         "label": "Industrial Facilities Sector",
-        "image": "/public/audience5.jpg",
+        "image": "audience5.jpg",
         "style": "",
         "paragraphs": [
           [
@@ -433,7 +433,7 @@
         "id": 6,
         "slug": "محطات الطاقة والكهرباء",
         "label": "Power & Energy Utilities",
-        "image": "/public/audience6..jpg",
+        "image": "audience6..jpg",
         "style": "",
         "paragraphs": [
           [
@@ -447,7 +447,7 @@
         "id": 7,
         "slug": "المستشفيات والمنشآت الطبية",
         "label": "Healthcare & Medical Facilities EIA",
-        "image": "/public/audience7.jpg",
+        "image": "audience7.jpg",
         "style": "bulleted",
         "paragraphs": [
           [

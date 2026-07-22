@@ -4,14 +4,20 @@ import logo from "../../assets/Images/EPECO flayer 2 1.png";
 import {  NavLink } from "react-router";
 import { useState } from "react";
 import i18next from "i18next";
+import useScroll from "../../Hooks/useScroll.js";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
     const isArabic = i18next.language === "ar";
-
   const { t } = useTranslation();
+
+const showNavbar = useScroll()
+
+   
   return (
     <>
-      <nav className="bg-white fixed w-full z-20 top-0 start-0 shadow-md  ">
+      <nav
+        className={`bg-white fixed w-full z-20 top-0 start-0 shadow-md  ${showNavbar? "translate-y-0" : "-translate-y-full"} `}
+      >
         <div className="flex flex-wrap lg:flex-nowrap items-center justify-between lg:justify-evenly ">
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -61,22 +67,25 @@ export default function Navbar() {
     bg-neutral-secondary-soft
     lg:bg-neutral-primary
     gap-2
-    lg:gap-0
-    lg:space-x-8
-    rtl:space-x-reverse  ${isArabic ? "" : "font-RobotoCondensed"}`}
+     ${isArabic ? "" : "font-RobotoCondensed"}`}
             >
               <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <NavLink
                   to="/"
-                  className="relative block py-2 pr-2 lg:px-3  lg:text-md xl:text-xl  text-title font-medium
-transition-all duration-300
-hover:text-green-700 hover:translate-x-1
-lg:hover:translate-x-0
-after:absolute after:left-0 after:-bottom-1
-after:h-[2px] after:w-0
-after:bg-green-700
-after:transition-all after:duration-300
-lg:hover:after:w-full"
+                  className={({ isActive }) =>
+    `relative block py-2 pr-2 lg:px-3 lg:text-base xl:text-xl text-title font-medium
+    transition-all duration-300
+    hover:text-green-700 hover:translate-x-1
+    lg:hover:translate-x-0
+    after:absolute after:left-0 after:-bottom-1
+    after:h-[2px] after:bg-green-700
+    after:transition-all after:duration-300
+    ${
+      isActive
+        ? "text-green-800 after:w-full"
+        : "after:w-0 lg:hover:after:w-full"
+    }`
+  }
                 >
                   {t("navbar.Home")}
                 </NavLink>
@@ -85,15 +94,18 @@ lg:hover:after:w-full"
                 <NavLink
                   // to="/about"
                   to={t("navbarPath.About")}
-                  className="relative block py-2 pr-2 lg:px-3  lg:text-md xl:text-xl  text-title font-medium
-transition-all duration-300
-hover:text-green-700 hover:translate-x-1
-lg:hover:translate-x-0
-after:absolute after:left-0 after:-bottom-1
-after:h-[2px] after:w-0
-after:bg-green-700
-after:transition-all after:duration-300
-lg:hover:after:w-full"
+                  className={({ isActive }) =>
+                    `relative block py-2 pr-2 lg:px-3 lg:text-base xl:text-xl text-title font-medium
+    transition-all duration-300
+    hover:text-green-700 hover:translate-x-1
+    lg:hover:translate-x-0
+    after:absolute after:left-0 after:-bottom-1
+    after:h-[2px] after:bg-green-700
+    after:transition-all after:duration-300
+    ${isActive
+                      ? "text-green-800 after:w-full"
+                      : "after:w-0 lg:hover:after:w-full"
+                    }`}
                 >
                   {t("navbar.About")}
                 </NavLink>
@@ -101,31 +113,37 @@ lg:hover:after:w-full"
               <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <NavLink
                   to={t("navbarPath.TargetAudience")}
-                  className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
-transition-all duration-300
-hover:text-green-700 hover:translate-x-1
-lg:hover:translate-x-0
-after:absolute after:left-0 after:-bottom-1
-after:h-[2px] after:w-0
-after:bg-green-700
-after:transition-all after:duration-300
-lg:hover:after:w-full"
+                  className={({ isActive }) =>
+                    `relative block py-2 pr-2 lg:px-3 lg:text-base xl:text-xl text-title font-medium
+    transition-all duration-300
+    hover:text-green-700 hover:translate-x-1
+    lg:hover:translate-x-0
+    after:absolute after:left-0 after:-bottom-1
+    after:h-[2px] after:bg-green-700
+    after:transition-all after:duration-300
+    ${isActive
+                      ? "text-green-800 after:w-full"
+                      : "after:w-0 lg:hover:after:w-full"
+                    }`}
                 >
                   {t("navbar.TargetAudience")}
                 </NavLink>
               </li>
-              <li className="lg:mr-6 hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
+              <li className=" hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <NavLink
                   to={t("navbarPath.OurServices")}
-                  className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
-transition-all duration-300
-hover:text-green-700 hover:translate-x-1
-lg:hover:translate-x-0
-after:absolute after:left-0 after:-bottom-1
-after:h-[2px] after:w-0
-after:bg-green-700
-after:transition-all after:duration-300
-lg:hover:after:w-full"
+                  className={({ isActive }) =>
+                    `relative block py-2 pr-2 lg:px-3 lg:text-base xl:text-xl text-title font-medium
+    transition-all duration-300
+    hover:text-green-700 hover:translate-x-1
+    lg:hover:translate-x-0
+    after:absolute after:left-0 after:-bottom-1
+    after:h-[2px] after:bg-green-700
+    after:transition-all after:duration-300
+    ${isActive
+                      ? "text-green-800 after:w-full"
+                      : "after:w-0 lg:hover:after:w-full"
+                    }`}
                 >
                   {t("navbar.OurServices")}
                 </NavLink>
@@ -169,40 +187,44 @@ lg:hover:after:w-full"
     bg-neutral-secondary-soft
     lg:bg-neutral-primary
     gap-2
-    lg:gap-0
-    lg:space-x-8
-    rtl:space-x-reverse
+
 "
             >
               <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <NavLink
                   to={t("navbarPath.ContactUs")}
-                  className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
-transition-all duration-300
-hover:text-green-700 hover:translate-x-1
-lg:hover:translate-x-0
-after:absolute after:left-0 after:-bottom-1
-after:h-[2px] after:w-0
-after:bg-green-700
-after:transition-all after:duration-300
-lg:hover:after:w-full"
+                  className={({ isActive }) =>
+                    `relative block py-2 pr-2 lg:px-3 lg:text-base xl:text-xl text-title font-medium
+    transition-all duration-300
+    hover:text-green-700 hover:translate-x-1
+    lg:hover:translate-x-0
+    after:absolute after:left-0 after:-bottom-1
+    after:h-[2px] after:bg-green-700
+    after:transition-all after:duration-300
+    ${isActive
+                      ? "text-green-800 after:w-full"
+                      : "after:w-0 lg:hover:after:w-full"
+                    }`}
                   aria-current="page"
                 >
                   {t("navbar.ContactUs")}
                 </NavLink>
               </li>
-              <li className="lg:mr-6 hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
+              <li className=" hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <NavLink
                   to={t("navbarPath.Clients")}
-                  className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
-transition-all duration-300
-hover:text-green-700 hover:translate-x-1
-lg:hover:translate-x-0
-after:absolute after:left-0 after:-bottom-1
-after:h-[2px] after:w-0
-after:bg-green-700
-after:transition-all after:duration-300
-lg:hover:after:w-full"
+                  className={({ isActive }) =>
+                    `relative block py-2 pr-2 lg:px-3 lg:text-base xl:text-xl text-title font-medium
+    transition-all duration-300
+    hover:text-green-700 hover:translate-x-1
+    lg:hover:translate-x-0
+    after:absolute after:left-0 after:-bottom-1
+    after:h-[2px] after:bg-green-700
+    after:transition-all after:duration-300
+    ${isActive
+                      ? "text-green-800 after:w-full"
+                      : "after:w-0 lg:hover:after:w-full"
+                    }`}
                 >
                   {t("navbar.Clients")}
                 </NavLink>
@@ -210,15 +232,18 @@ lg:hover:after:w-full"
               <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <NavLink
                   to={t("navbarPath.Certifications")}
-                  className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
-transition-all duration-300
-hover:text-green-700 hover:translate-x-1
-lg:hover:translate-x-0
-after:absolute after:left-0 after:-bottom-1
-after:h-[2px] after:w-0
-after:bg-green-700
-after:transition-all after:duration-300
-lg:hover:after:w-full"
+                  className={({ isActive }) =>
+                    `relative block py-2 pr-2 lg:px-3 lg:text-base xl:text-xl text-title font-medium
+    transition-all duration-300
+    hover:text-green-700 hover:translate-x-1
+    lg:hover:translate-x-0
+    after:absolute after:left-0 after:-bottom-1
+    after:h-[2px] after:bg-green-700
+    after:transition-all after:duration-300
+    ${isActive
+                      ? "text-green-800 after:w-full"
+                      : "after:w-0 lg:hover:after:w-full"
+                    }`}
                 >
                   {t("navbar.Certifications")}
                 </NavLink>

@@ -14,6 +14,7 @@ export default function CardSec({
         src={image}
         alt="card"
         className="absolute inset-0 w-full h-full object-cover "
+        loading="lazy"
       />
 
       <div className="absolute inset-0 bg-[#F5F0E8]/85" />

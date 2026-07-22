@@ -2,6 +2,7 @@ export default function ArticleDescription({ list, activeSlug }) {
   const activeItem = Array.isArray(list)
     ? list.find((item) => item.slug === activeSlug)
     : null;
+  const baseUrl = "https://yasminMahmoud16.github.io/Epeco/";
 
   return (
     <>
@@ -62,8 +63,9 @@ export default function ArticleDescription({ list, activeSlug }) {
                 <div className="sm:w-56 w-full shrink-0 aspect-[3/5] overflow-hidden rounded-3xl shadow">
                   <img
                     className="h-full w-full object-fill"
-                    src={activeItem.image}
+                    src={`${baseUrl}${activeItem.image}`}
                     alt={activeItem.label}
+                    loading="lazy"
                   />
                 </div>
               )}
