@@ -83,12 +83,12 @@ export default function ClientsImg() {
         },
     ];
     return (
-        <>
-            <div className="w-6xl flex flex-wrap items-center justify-center gap-12">
-                {images.map((img, index) => (
-                    <img key={index} src={img.src} alt={img.alt} />
-                ))}
-            </div>
-        </>
+      <>
+        <div className="w-6xl flex flex-wrap items-center justify-center gap-12">
+          {images.map((img, index) => (
+            <img key={index} src={img.src} alt={img.alt} loading="lazy" />
+          ))}
+        </div>
+      </>
     );
 }

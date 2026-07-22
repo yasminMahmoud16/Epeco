@@ -43,9 +43,7 @@ export default function HomeService() {
         className="grid grid-cols-1 md:grid-cols-4 grid-flow-row-dense gap-4 mt-10"
         dir={isArabic ? "rtl" : "ltr"}
       >
-        {galleries.map((gallery) =>
-
-(
+        {galleries.map((gallery) => (
           <Link
             key={gallery.id}
             to={`/services/${gallery.detailsId}`}
@@ -57,6 +55,7 @@ export default function HomeService() {
               className="h-full w-full object-sill"
               src={`${baseUrl}${gallery.galleryimage}`}
               alt={gallery.gallery1}
+              loading="lazy"
             />
 
             <div className="absolute inset-0 bg-gradient-to-b from-[#2D7A45]/85 to-[#7AAB87]/50" />

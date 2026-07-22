@@ -65,6 +65,7 @@ export default function ArticleDescription({ list, activeSlug }) {
                     className="h-full w-full object-fill"
                     src={`${baseUrl}${activeItem.image}`}
                     alt={activeItem.label}
+                    loading="lazy"
                   />
                 </div>
               )}

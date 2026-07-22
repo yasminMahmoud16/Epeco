@@ -12,6 +12,7 @@ export default function CertificationsImg() {
             <img
               src={certification2}
               alt="Certification 1"
+              loading="lazy"
               className="w-full  object-contain rounded-lg"
             />
           </div>
@@ -20,6 +21,7 @@ export default function CertificationsImg() {
             <img
               src={certification1}
               alt="Certification 2"
+              loading="lazy"
               className="w-full  object-contain rounded-lg"
             />
           </div>

@@ -54,6 +54,7 @@ useEffect(() => {
               src={carouselImage1}
               className="w-full h-full object-cover"
               alt="image"
+              loading="lazy"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -61,6 +62,7 @@ useEffect(() => {
               src={carouselImage3}
               className="w-full h-full object-cover"
               alt="image"
+              loading="lazy"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -68,6 +70,7 @@ useEffect(() => {
               src={carouselImage4}
               className="w-full h-full object-cover"
               alt="image"
+              loading="lazy"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -75,6 +78,7 @@ useEffect(() => {
               src={carouselImage2}
               className="w-full h-full object-cover"
               alt="image"
+              loading="lazy"
             />
           </SwiperSlide>
         </Swiper>
