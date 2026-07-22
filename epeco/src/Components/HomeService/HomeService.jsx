@@ -10,6 +10,7 @@ export default function HomeService() {
   const galleries = t("services.galleries", { returnObjects: true });
   const isArabic = i18next.language === "ar";
   const baseUrl = "https://yasminMahmoud16.github.io/Epeco/";
+
   return (
     <>
       <Link
@@ -42,7 +43,9 @@ export default function HomeService() {
         className="grid grid-cols-1 md:grid-cols-4 grid-flow-row-dense gap-4 mt-10"
         dir={isArabic ? "rtl" : "ltr"}
       >
-        {galleries.map((gallery) => (
+        {galleries.map((gallery) =>
+
+(
           <Link
             key={gallery.id}
             to={`/services/${gallery.detailsId}`}

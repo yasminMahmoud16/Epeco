@@ -57,14 +57,14 @@
         "detailsId": 1,
         "gallery1": "إعداد خطط إعادة التأهيل",
         "galleryDesc1": "التركيز على العملاء ورفع الوعي البيئي الداخلي",
-        "galleryimage": "/public/Gallery1.png",
+        "galleryimage": "Gallery1.png",
         "size": "tall"
       },
       {
         "id": 2,
         "detailsId": 9,
         "gallery1": "خدمات المعامل المتنقلة",
-        "galleryimage": "/public/Gallery2.jpg",
+        "galleryimage": "Gallery2.jpg",
         "size": "normal"
       },
       {
@@ -72,21 +72,21 @@
         "detailsId": 3,
         "gallery1": "إعداد سجلات بيئية دورية",
         "galleryDesc1": "إعداد دراسات تقييم الأثر البيئي EIA",
-        "galleryimage": "/public/Gallery3.png",
+        "galleryimage": "Gallery3.png",
         "size": "normal"
       },
       {
         "id": 4,
         "detailsId": 2,
         "gallery1": "الاستشارات المتعلقة بالاستدامة ومعايير الـESG (البيئية والاجتماعية والحوكمة)",
-        "galleryimage": "/public/Gallery6.png",
+        "galleryimage": "Gallery6.png",
         "size": "tall"
       },
       {
         "id": 5,
         "detailsId": 4,
         "gallery1": "التصاريح والإلتزام بمتطلبات المركز الوطني للرقابة على الإلتزام البيئي (NCEC)",
-        "galleryimage": "/public/Gallery5.jpg",
+        "galleryimage": "Gallery5.jpg",
         "size": "normal"
       },
       {
@@ -94,7 +94,7 @@
         "detailsId": 8,
         "gallery1": "رصد جودة الأوساط",
         "galleryDesc1": "قياس الهواء والماء والتربة",
-        "galleryimage": "/public/Gallery4.jpg",
+        "galleryimage": "Gallery4.jpg",
         "size": "normal"
       }
     ]
@@ -155,7 +155,7 @@
         "id": 1,
         "slug": "مــن نـحــن",
         "label": "مــن نـحــن",
-        "image": "/public/who_we_are.jpg",
+        "image": "who_we_are.jpg",
         "paragraphs": [
           [
             {
@@ -185,7 +185,7 @@
         "id": 2,
         "slug": "سياستنا",
         "label": "سياستنا",
-        "image": "/public/policy.jpg",
+        "image": "policy.jpg",
         "style": "bulleted",
         "paragraphs": [
           [
@@ -214,7 +214,7 @@
         "id": 3,
         "slug": "رؤيــتـــنـــــا",
         "label": "رؤيــتـــنـــــا",
-        "image": "/public/vision.png",
+        "image": "vision.png",
         "style": "bulleted",
         "paragraphs": [
           [
@@ -234,7 +234,7 @@
         "id": 1,
         "slug": "إعداد خطط إعادة التأهيل",
         "label": "إعداد خطط إعادة التأهيل",
-        "image": "/public/service1.png",
+        "image": "service1.png",
         "paragraphs": [
           [
             {
@@ -247,7 +247,7 @@
         "id": 3,
         "slug": "إعداد سجلات بيئية دورية",
         "label": "إعداد سجلات بيئية دورية",
-        "image": "/public/service2.jpg",
+        "image": "service2.jpg",
         "style": "",
         "paragraphs": [
           [
@@ -261,7 +261,7 @@
         "id": 2,
         "slug": "الإستشارات المتعلقة بالإستدامة ومعايير الـESG (البيئية والاجتماعية والحوكمة)",
         "label": "الإستشارات المتعلقة بالإستدامة ومعايير الـESG (البيئية والاجتماعية والحوكمة)",
-        "image": "/public/service3.png",
+        "image": "service3.png",
         "style": "",
         "paragraphs": [
           [
@@ -275,7 +275,7 @@
         "id": 4,
         "slug": "التصاريح والإلتزام بمتطلبات المركز  الوطني للرقابة على الإلتزام البيئي (NCEC)",
         "label": "التصاريح والإلتزام بمتطلبات المركز  الوطني للرقابة على الإلتزام البيئي (NCEC)",
-        "image": "/public/service4.jpg",
+        "image": "service4.jpg",
         "style": "",
         "paragraphs": [
           [
@@ -289,7 +289,7 @@
         "id": 5,
         "slug": "إستــــشـــارات بــــيئيـــــة",
         "label": "إستــــشـــارات بــــيئيـــــة",
-        "image": "/public/service5.jpg",
+        "image": "service5.jpg",
         "style": "",
         "paragraphs": [
           [
@@ -303,7 +303,7 @@
         "id": 6,
         "slug": "إعداد خطط إدارة بيئية",
         "label": "إعداد خطط إدارة بيئية",
-        "image": "/public/service6.jpg",
+        "image": "service6.jpg",
         "style": "",
         "paragraphs": [
           [
@@ -317,7 +317,7 @@
         "id": 7,
         "slug": "إعداد دراسات تقييم الأثر البيئي",
         "label": "إعداد دراسات تقييم الأثر البيئي",
-        "image": "/public/service7.png",
+        "image": "service7.png",
         "style": "",
         "paragraphs": [
           [
@@ -331,7 +331,7 @@
         "id": 8,
         "slug": "رصد جودة الأوساط",
         "label": "رصد جودة الأوساط",
-        "image": "/public/service8.jpg",
+        "image": "service8.jpg",
         "style": "",
         "paragraphs": [
           [
@@ -345,7 +345,7 @@
         "id": 9,
         "slug": "المختبرات البيئية",
         "label": "المختبرات البيئية",
-        "image": "/public/service9.jpg",
+        "image": "service9.jpg",
         "style": "",
         "paragraphs": [
           [
@@ -365,7 +365,7 @@
         "id": 1,
         "slug": "شركات الإنشاءات / شركات المقاولات ",
         "label": "شركات الإنشاءات / شركات المقاولات ",
-        "image": "/public/audience1.jpg",
+        "image": "audience1.jpg",
         "paragraphs": [
           [
             {
@@ -378,7 +378,7 @@
         "id": 2,
         "slug": "شركات الاستشارات الهندسية",
         "label": "شركات الاستشارات الهندسية",
-        "image": "/public/audience2.jpg",
+        "image": "audience2.jpg",
         "style": "",
         "paragraphs": [
           [
@@ -397,7 +397,7 @@
         "id": 3,
         "slug": "شركات إدارة النفايات",
         "label": "شركات إدارة النفايات",
-        "image": "/public/audience3.jpg",
+        "image": "audience3.jpg",
         "style": "",
         "paragraphs": [
           [
@@ -414,7 +414,7 @@
         "id": 4,
         "slug": "مرافق المياه ومعالجة مياه الصرف الصحي",
         "label": "مرافق المياه ومعالجة مياه الصرف الصحي",
-        "image": "/public/audience4.jpg",
+        "image": "audience4.jpg",
         "style": "",
         "paragraphs": [
           [
@@ -428,7 +428,7 @@
         "id": 5,
         "slug": "المرافق الصناعية",
         "label": "المرافق الصناعية",
-        "image": "/public/audience5.jpg",
+        "image": "audience5.jpg",
         "style": "",
         "paragraphs": [
           [
@@ -442,7 +442,7 @@
         "id": 6,
         "slug": "محطات الطاقة والكهرباء",
         "label": "محطات الطاقة والكهرباء",
-        "image": "/public/audience6..jpg",
+        "image": "audience6..jpg",
         "style": "",
         "paragraphs": [
           [
@@ -459,7 +459,7 @@
         "id": 7,
         "slug": "المستشفيات والمنشآت الطبية",
         "label": "المستشفيات والمنشآت الطبية",
-        "image": "/public/audience7.jpg",
+        "image": "audience7.jpg",
         "style": "bulleted",
         "intro": "ندرك الحساسية العالية والأهمية البالغة للملف البيئي في القطاع الصحي. لذلك، نقدم للمستشفيات والمراكز الطبية حلولاً تخصصية متكاملة تشمل :",
         "ending": "مما يضمن بيئة استشفائية آمنة وخالية من المخاطر القانونية أو التشغيلية.",
