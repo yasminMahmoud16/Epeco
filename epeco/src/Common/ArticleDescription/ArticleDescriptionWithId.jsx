@@ -5,9 +5,7 @@ export default function ArticleDescriptionWithId({ list, activeId }) {
 
   
   
-  console.log("activeId:", activeId);
   
-  console.log("activeId:", activeId, typeof activeId);
   return (
     <>
       <div className="">

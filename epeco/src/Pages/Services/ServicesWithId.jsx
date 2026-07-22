@@ -9,7 +9,7 @@ import ArticleDescriptionWithId from "../../Common/ArticleDescription/ArticleDes
 
 export default function ServicesWithId() {
   const { t } = useTranslation();
-  const { id } = useParams(); // comes from "/services/:id"
+  const { id } = useParams(); 
 
   const list = t("servciesArticle.list", { returnObjects: true });
   const mainTitle = t("servciesArticle.mainTitle");

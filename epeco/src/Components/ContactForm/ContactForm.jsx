@@ -25,7 +25,6 @@ export default function ContactForm() {
 
     const onSubmit = (data) => {
 
-        console.log("Form data:", data);
         // handle actual submission here (API call, etc.)
         reset();
     };
