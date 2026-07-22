@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="  w-full mx-auto max-w-screen-xl p-4  flex flex-col gap-2 md:flex md:flex-row md:items-center md:justify-between">
             <ul className="flex flex-col  gap-2 md:flex-row md:flex-wrap items-center mt-3 text-sm font-medium text-body sm:mt-0">
               <li>
-                <Link to="#" className="hover:underline me-4 md:me-6">
+                <Link to="/contact" className="hover:underline me-4 md:me-6">
                   {t("footer.Contact")}
                 </Link>
               </li>
