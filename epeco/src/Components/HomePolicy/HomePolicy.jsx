@@ -20,7 +20,7 @@ export default function HomePolicy() {
           className="text-2xl md:text-5xl"
         />
 
-        <div className="mt-5">
+        <div className="mt-5 ">
           <p className="font-normal text-md md:text-lg xl:text-2xl text-center text-[#2D7A45] leading-10">
             {t("policy.description")}
           </p>

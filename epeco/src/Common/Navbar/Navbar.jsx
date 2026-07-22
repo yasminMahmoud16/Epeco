@@ -72,15 +72,20 @@ const showNavbar = useScroll()
               <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <NavLink
                   to="/"
-                  className="relative block py-2 pr-2 lg:px-3  lg:text-base xl:text-xl  text-title font-medium
-transition-all duration-300
-hover:text-green-700 hover:translate-x-1
-lg:hover:translate-x-0
-after:absolute after:left-0 after:-bottom-1
-after:h-[2px] after:w-0
-after:bg-green-700
-after:transition-all after:duration-300
-lg:hover:after:w-full"
+                  className={({ isActive }) =>
+    `relative block py-2 pr-2 lg:px-3 lg:text-base xl:text-xl text-title font-medium
+    transition-all duration-300
+    hover:text-green-700 hover:translate-x-1
+    lg:hover:translate-x-0
+    after:absolute after:left-0 after:-bottom-1
+    after:h-[2px] after:bg-green-700
+    after:transition-all after:duration-300
+    ${
+      isActive
+        ? "text-green-800 after:w-full"
+        : "after:w-0 lg:hover:after:w-full"
+    }`
+  }
                 >
                   {t("navbar.Home")}
                 </NavLink>
@@ -89,15 +94,18 @@ lg:hover:after:w-full"
                 <NavLink
                   // to="/about"
                   to={t("navbarPath.About")}
-                  className="relative block py-2 pr-2 lg:px-3  lg:text-md xl:text-xl  text-title font-medium
-transition-all duration-300
-hover:text-green-700 hover:translate-x-1
-lg:hover:translate-x-0
-after:absolute after:left-0 after:-bottom-1
-after:h-[2px] after:w-0
-after:bg-green-700
-after:transition-all after:duration-300
-lg:hover:after:w-full"
+                  className={({ isActive }) =>
+                    `relative block py-2 pr-2 lg:px-3 lg:text-base xl:text-xl text-title font-medium
+    transition-all duration-300
+    hover:text-green-700 hover:translate-x-1
+    lg:hover:translate-x-0
+    after:absolute after:left-0 after:-bottom-1
+    after:h-[2px] after:bg-green-700
+    after:transition-all after:duration-300
+    ${isActive
+                      ? "text-green-800 after:w-full"
+                      : "after:w-0 lg:hover:after:w-full"
+                    }`}
                 >
                   {t("navbar.About")}
                 </NavLink>
@@ -105,15 +113,18 @@ lg:hover:after:w-full"
               <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <NavLink
                   to={t("navbarPath.TargetAudience")}
-                  className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
-transition-all duration-300
-hover:text-green-700 hover:translate-x-1
-lg:hover:translate-x-0
-after:absolute after:left-0 after:-bottom-1
-after:h-[2px] after:w-0
-after:bg-green-700
-after:transition-all after:duration-300
-lg:hover:after:w-full"
+                  className={({ isActive }) =>
+                    `relative block py-2 pr-2 lg:px-3 lg:text-base xl:text-xl text-title font-medium
+    transition-all duration-300
+    hover:text-green-700 hover:translate-x-1
+    lg:hover:translate-x-0
+    after:absolute after:left-0 after:-bottom-1
+    after:h-[2px] after:bg-green-700
+    after:transition-all after:duration-300
+    ${isActive
+                      ? "text-green-800 after:w-full"
+                      : "after:w-0 lg:hover:after:w-full"
+                    }`}
                 >
                   {t("navbar.TargetAudience")}
                 </NavLink>
@@ -121,15 +132,18 @@ lg:hover:after:w-full"
               <li className=" hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <NavLink
                   to={t("navbarPath.OurServices")}
-                  className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
-transition-all duration-300
-hover:text-green-700 hover:translate-x-1
-lg:hover:translate-x-0
-after:absolute after:left-0 after:-bottom-1
-after:h-[2px] after:w-0
-after:bg-green-700
-after:transition-all after:duration-300
-lg:hover:after:w-full"
+                  className={({ isActive }) =>
+                    `relative block py-2 pr-2 lg:px-3 lg:text-base xl:text-xl text-title font-medium
+    transition-all duration-300
+    hover:text-green-700 hover:translate-x-1
+    lg:hover:translate-x-0
+    after:absolute after:left-0 after:-bottom-1
+    after:h-[2px] after:bg-green-700
+    after:transition-all after:duration-300
+    ${isActive
+                      ? "text-green-800 after:w-full"
+                      : "after:w-0 lg:hover:after:w-full"
+                    }`}
                 >
                   {t("navbar.OurServices")}
                 </NavLink>
@@ -179,15 +193,18 @@ lg:hover:after:w-full"
               <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <NavLink
                   to={t("navbarPath.ContactUs")}
-                  className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
-transition-all duration-300
-hover:text-green-700 hover:translate-x-1
-lg:hover:translate-x-0
-after:absolute after:left-0 after:-bottom-1
-after:h-[2px] after:w-0
-after:bg-green-700
-after:transition-all after:duration-300
-lg:hover:after:w-full"
+                  className={({ isActive }) =>
+                    `relative block py-2 pr-2 lg:px-3 lg:text-base xl:text-xl text-title font-medium
+    transition-all duration-300
+    hover:text-green-700 hover:translate-x-1
+    lg:hover:translate-x-0
+    after:absolute after:left-0 after:-bottom-1
+    after:h-[2px] after:bg-green-700
+    after:transition-all after:duration-300
+    ${isActive
+                      ? "text-green-800 after:w-full"
+                      : "after:w-0 lg:hover:after:w-full"
+                    }`}
                   aria-current="page"
                 >
                   {t("navbar.ContactUs")}
@@ -196,15 +213,18 @@ lg:hover:after:w-full"
               <li className=" hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <NavLink
                   to={t("navbarPath.Clients")}
-                  className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
-transition-all duration-300
-hover:text-green-700 hover:translate-x-1
-lg:hover:translate-x-0
-after:absolute after:left-0 after:-bottom-1
-after:h-[2px] after:w-0
-after:bg-green-700
-after:transition-all after:duration-300
-lg:hover:after:w-full"
+                  className={({ isActive }) =>
+                    `relative block py-2 pr-2 lg:px-3 lg:text-base xl:text-xl text-title font-medium
+    transition-all duration-300
+    hover:text-green-700 hover:translate-x-1
+    lg:hover:translate-x-0
+    after:absolute after:left-0 after:-bottom-1
+    after:h-[2px] after:bg-green-700
+    after:transition-all after:duration-300
+    ${isActive
+                      ? "text-green-800 after:w-full"
+                      : "after:w-0 lg:hover:after:w-full"
+                    }`}
                 >
                   {t("navbar.Clients")}
                 </NavLink>
@@ -212,15 +232,18 @@ lg:hover:after:w-full"
               <li className="hover:bg-gray-100 rounded-lg lg:hover:bg-transparent">
                 <NavLink
                   to={t("navbarPath.Certifications")}
-                  className="relative block py-2 pr-2 lg:px-3 lg:text-md xl:text-xl  text-title font-medium
-transition-all duration-300
-hover:text-green-700 hover:translate-x-1
-lg:hover:translate-x-0
-after:absolute after:left-0 after:-bottom-1
-after:h-[2px] after:w-0
-after:bg-green-700
-after:transition-all after:duration-300
-lg:hover:after:w-full"
+                  className={({ isActive }) =>
+                    `relative block py-2 pr-2 lg:px-3 lg:text-base xl:text-xl text-title font-medium
+    transition-all duration-300
+    hover:text-green-700 hover:translate-x-1
+    lg:hover:translate-x-0
+    after:absolute after:left-0 after:-bottom-1
+    after:h-[2px] after:bg-green-700
+    after:transition-all after:duration-300
+    ${isActive
+                      ? "text-green-800 after:w-full"
+                      : "after:w-0 lg:hover:after:w-full"
+                    }`}
                 >
                   {t("navbar.Certifications")}
                 </NavLink>

@@ -12,8 +12,8 @@ export default function Home() {
             <HomeCarousel />
           </section>
 
-          <section className="flex flex-col items-center justify-center my-6 mx-16 gap-0.5">
-            <HomePolicy />
+          <section className="flex flex-col items-center justify-center py-6 px-16 gap-0.5 bg-[#F5F0E8] ">
+              <HomePolicy />
           </section>
 
           <section className="py-6 px-16 bg-[#053510]">
