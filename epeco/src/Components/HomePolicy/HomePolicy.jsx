@@ -17,7 +17,7 @@ export default function HomePolicy() {
       <>
         <TitleSec
           title={t("policy.secTitle")}
-          className="text-2xl md:text-5xl"
+          className="text-2xl md:text-5xl font-extrabold"
         />
 
         <div className="mt-5 ">
@@ -43,7 +43,7 @@ export default function HomePolicy() {
         >
           <CardSec
             className="p-7 w-full md:w-1/3"
-            titleClassName={`text-xl ${isArabic ? "md:text-3xl" : "md:text-base"}  font-extrabold text-[#2D7A45] leading-tight pb-2`}
+            titleClassName={`text-xl ${isArabic ? "md:text-3xl" : "md:text-base"}  font-bold text-[#2D7A45] leading-tight pb-2`}
             highlightWord={t("policy.cardTitle1")}
             image={card1}
             description={t("policy.cardDesc1")}
@@ -51,7 +51,7 @@ export default function HomePolicy() {
           />
           <CardSec
             className="p-7 w-full md:w-1/3"
-            titleClassName={`text-xl ${isArabic ? "md:text-3xl" : "md:text-base"}  font-extrabold text-[#2D7A45] leading-tight pb-2`}
+            titleClassName={`text-xl ${isArabic ? "md:text-3xl" : "md:text-base"} font-bold text-[#2D7A45] leading-tight pb-2`}
             highlightWord={t("policy.cardTitle2")}
             image={card2}
             description={t("policy.cardDesc2")}
@@ -59,7 +59,7 @@ export default function HomePolicy() {
           />
           <CardSec
             className="p-7 w-full md:w-1/3"
-            titleClassName={`text-xl ${isArabic ? "md:text-3xl" : "md:text-base"}  font-extrabold text-[#2D7A45] leading-tight pb-2`}
+            titleClassName={`text-xl ${isArabic ? "md:text-3xl" : "md:text-base"}  font-bold text-[#2D7A45] leading-tight pb-2`}
             highlightWord={t("policy.cardTitle3")}
             image={card3}
             description={t("policy.cardDesc3")}

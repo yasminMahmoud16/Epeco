@@ -25,12 +25,12 @@ export default function HomeService() {
           </h5>
           <TitleSec
             title={t("services.secTitle")}
-            className={`font-normal  mb-4  md:text-2xl text-[#F0EDE6]  ${isArabic ? "text-right" : "text-left text-2xl"}`}
+            className={`font-normal  mb-4  md:text-5xl text-[#F0EDE6]  ${isArabic ? "text-right" : "text-left text-2xl"}`}
           />
         </div>
         <div>
           <p
-            className={`text-[#F0EDE6] text-sm md:text-base xl:text-xl font-light ${isArabic ? "" : "font-RobotoCondensed"}`}
+            className={`text-[#F0EDE6] text-sm md:text-base xl:text-2xl font-light ${isArabic ? "" : "font-RobotoCondensed"}`}
           >
             {t("services.description")}
           </p>
