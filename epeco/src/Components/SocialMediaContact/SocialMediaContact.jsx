@@ -163,7 +163,8 @@ export default function SocialMediaContact() {
             </p>
             <div className="flex items-center gap-3 order-1 sm:order-2">
               <a
-                href="#"
+                href="https://www.instagram.com/purity.2026?igsh=MTdzeTR1bW05ajVhdw%3D%3D"
+                target="_blank"
                 className="h-9 w-9 md:h-11 md:w-11 flex items-center justify-center rounded-full bg-[#1A2E1D] text-white hover:opacity-90 transition-opacity"
                 aria-label="Instagram"
               >
