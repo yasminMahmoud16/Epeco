@@ -170,8 +170,9 @@ export default function SocialMediaContact() {
                 <FaInstagram className="h-4 w-4 md:h-5 md:w-5" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/company/%D9%86%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D9%8A%D8%A6%D8%A9-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D9%8A%D8%A6%D9%8A%D8%A9/"
                 className="h-9 w-9 md:h-11 md:w-11 flex items-center justify-center rounded-full bg-[#1A2E1D] text-white hover:opacity-90 transition-opacity"
+                target="_blank"
                 aria-label="LinkedIn"
               >
                 <FaLinkedinIn className="h-4 w-4 md:h-5 md:w-5" />
@@ -184,14 +185,16 @@ export default function SocialMediaContact() {
                 <FaXTwitter className="h-4 w-4 md:h-5 md:w-5" />
               </a>
               <a
-                href="#"
+                href="https://www.tiktok.com/@user84468527433581?_r=1&_t=ZS-96zOHLxP7A4"
+                target="_blank"
                 className="h-9 w-9 md:h-11 md:w-11 flex items-center justify-center rounded-full bg-[#1A2E1D] text-white hover:opacity-90 transition-opacity"
                 aria-label="TikTok"
               >
                 <FaTiktok className="h-4 w-4 md:h-5 md:w-5" />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61577546652007&rdid=CzTTaLRk8I7aQMNR&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1CnxPoE28x%2F#"
+                target="_blank"
                 className="h-9 w-9 md:h-11 md:w-11 flex items-center justify-center rounded-full bg-[#1A2E1D] text-white hover:opacity-90 transition-opacity"
                 aria-label="Facebook"
               >
