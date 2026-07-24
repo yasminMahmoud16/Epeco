@@ -29,8 +29,16 @@ const { t } = useTranslation();
             main={t("servciesArticle.main")}
           />
           <div className=" flex  mt-6 md:flex-row-reverse gap-1.5 items-center">
-            <AiOutlineMail className="text-[#1A5C2C]" />
-            <FiPrinter className="text-[#1A5C2C]" />
+            <a
+              href="mailto:Purity@geters-ksa.com"
+              className="hover:text-[#1A5C2C] transition-colors cursor-pointer"
+            >
+              <AiOutlineMail className="text-[#1A5C2C] cursor-pointer hover:text-[#31974d]" />
+            </a>
+            <FiPrinter
+              className="text-[#1A5C2C] hover:cursor-pointer transition-all duration-300 ease-in-out hover:text-[#31974d]"
+              onClick={() => window.print()}
+            />
             <MdArrowOutward className="text-[#1A5C2C]" />
           </div>
         </div>

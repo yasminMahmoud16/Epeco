@@ -21,7 +21,9 @@ export default function HomePolicy() {
         />
 
         <div className="mt-5  ">
-          <p className="font-normal font-RobotoCondensed  text-md md:text-lg xl:text-xl text-center text-[#2D7A45] leading-10">
+          <p
+            className={`font-normal ${isArabic ? "" : "font-RobotoCondensed"}   text-md md:text-lg xl:text-xl text-center text-[#2D7A45] leading-10`}
+          >
             {t("policy.description")}
           </p>
           <div className="mt-3">

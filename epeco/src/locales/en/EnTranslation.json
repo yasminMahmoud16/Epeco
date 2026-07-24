@@ -480,8 +480,9 @@
         "list": [
       {
         "id": 1,
-"slug": "محطات شركة \"التضامنية\" لتوليد الطاقة الكهربائية",
+        "slug": "محطات شركة \"التضامنية\" لتوليد الطاقة الكهربائية",
         "label": "Al-Tadamuniah Power Generation Plant Project",
+        "logo":"Client1.1.png",
         "images":[
           "Client1.png"
         ] ,
@@ -561,9 +562,8 @@
         "label":" Maramer Contracting Company",
         "logo":"Client4.2.png",
         "images":[
-          "Client4.1.png",
-          "Client4.2.png"
-        ],
+          "Client4.1.png"
+                ],
         "style": "bulleted",
         "intro":"A premier Saudi joint-stock leader in major construction and infrastructure. We are proud at Naqaa Al-Bee’ah to secure all their required environmental licenses and provide seamless field monitoring and compliance services for their large-scale projects.",
         "intro2":"Environmental Impact Assessment (EIA) for the Wastewater Lifting ",
@@ -759,6 +759,8 @@
     "mainTitle": " Clients",
     "main": "Home",
     "title": " They Trust US",
+    "link":"Complete Client Portfolio  ",
+
     "description": "Proudly trusted by leading government entities and private corporations across the Kingdom of Saudi Arabia.",
     "question": "Our Clients' Voices",
     "questionSub": "Real feedback from success testimonials who trust our expertise in safeguarding the environment.",

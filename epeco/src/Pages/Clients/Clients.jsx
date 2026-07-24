@@ -30,7 +30,7 @@ export default function Clients() {
           </div>
 
           <div className="flex flex-col gap-6 items-center pt-5 ">
-            <div className="hidden absolute   pt-5 pl-10 lg:flex items-center justify-end w-full ">
+            <div className={`hidden absolute  ${isArabic?"":"right-8"}  pt-5 pl-10 lg:flex items-center justify-end w-full `}>
               <Link
                 to={"/clients/clients-Details"}
                 className={`  flex items-center justify-center text-[#2D7A45] text-2xl font-light  ${isArabic ? "duration-300 transition-all ease-in-out hover:-translate-x-2" : "duration-300 transition-all ease-in-out hover:translate-x-2"} `}
@@ -56,10 +56,10 @@ export default function Clients() {
           <div className=" flex items-center justify-center my-6 px-5">
             <ClientsImg />
           </div>
-          <div className=" lg:hidden   pt-5  flex items-center justify-center w-full ">
+          <div className=" lg:hidden   pt-5  flex items-center justify-center w-full  ">
             <Link
               to={"/clients/clients-Details"}
-              className={`  flex items-center justify-center text-[#2D7A45] text-2xl font-light  ${isArabic ? "duration-300 transition-all ease-in-out hover:-translate-x-2" : "duration-300 transition-all ease-in-out hover:translate-x-2"} `}
+              className={`  flex items-center justify-center text-[#2D7A45] text-2xl font-light  ${isArabic ? "duration-300 transition-all ease-in-out hover:-translate-x-2" : " duration-300 transition-all ease-in-out hover:translate-x-2 "} `}
             >
               {t("clients.link")}
               {isArabic ? <IoIosArrowRoundBack /> : <IoIosArrowRoundForward />}
