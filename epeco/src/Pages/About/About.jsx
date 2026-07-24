@@ -5,7 +5,7 @@ import ArticleDescription from "../../Common/ArticleDescription/ArticleDescripti
 import ArticleSubNav from "../../Common/ArticleSubNav/ArticleSubNav.jsx";
 import { AiOutlineMail } from "react-icons/ai";
 import { FiPrinter } from "react-icons/fi";
-import { MdArrowOutward } from "react-icons/md";
+// import { MdArrowOutward } from "react-icons/md";
 
 export default function About() {
     const { t } = useTranslation();
@@ -39,7 +39,7 @@ export default function About() {
               className="text-[#1A5C2C] hover:cursor-pointer transition-all duration-300 ease-in-out hover:text-[#31974d]"
               onClick={() => window.print()}
             />
-            <MdArrowOutward className="text-[#1A5C2C]" />
+            {/* <MdArrowOutward className="text-[#1A5C2C]" /> */}
           </div>
         </div>
         <section className="flex flex-col lg:flex-row gap-8 py-6 px-16 bg-white h-full md:h-screen">

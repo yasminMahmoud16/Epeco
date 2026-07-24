@@ -3,7 +3,7 @@ import { useParams } from "react-router";
 import ArticleSubNav from "../../Common/ArticleSubNav/ArticleSubNav.jsx";
 import { AiOutlineMail } from "react-icons/ai";
 import { FiPrinter } from "react-icons/fi";
-import { MdArrowOutward } from "react-icons/md";
+// import { MdArrowOutward } from "react-icons/md";
 import ArticleList from "../../Common/ArticleList/ArticleList.jsx";
 import ArticleDescriptionWithId from "../../Common/ArticleDescription/ArticleDescriptionWithId.jsx";
 
@@ -34,9 +34,14 @@ export default function ServicesWithId() {
           main={t("servciesArticle.main")}
         />
         <div className="flex mt-6 md:flex-row-reverse gap-1.5 items-center">
-          <AiOutlineMail className="text-[#1A5C2C]" />
+          <a
+            href="mailto:Purity@geters-ksa.com"
+            className="hover:text-[#1A5C2C] transition-colors cursor-pointer"
+          >
+            <AiOutlineMail className="text-[#1A5C2C] cursor-pointer hover:text-[#31974d]" />
+          </a>
           <FiPrinter className="text-[#1A5C2C]" />
-          <MdArrowOutward className="text-[#1A5C2C]" />
+          {/* <MdArrowOutward className="text-[#1A5C2C]" /> */}
         </div>
       </div>
       <section className="flex flex-col lg:flex-row gap-8 py-6 px-16 bg-white">

@@ -1,7 +1,7 @@
 import { AiOutlineMail } from "react-icons/ai";
 import ArticleSubNav from "../../Common/ArticleSubNav/ArticleSubNav.jsx";
 import { FiPrinter } from "react-icons/fi";
-import { MdArrowOutward } from "react-icons/md";
+// import { MdArrowOutward } from "react-icons/md";
 import ArticleList from "../../Common/ArticleList/ArticleList.jsx";
 import ArticleDescription from "../../Common/ArticleDescription/ArticleDescription.jsx";
 import { useTranslation } from "react-i18next";
@@ -39,7 +39,7 @@ export default function Audience() {
               className="text-[#1A5C2C] hover:cursor-pointer transition-all duration-300 ease-in-out hover:text-[#31974d]"
               onClick={() => window.print()}
             />
-            <MdArrowOutward className="text-[#1A5C2C]" />
+            {/* <MdArrowOutward className="text-[#1A5C2C]" /> */}
           </div>
         </div>
         <section className="flex flex-col lg:flex-row gap-8 py-6 px-16 bg-white">
