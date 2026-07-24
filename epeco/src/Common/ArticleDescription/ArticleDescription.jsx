@@ -21,11 +21,12 @@ export default function ArticleDescription({ list, activeSlug }) {
                     </p>
                     <ul className="list-disc list-inside space-y-3 text-body text-sm md:text-xl text-[#366b43] text-justify ">
                       {activeItem.paragraphs[0].map((segment, index) => (
-                        <li key={index} className="">
+                        <li key={index} className="text-justify">
                           {segment.type === "highlight" ? (
-                            <strong className="font-bold text-[#EFA027] ">
+                            <strong className="font-bold text-[#EFA027]  ">
                               {segment.text}
                             </strong>
+                            
                           ) : (
                             segment.text
                           )}

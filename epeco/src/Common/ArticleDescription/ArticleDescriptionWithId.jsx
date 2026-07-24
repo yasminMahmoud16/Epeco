@@ -19,10 +19,10 @@ export default function ArticleDescriptionWithId({ list, activeId }) {
                 </h2>
                 {activeItem.style === "bulleted" ? (
                   <>
-                    <p className="text-body leading-[1.65] text-sm md:text-xl text-[#366b43] font-normal">
+                    <p className="text-body leading-[1.65] text-sm md:text-xl text-[#366b43] font-normal text-justify">
                       {activeItem.intro}
                     </p>
-                    <ul className="list-disc list-inside space-y-3 text-body text-sm md:text-xl text-[#366b43]">
+                    <ul className="list-disc list-inside space-y-3 text-body text-sm md:text-xl text-[#366b43] text-justify">
                       {activeItem.paragraphs[0].map((segment, index) => (
                         <li key={index}>
                           {segment.type === "highlight" ? (
@@ -36,7 +36,7 @@ export default function ArticleDescriptionWithId({ list, activeId }) {
                       ))}
                     </ul>
 
-                    <p className="text-body leading-[1.65] text-sm md:text-xl text-[#366b43] font-normal">
+                    <p className="text-body leading-[1.65] text-sm md:text-xl text-[#366b43] font-normal text-justify">
                       {activeItem.ending}
                     </p>
                   </>
@@ -44,7 +44,7 @@ export default function ArticleDescriptionWithId({ list, activeId }) {
                   activeItem.paragraphs.map((paragraph, id) => (
                     <p
                       key={id}
-                      className="text-body leading-[1.65] text-sm md:text-xl text-[#366b43] font-normal"
+                      className="text-body leading-[1.65] text-sm md:text-xl text-[#366b43] font-normal text-justify"
                     >
                       {paragraph.map((segment, sid) =>
                         segment.type === "highlight" ? (
@@ -55,7 +55,7 @@ export default function ArticleDescriptionWithId({ list, activeId }) {
                             {segment.text}
                           </strong>
                         ) : (
-                          <p key={sid}>{segment.text}</p>
+                          <span key={sid}>{segment.text}</span>
                         ),
                       )}
                     </p>
