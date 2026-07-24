@@ -23,7 +23,7 @@ export default function ContactForm() {
 
 
 
-    const onSubmit = (data) => {
+    const onSubmit = () => {
 
         // handle actual submission here (API call, etc.)
         reset();
@@ -39,7 +39,10 @@ export default function ContactForm() {
             {t("contact.description")}
           </p>
 
-          <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+          <form
+            onSubmit={handleSubmit(onSubmit)}
+            className="space-y-4"
+          >
             {/* name */}
             <div>
               <label className="block text-md font-semibold text-[#1A5C2C] leading-[1.65] mb-2">
@@ -95,7 +98,11 @@ export default function ContactForm() {
                 <label className="block text-md font-semibold text-[#1A5C2C] leading-[1.65] mb-2">
                   {t("contact.phone.label")}
                 </label>
-                <div className="flex border border-gray-300 rounded-lg overflow-hidden">
+
+                <div
+                  dir="ltr"
+                  className="flex border border-gray-300 rounded-lg overflow-hidden"
+                >
                   <select
                     {...register("countryCode")}
                     defaultValue="+966"

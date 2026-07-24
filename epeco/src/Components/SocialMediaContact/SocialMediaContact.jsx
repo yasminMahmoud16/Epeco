@@ -49,9 +49,14 @@ export default function SocialMediaContact() {
                 {t("contactInfo.complaints.title")}
               </h3>
               <div className="space-y-2 md:space-y-3">
-                {phones.map((phone) => (
-                  <div className="flex items-center gap-2">
+                {phones.map((phone, index) => (
+                  <div
+                    dir="ltr"
+                    key={index}
+                    className="flex items-center justify-start gap-2"
+                  >
                     <FiPhone className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
+
                     <span
                       className="text-xs md:text-sm text-gray-600"
                       dir="ltr"
@@ -72,9 +77,12 @@ export default function SocialMediaContact() {
               </h3>
               <div className="space-y-2 md:space-y-3">
                 {emails.map((email) => (
-                  <div className="flex items-center gap-2">
+                  <div
+                    dir="ltr"
+                    className="flex items-center justify-start gap-2"
+                  >
                     <HiOutlineMail className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
-                    <span className="text-xs md:text-sm text-gray-600 truncate">
+                    <span className="text-xs md:text-sm text-gray-600 truncate text-left">
                       {email}
                     </span>
                   </div>
@@ -93,13 +101,19 @@ export default function SocialMediaContact() {
                 >
                   {t("contactInfo.headOffice.title")}
                 </h3>
-                <div className="flex items-center gap-1 text-xs md:text-sm text-gray-500">
+                <div
+                  dir="ltr"
+                  className="flex items-center justify-start gap-1 text-xs md:text-sm text-gray-500"
+                >
                   <HiOutlineLocationMarker className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
                   <p>{t("contactInfo.headOffice.address")}</p>
                 </div>
                 <div className="space-y-2 md:space-y-3">
                   {headsNums.map((phone) => (
-                    <div className="flex items-center gap-2">
+                    <div
+                      dir="ltr"
+                      className="flex items-start  justify-start gap-2"
+                    >
                       <FiPhone className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
                       <p className="text-xs md:text-sm text-gray-600" dir="ltr">
                         {phone}
@@ -118,18 +132,27 @@ export default function SocialMediaContact() {
                 >
                   {t("contactInfo.easternRegion.title")}
                 </h3>
-                <div className="flex items-center gap-1 text-xs md:text-sm text-gray-500 ">
+                <div
+                  dir="ltr"
+                  className="flex items-center justify-start gap-1 text-xs md:text-sm text-gray-500 "
+                >
                   <HiOutlineLocationMarker className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
                   <p>{t("contactInfo.easternRegion.address")}</p>
                 </div>
                 <div className="space-y-2 md:space-y-3">
-                  <div className="flex items-center gap-2">
+                  <div
+                    dir="ltr"
+                    className="flex items-center justify-start gap-2"
+                  >
                     <FiPhone className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
                     <p className="text-xs md:text-sm text-gray-600" dir="ltr">
                       {t("contactInfo.easternRegion.phone")}
                     </p>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div
+                    dir="ltr"
+                    className="flex items-center justify-start gap-2"
+                  >
                     <HiOutlineMail className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
                     <span className="text-xs md:text-sm text-gray-600">
                       {t("contactInfo.easternRegion.email")}

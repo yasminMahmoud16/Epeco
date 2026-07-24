@@ -1,10 +1,12 @@
 import { useTranslation } from "react-i18next";
 import TitleSec from "../../Common/TitleSec/TitleSEC.jsx";
 import { FaStar } from "react-icons/fa6";
+import i18next from "i18next";
 
 export default function ClientsReview() {
   const { t } = useTranslation();
-  
+        const isArabic = i18next.language === "ar";
+
       const reviews = t("clients.reviews", {
         returnObjects: true,
       });
@@ -38,9 +40,9 @@ export default function ClientsReview() {
 
             {/* Review */}
             <p
-              className={`flex-1 text-right  text-sm md:text-base leading-8 font-bold line-clamp-6 ${
+              className={`flex-1 t  text-sm md:text-base leading-9 tracking-wider font-bold line-clamp-6 text-justify ${
                 rev.color === "dark" ? "text-[#F0EDE6]" : "text-white"
-              }`}
+              }  ${isArabic?"text-right justify-end":"text-left justify-start"}`}
             >
               {rev.review}
             </p>

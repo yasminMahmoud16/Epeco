@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import LangSwitchIcon from "../../Components/LangSwitchIcon/LangSwitchIcon.jsx";
 import logo from "../../assets/Images/EPECO flayer 2 1.png";
-import {  NavLink } from "react-router";
+import {  Link, NavLink } from "react-router";
 import {  useRef, useState } from "react";
 import i18next from "i18next";
 import useScroll from "../../Hooks/useScroll.js";
@@ -171,15 +171,17 @@ export default function Navbar() {
             {/* logo */}
           </div>
           <div
-            className={`w-15 h-16 p-2 order-6 lg:order-none ${
+            className={`w-15 h-15 lg:w-22 lg:h-22 p-2 order-6 lg:order-none ${
               isOpen ? "hidden lg:block " : "block"
             }`}
           >
+            <Link to={"/"}>
             <img
               src={logo}
               className="w-full object-fill"
               alt={t("navbar.logo")}
             />
+            </Link>
           </div>
 
           {/* second links  */}
@@ -299,12 +301,13 @@ export default function Navbar() {
 
           {/* requests button */}
           <div>
-            <button
+            <Link to={"/contact"}
+              
               className={`hidden lg:block bg-[#2D7A45] lg:py-1 lg:px-1   xl:px-5 xl:mr-2 rounded-2xl text-[#F0EDE6]  
             lg:text-md lg:ml-2  xl:text-xl font-normal transition-all duration-300 hover:bg-[#25683A] hover:cursor-pointer ${isArabic ? "xl:py-2.5" : "font-RobotoCondensed rounded-3xl "}`}
             >
               {t("navbar.ConsulationRequest")}
-            </button>
+            </Link>
           </div>
         </div>
       </nav>

@@ -16,14 +16,14 @@ export default function ArticleDescription({ list, activeSlug }) {
                 </h2>
                 {activeItem.style === "bulleted" ? (
                   <>
-                    <p className="text-body leading-[1.65] text-sm md:text-xl text-[#366b43] font-normal">
+                    <p className="text-body leading-[1.65] text-sm md:text-xl text-[#366b43] font-normal text-justify">
                       {activeItem.intro}
                     </p>
-                    <ul className="list-disc list-inside space-y-3 text-body text-sm md:text-xl text-[#366b43]">
+                    <ul className="list-disc list-inside space-y-3 text-body text-sm md:text-xl text-[#366b43] text-justify ">
                       {activeItem.paragraphs[0].map((segment, index) => (
-                        <li key={index}>
+                        <li key={index} className="">
                           {segment.type === "highlight" ? (
-                            <strong className="font-bold text-[#EFA027]">
+                            <strong className="font-bold text-[#EFA027] ">
                               {segment.text}
                             </strong>
                           ) : (
@@ -33,7 +33,7 @@ export default function ArticleDescription({ list, activeSlug }) {
                       ))}
                     </ul>
 
-                    <p className="text-body leading-[1.65] text-sm md:text-xl text-[#366b43] font-normal">
+                    <p className="text-body leading-[1.65] text-sm md:text-xl text-[#366b43] font-normal text-justify">
                       {activeItem.ending}
                     </p>
                   </>
@@ -41,7 +41,7 @@ export default function ArticleDescription({ list, activeSlug }) {
                   activeItem.paragraphs.map((paragraph, id) => (
                     <p
                       key={id}
-                      className="text-body leading-[1.65] text-sm md:text-xl text-[#366b43] font-normal "
+                      className="text-body leading-[1.65] text-sm md:text-xl text-[#366b43] font-normal text-justify"
                     >
                       {paragraph.map((segment, sid) =>
                         segment.type === "highlight" ? (

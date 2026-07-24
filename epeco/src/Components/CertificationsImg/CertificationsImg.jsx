@@ -7,7 +7,7 @@ export default function CertificationsImg() {
 
     return (
       <>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center justify-center ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-36 items-center justify-center ">
           <div className={` md:w-md md:pl-0  ${isArabic ? "" : "pr-10 "}`}>
             <img
               src={certification2}

@@ -13,6 +13,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
+import { Link } from "react-router";
 
 export default function HomeCarousel() {
 
@@ -85,7 +86,7 @@ useEffect(() => {
 
         <div
           className={`absolute  ${
-            isArabic ? "top-2 md:top-6" : "top-5  xl:gap-4"
+            isArabic ? "top-3 md:top-10" : "top-10  xl:gap-4"
           } z-10 max-w-[95%] md:max-w-xl px-4 md:px-9 flex flex-col gap-1 md:gap-8`}
         >
           <div
@@ -98,18 +99,18 @@ useEffect(() => {
             {t("home.subTitleHero")}
           </div>
 
-          <div>
+          <div >
             <h1
               className={`${
                 isArabic
                   ? "text-md md:text-2xl xl:text-5xl font-semibold"
-                  : "font-RobotoCondensed text-sm md:text-2xl xl:text-4xl font-semibold"
+                  : "font-RobotoCondensed text-sm md:text-2xl xl:text-4xl font-semibold "
               } text-[#1A5C2C] leading-tight`}
             >
               {t("home.titleHero1")}
             </h1>
 
-            <h1 className="text-sm md:text-2xl xl:text-4xl font-semibold text-white leading-tight">
+            <h1 className="text-sm md:text-2xl xl:text-4xl font-semibold text-white leading-tight mt-1 md:mt-4">
               {t("home.titleHero2")}
             </h1>
           </div>
@@ -127,14 +128,21 @@ useEffect(() => {
           </div>
 
           {/* buttons */}
-          <div className="flex items-center gap-2">
-            <button className="flex items-center justify-center w-20 h-6 md:w-24 md:h-10 xl:w-40 xl:h-16 rounded-2xl xl:rounded-3xl border border-[#5FCF80] bg-white/10 backdrop-blur-md text-xs xl:text-xl text-[#5FCF80] transition hover:bg-white/40 cursor-pointer shadow">
+
+          <div className="flex items-center gap-4">
+            <Link
+              to={"/about"}
+              className="flex items-center justify-center w-20 h-6 md:w-24 md:h-10 xl:w-40 xl:h-16 rounded-2xl xl:rounded-3xl border border-[#5FCF80] bg-white/10 backdrop-blur-md text-xs xl:text-xl text-[#5FCF80] transition hover:bg-white/40 cursor-pointer shadow"
+            >
               {t("home.buttonHero1")}
-            </button>
-            <button className="flex items-center justify-center w-22 h-6 md:w-24 md:h-10 xl:w-40 xl:h-16 rounded-2xl xl:rounded-3xl border border-[#eff0efa5] bg-white/10 backdrop-blur-md text-xs xl:text-xl text-[#F0EDE6] transition hover:bg-white/40 cursor-pointer shadow">
+            </Link>
+            <Link
+              to={"/services"}
+              className="flex items-center justify-center w-22 h-6 md:w-24 md:h-10 xl:w-40 xl:h-16 rounded-2xl xl:rounded-3xl border border-[#eff0efa5] bg-white/10 backdrop-blur-md text-xs xl:text-xl text-[#F0EDE6] transition hover:bg-white/40 cursor-pointer shadow"
+            >
               {t("home.buttonHero2")}
               {isArabic ? <IoIosArrowRoundBack /> : <IoIosArrowRoundForward />}
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -142,7 +150,7 @@ useEffect(() => {
         <div
           className={`hidden  ${
             isArabic
-              ? "bottom-2 left-4 xl:left-9 gap-4 xl:gap-10"
+              ? "bottom-18 left-4 xl:left-9 gap-4 xl:gap-10"
               : "bottom-4 right-4 xl:bottom-8 xl:right-9 gap-4 xl:gap-10"
           } absolute md:flex items-center justify-center z-10 rounded-2xl px-3 py-2 xl:px-5 xl:py-2.5 border border-white bg-white/10 backdrop-blur-xs text-base xl:text-xl text-[#F0EDE6]`}
         >

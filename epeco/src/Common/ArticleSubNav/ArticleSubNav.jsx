@@ -2,6 +2,7 @@ import i18next from "i18next";
 import { CgFormatSlash } from "react-icons/cg";
 import { TbBackslash } from "react-icons/tb";
 import TitleSec from "../TitleSec/TitleSEC.jsx";
+import { Link } from "react-router";
 
 export default function ArticleSubNav({ slug=""
   , mainTitle, main }) {
@@ -30,10 +31,10 @@ export default function ArticleSubNav({ slug=""
             {isArabic ? <CgFormatSlash /> : <TbBackslash />}
             <li>
               <div className="flex items-center space-x-1.5">
-                <p className="inline-flex items-center text-sm font-medium text-body hover:text-fg-brand">
+                <Link to={"/"} className="inline-flex items-center text-sm font-medium text-body hover:text-fg-brand">
                   {/* {t("aboutArticle.main")} */}
                   {main}
-                </p>
+                </Link>
               </div>
             </li>
           </ol>
