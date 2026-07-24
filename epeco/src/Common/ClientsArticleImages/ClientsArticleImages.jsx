@@ -3,7 +3,7 @@ export default function ClientsArticleImages({ activeItem }) {
   const images = activeItem?.images ?? [];
 
   return (
-    <div className="flex  gap-4 w-full">
+    <div className="flex flex-col md:flex-row gap-4 w-full">
       {images.length > 0 && (
         <div className="flex  gap-4 ">
           {images.map((image, index) => (
