@@ -1,5 +1,6 @@
 export default function ClientsArticleImages({ activeItem }) {
-  const baseUrl = "http://localhost:5173/Epeco/";
+  // const baseUrl = "http://localhost:5173/Epeco/";
+  const baseUrl = "https://yasminmahmoud16.github.io/Epeco/";
   const images = activeItem?.images ?? [];
 
   return (
