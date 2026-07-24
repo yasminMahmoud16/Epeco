@@ -1,21 +1,37 @@
 export default function ClientsArticleImages({ activeItem }) {
-    const baseUrl = "https://yasminMahmoud16.github.io/Epeco/";
+  const baseUrl = "http://localhost:5173/Epeco/";
+  const images = activeItem?.images ?? [];
 
-    return (
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
-        {activeItem?.images?.map((image, index) => (
-          <div
-            key={index}
-            className="overflow-hidden rounded-3xl  aspect-[4/3]"
-          >
-            <img
-              src={`${baseUrl}${image}`}
-              alt={activeItem.label}
-              loading="lazy"
-              className="w-full h-full object-fit"
-            />
-          </div>
-        ))}
-      </div>
-    );
+  return (
+    <div className="flex  gap-4 w-full">
+      {images.length > 0 && (
+        <div className="flex  gap-4 ">
+          {images.map((image, index) => (
+            <div
+              key={index}
+              className="overflow-hidden rounded-3xl h-48 sm:h-56 lg:h-64 "
+            >
+              <img
+                src={`${baseUrl}${image}`}
+                alt={activeItem.label}
+                loading="lazy"
+                className="h-full w-auto object-fit"
+              />
+            </div>
+          ))}
+        </div>
+      )}
+
+      {activeItem?.logo && (
+        <div className="w-32 h-32 sm:w-52 sm:h-28 shrink-0 flex items-center justify-center rounded-2xl  bg-white p-3">
+          <img
+            src={`${baseUrl}${activeItem.logo}`}
+            alt={`${activeItem.label} logo`}
+            loading="lazy"
+            className="w-full h-full object-fit"
+          />
+        </div>
+      )}
+    </div>
+  );
 }

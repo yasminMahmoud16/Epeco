@@ -53,7 +53,7 @@ export default function ArticleDescription({ list, activeSlug }) {
                             {segment.text}
                           </strong>
                         ) : (
-                          <p key={sid}>{segment.text}</p>
+                          <span key={sid}>{segment.text}</span>
                         ),
                       )}
                     </p>

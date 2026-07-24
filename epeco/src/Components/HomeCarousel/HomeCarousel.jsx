@@ -86,8 +86,8 @@ useEffect(() => {
 
         <div
           className={`absolute  ${
-            isArabic ? "top-3 md:top-10" : "top-10  xl:gap-4"
-          } z-10 max-w-[95%] md:max-w-xl px-4 md:px-9 flex flex-col gap-1 md:gap-8`}
+            isArabic ? "top-3 md:top-2 xl:top-10" : "top-10  xl:gap-4"
+          } z-10 max-w-[95%] md:max-w-xl px-4 md:px-9 flex flex-col gap-1 md:gap-4 `}
         >
           <div
             className={`${
@@ -99,7 +99,7 @@ useEffect(() => {
             {t("home.subTitleHero")}
           </div>
 
-          <div >
+          <div>
             <h1
               className={`${
                 isArabic
@@ -126,7 +126,9 @@ useEffect(() => {
               {t("home.descriptionHero")}
             </p>
           </div>
+        </div>
 
+        <div className=" absolute bottom-8 lg:bottom-15 left-0 right-0 z-10 w-full  flex items-center justify-between px-9">
           {/* buttons */}
 
           <div className="flex items-center gap-4">
@@ -144,38 +146,36 @@ useEffect(() => {
               {isArabic ? <IoIosArrowRoundBack /> : <IoIosArrowRoundForward />}
             </Link>
           </div>
-        </div>
 
-        {/* customers */}
-        <div
-          className={`hidden  ${
-            isArabic
-              ? "bottom-18 left-4 xl:left-9 gap-4 xl:gap-10"
-              : "bottom-4 right-4 xl:bottom-8 xl:right-9 gap-4 xl:gap-10"
-          } absolute md:flex items-center justify-center z-10 rounded-2xl px-3 py-2 xl:px-5 xl:py-2.5 border border-white bg-white/10 backdrop-blur-xs text-base xl:text-xl text-[#F0EDE6]`}
-        >
-          <div>
-            <p className="font-bold text-md xl:text-3xl xl:mb-1">+40</p>
-            <p className="font-normal text-sm xl:text-xl">
-              {t("home.SatisfiedCustomer")}
-            </p>
-          </div>
-          <div>
-            <p className="font-bold text-md xl:text-3xl xl:mb-1">+15</p>
-            <p className="font-normal text-sm xl:text-xl">
-              {t("home.ProfessionalExperience")}
-            </p>
-          </div>
-          <div>
-            <p className="font-bold text-md xl:text-3xl lg:mb-1">
-              200
-              <span className="text-[#5FCF80] font-bold text-lg xl:text-3xl">
-                +
-              </span>
-            </p>
-            <p className="font-normal text-sm xl:text-xl">
-              {t("home.ExecutedProjects")}
-            </p>
+          {/* customers  md:bottom-10 left-4 lg:bottom-0 xl:bottom-16  xl:left-9 gap-4 xl:gap-10" bottom-4 right-4 xl:bottom-8 xl:right-9 gap-4 xl:gap-10 */}
+          <div
+            className={`hidden  ${
+              isArabic ? " " : ""
+            }  md:flex gap-10 items-center justify-center z-10 rounded-2xl px-3 py-2 xl:px-5 xl:py-2.5 border border-white bg-white/10 backdrop-blur-xs text-base xl:text-xl text-[#F0EDE6]`}
+          >
+            <div className="flex flex-col items-center justify-center">
+              <p className="font-bold text-md xl:text-3xl xl:mb-1">+40</p>
+              <p className="font-normal text-sm xl:text-xl">
+                {t("home.SatisfiedCustomer")}
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <p className="font-bold text-md xl:text-3xl xl:mb-1">+15</p>
+              <p className="font-normal text-sm xl:text-xl">
+                {t("home.ProfessionalExperience")}
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <p className="font-bold text-md xl:text-3xl lg:mb-1">
+                200
+                <span className="text-[#5FCF80] font-bold text-lg xl:text-3xl">
+                  +
+                </span>
+              </p>
+              <p className="font-normal text-sm xl:text-xl">
+                {t("home.ExecutedProjects")}
+              </p>
+            </div>
           </div>
         </div>
       </div>

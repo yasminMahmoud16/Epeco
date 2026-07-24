@@ -17,7 +17,7 @@ export default function CardAudience({ title, description, linkText = "", href }
               {title}
             </h5>
             <div className="h-20">
-              <p className={`text-body  text-[#5A7A62] font-bold text-sm `}>
+              <p className={`text-body  text-[#5A7A62] font-bold text-sm  `}>
                 {description}
               </p>
             </div>
@@ -28,7 +28,6 @@ export default function CardAudience({ title, description, linkText = "", href }
               {linkText}
               {isArabic ? <IoIosArrowRoundBack /> : <IoIosArrowRoundForward />}
             </span>
-            {/* )} */}
           </div>
         </Link>
       </>

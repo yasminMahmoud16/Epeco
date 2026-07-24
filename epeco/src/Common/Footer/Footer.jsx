@@ -25,7 +25,7 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
-            <div className="flex items-center justify-center gap-2 font-RobotoCondensed">
+            <div className="flex items-center justify-center gap-2 ">
               <p className="text-sm text-body sm:text-center  ">
                 {t("footer.description")}
               </p>

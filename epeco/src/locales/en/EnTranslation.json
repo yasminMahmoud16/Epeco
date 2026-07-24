@@ -153,45 +153,44 @@
     "list": [
       {
         "id": 1,
-        "slug": "مــن نـحــن",
+        "slug": "مــــن نــحــــن ",
         "label": "Who We Are",
         "image": "who_we_are.jpg",
-        "paragraphs": [
-          [
-            {
-              "text": "EPECO Office is one of the leading environmental consulting firms in the Kingdom of Saudi Arabia. Certified as a "
-            },
-            {
-              "type": "highlight",
-              "text": " Class A"
-            },
-            {
-              "text": "consultant by the National Center for Environmental Compliance (NCEC), the office boasts a team of specialized experts dedicated to achieving the highest standards of sustainability."
-            }
-          ],
-          [
-            {
-              "text": "EPECO Office delivers its services through a multidisciplinary team that combines scientific expertise, hands-on experience, and a deep understanding of environmental regulations, helping clients achieve the highest standards of environmental compliance."
-            }
-          ],
-          [
-            {
-              "text": "We are committed to supporting Saudi Vision 2030 by promoting sustainable development, protecting natural resources, and ensuring environmental resilience and sustainability across all sectors."
-            }
-          ]
-        ]
+       "paragraphs": [
+  [
+    {
+      "text": "EPECO Office is one of the leading environmental consulting firms in the Kingdom of Saudi Arabia. Certified as a "
+    },
+    {
+      "type": "highlight",
+      "text": "Class A"
+    },
+    {
+      "text": " consultant by the National Center for Environmental Compliance (NCEC), the office boasts a team of specialized experts dedicated to achieving the highest standards of sustainability."
+    }
+  ],
+  [
+    {
+      "text": "EPECO Office delivers its services through a multidisciplinary team that combines scientific expertise, hands-on experience, and a deep understanding of environmental regulations, helping clients achieve the highest standards of environmental compliance."
+    }
+  ],
+  [
+    {
+      "text": "We are committed to supporting Saudi Vision 2030 by promoting sustainable development, protecting natural resources, and ensuring environmental resilience and sustainability across all sectors."
+    }
+  ]
+]
       },
       {
         "id": 2,
-        "slug": "سياستنا",
+        "slug": "سياســــتــــنا",
         "label": "Our Policy",
         "image": "policy.jpg",
         "style": "bulleted",
+        "intro":"We believe that true success lies in creating a lasting, sustainable impact. Therefore, our operational policy is anchored on three non-negotiable pillars:",
         "paragraphs": [
           [
-            {
-              "text": "We believe that true success lies in creating a lasting, sustainable impact. Therefore, our operational policy is anchored on three non-negotiable pillars:"
-            },
+            
             {
               "text": " First, Uncompromising Quality: A strict commitment to the highest quality standards across all our endeavors and projects to ensure we meet and exceed our clients' expectations."
             },
@@ -212,10 +211,10 @@
       },
       {
         "id": 3,
-        "slug": "رؤيــتـــنـــــا",
+        "slug": "رؤيــــتــــنــــا",
         "label": "Our Mission",
         "image": "vision.png",
-        "style": "bulleted",
+        "style": "",
         "paragraphs": [
           [
             {
@@ -507,10 +506,11 @@
         "id": 2,
         "slug": "شركة إيربرودكتس عبد الله هاشم للغازات الصناعية",
         "label": "Air Products Abdullah Hashim Industrial Gases Co. (AHG)",
+        "logo":"Client2.3.png",
         "images":[
           "Client2.1.png",
-          "Client2.2.png",
-          "Client2.3.png"
+          "Client2.2.png"
+          
         ],
         "style": "bulleted",
         "intro":"The global leader in industrial and medical gases, technologies, and services. We take pride in our partnership, delivering cutting-edge environmental compliance and safety consulting solutions for their facilities to support their international vision for a sustainable energy transition and carbon reduction.",
@@ -533,10 +533,10 @@
         "id": 3,
         "slug":" محطات وقود \"الدريس\"",
         "label": "Aldrees Petrol Stations / For Aldrees Gas Stations",
+        "logo":"Client3.3.png",
         "images":[
           "Client3.1.png",
-          "Client3.2.png",
-          "Client3.3.png"
+          "Client3.2.png"
         ],
         "style": "bulleted",
         "intro":"One of the largest leading, Tadawul-listed companies in the energy, petroleum services, and logistics sectors. We take pride in our partnership, managing the integrated environmental portfolio for their widespread network of fuel stations and vital facilities across the Kingdom of Saudi Arabia, ensuring the highest standards of compliance and sustainability.",
@@ -559,6 +559,7 @@
         "id": 4,
         "slug":" شركة مرامر للمقاولات",
         "label":" Maramer Contracting Company",
+        "logo":"Client4.2.png",
         "images":[
           "Client4.1.png",
           "Client4.2.png"
@@ -584,11 +585,11 @@
         "id": 5,
         "slug":" محطات وقود \"ميدان التنمية \"",
         "label":" Maydan Al-Tanmiah Fuel Stations",
+        "logo":"Client5.3.png",
         "images":[
           "Client5.1.png",
-          "Client5.2.png",
-          "Client5.3.png"
-        ],
+          "Client5.2.png"
+            ],
         "style": "bulleted",
         "intro":"A benchmark for sustainable aquaculture and a pioneer in climate stress adaptation. Naqaa Al-Bee’ah is proud to partner with this vital entity, harnessing our environmental consulting and lab services to monitor marine ecosystems, deliver sustainability reporting, and secure the required environmental licenses to foster safe, responsible sector growth.",
         "intro2":"Integrated Environmental Portfolio Management for the Stations, encompassing:",
@@ -613,9 +614,9 @@
         "id": 6,
         "slug":" شركة تبوك للأسماك (مبادرة إجهاد المناخ)",
         "label":" Tabuk Fisheries Company (Climate Stress Initiative)",
+        "logo":"Client6.2.png",
         "images":[
-          "Client6.1.png",
-          "Client6.2.png"
+          "Client6.1.png"
         ],
         "style": "bulleted",
         "intro":"The newest and most ambitious cultural and urban destination in Riyadh, and one of the major giga-projects establishing the concept of smart sustainability globally. We are proud to deliver advanced engineering solutions to prepare and manage the Construction Environmental Management Plan (CEMP), contributing to the building of an architectural icon that harmonizes with the environmental standards of Saudi Arabia’s Vision 2030.",
@@ -637,10 +638,10 @@
         "id": 7,
         "slug":" مشروع نيو مربع ",
         "label":" New Murabba Project",
+        "logo":"Client7.3.png",
         "images":[
           "Client7.1.png",
-          "Client7.2.png",
-          "Client7.3.png"
+          "Client7.2.png"
         ],
         "style": "bulleted",
         "intro": "Riyadh’s latest and most ambitious urban landmark, and a global beacon for smart sustainability. We take pride in providing cutting-edge engineering solutions for the development and management of the Construction Environmental Management Plan (CEMP), helping shape an architectural icon aligned with Saudi Vision 2030 environmental benchmarks.",
@@ -662,6 +663,7 @@
         "id": 8,
         "slug":" مشروع إنشاء مدينة ضرماء الصناعية",
         "label":" Dhurma Industrial City Project",
+        "logo":"Client8.2.png",
         "images":[
           "Client8.png"
         ],

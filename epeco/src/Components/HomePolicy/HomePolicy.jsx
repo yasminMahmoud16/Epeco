@@ -20,8 +20,8 @@ export default function HomePolicy() {
           className="text-2xl md:text-5xl font-extrabold"
         />
 
-        <div className="mt-5 ">
-          <p className="font-normal text-md md:text-lg xl:text-2xl text-center text-[#2D7A45] leading-10">
+        <div className="mt-5  ">
+          <p className="font-normal font-RobotoCondensed  text-md md:text-lg xl:text-xl text-center text-[#2D7A45] leading-10">
             {t("policy.description")}
           </p>
           <div className="mt-3">
@@ -43,27 +43,27 @@ export default function HomePolicy() {
         >
           <CardSec
             className="p-7 w-full md:w-1/3"
-            titleClassName={`text-xl ${isArabic ? "md:text-3xl" : "md:text-base"}  font-bold text-[#2D7A45] leading-tight pb-2`}
+            titleClassName={`text-xl ${isArabic ? "md:text-3xl" : "md:text-3xl"}  font-bold text-[#2D7A45] leading-tight pb-2`}
             highlightWord={t("policy.cardTitle1")}
             image={card1}
             description={t("policy.cardDesc1")}
-            descriptionClassName={`text-[#2D7A45] font-semibold  ${isArabic ? "text-base lg:text-xl" : "text-sm text-lg"}`}
+            descriptionClassName={`text-[#2D7A45] font-semibold  font-RobotoCondensed ${isArabic ? "text-base lg:text-xl" : "text-sm text-xl"}`}
           />
           <CardSec
             className="p-7 w-full md:w-1/3"
-            titleClassName={`text-xl ${isArabic ? "md:text-3xl" : "md:text-base"} font-bold text-[#2D7A45] leading-tight pb-2`}
+            titleClassName={`text-xl ${isArabic ? "md:text-3xl" : "md:text-3xl"} font-bold text-[#2D7A45] leading-tight pb-2`}
             highlightWord={t("policy.cardTitle2")}
             image={card2}
             description={t("policy.cardDesc2")}
-            descriptionClassName={`text-[#2D7A45] font-semibold  ${isArabic ? "text-base lg:text-xl" : "text-sm text-lg"}`}
+            descriptionClassName={`text-[#2D7A45] font-semibold  font-RobotoCondensed  ${isArabic ? "text-base lg:text-xl" : "text-sm text-xl"}`}
           />
           <CardSec
             className="p-7 w-full md:w-1/3"
-            titleClassName={`text-xl ${isArabic ? "md:text-3xl" : "md:text-base"}  font-bold text-[#2D7A45] leading-tight pb-2`}
+            titleClassName={`text-xl ${isArabic ? "md:text-3xl" : "md:text-3xl"}  font-bold text-[#2D7A45] leading-tight pb-2`}
             highlightWord={t("policy.cardTitle3")}
             image={card3}
             description={t("policy.cardDesc3")}
-            descriptionClassName={`text-[#2D7A45] font-semibold  ${isArabic ? "text-base lg:text-xl" : "text-sm text-lg"}`}
+            descriptionClassName={`text-[#2D7A45] font-semibold  font-RobotoCondensed   ${isArabic ? "text-base lg:text-xl" : "text-sm lg:text-xl"}`}
           />
         </div>
       </>

@@ -18,7 +18,7 @@ export default function ArticleList({ mainTitle, list, activeSlug, onSelect }) {
                   key={item.id}
                   type="button"
                   onClick={() => onSelect(item.slug)}
-                  className={`flex items-center tracking-wider    ${isArabic ? "justify-start text-right" : "justify-start text-left"}  text-lg leading-[1.65] font-bold w-full px-4 py-2  cursor-pointer hover:bg-neutral-secondary-medium hover:text-fg-brand focus:outline-none ${
+                  className={`flex items-center tracking-wider    text-las  ${isArabic ? "justify-start text-right" : "justify-start text-left"}  text-lg leading-[1.65] font-bold w-full px-4 py-2  cursor-pointer hover:bg-neutral-secondary-medium hover:text-fg-brand focus:outline-none ${
                     item.slug === activeSlug ? "text-title" : ""
                   } ${index !== list.length - 1 ? "border-b-[0.5px] border-[#DBE1DD]" : ""}`}
                 >

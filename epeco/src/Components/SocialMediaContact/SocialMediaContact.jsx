@@ -164,15 +164,18 @@ export default function SocialMediaContact() {
           </div>
 
           {/* workingHours*/}
-          <div className="border border-gray-200 rounded-2xl p-4 md:p-6 text-right">
+          <div
+            className={`border border-gray-200 rounded-2xl p-4 md:p-6 ${isArabic ? "text-right" : "text-left"} `}
+          >
             <h3
               className={`text-sm md:text-lg font-bold text-[#1A5C2C] mb-3 md:mb-4 ${isArabic ? "text-right" : "text-left"}`}
             >
               {t("contactInfo.workingHours.title")}
             </h3>
-            <p className="text-xs md:text-sm text-gray-600 leading-6 md:leading-7">
+            <p className="text-xs md:text-sm text-gray-600 leading-6 md:leading-7 font-bold">
               {t("contactInfo.workingHours.days")}
-              <br />
+            </p>
+            <p className="text-[#1A5C2C] text-xs md:text-sm leading-6 md:leading-7 font-bold">
               {t("contactInfo.workingHours.hours")}
             </p>
           </div>
