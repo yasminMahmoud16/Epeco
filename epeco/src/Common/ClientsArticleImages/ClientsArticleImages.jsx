@@ -9,7 +9,7 @@ export default function ClientsArticleImages({ activeItem }) {
           {images.map((image, index) => (
             <div
               key={index}
-              className="overflow-hidden rounded-3xl h-48 sm:h-56 lg:h-64 "
+              className="overflow-hidden rounded-sm h-48 sm:h-56 lg:h-64 "
             >
               <img
                 src={`${baseUrl}${image}`}
@@ -23,12 +23,12 @@ export default function ClientsArticleImages({ activeItem }) {
       )}
 
       {activeItem?.logo && (
-        <div className="w-32 h-32 sm:w-52 sm:h-28 shrink-0 flex items-center justify-center rounded-2xl  bg-white p-3">
+        <div className="w-32 h-32 sm:w-40 sm:h-32 shrink-0 flex items-center justify-center rounded-2xl  bg-white p-3">
           <img
             src={`${baseUrl}${activeItem.logo}`}
             alt={`${activeItem.label} logo`}
             loading="lazy"
-            className="w-full h-full object-fit"
+            className="w-full h-full object-contain"
           />
         </div>
       )}

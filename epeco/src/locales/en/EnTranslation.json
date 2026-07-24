@@ -665,7 +665,7 @@
         "label":" Dhurma Industrial City Project",
         "logo":"Client8.2.png",
         "images":[
-          "Client8.png"
+          "Client8.1.png"
         ],
         "style": "",
 
@@ -673,12 +673,13 @@
           [
             {
               "text": " As a cornerstone of Saudi Arabia's industrial growth, Dhurma Industrial Zone is a premier investment destination. At Naqaa Al-Bee’ah, we take pride in serving as the certified environmental consultant for key factories and vital facilities across the city—handling comprehensive EIA studies, securing environmental licensing, and guaranteeing peak operational compliance with all oversight regulations."
-            },
+            }],
+          [
             {
               "text": " On the ground and at the heart of the action, the Naqaa Al-Bee’ah team is laying the environmental and engineering foundations for one of Saudi Arabia’s key rising industrial cities—driven by peak official and regulatory standards."
             }
-       
           ]
+          
         ]
       }
     ]
