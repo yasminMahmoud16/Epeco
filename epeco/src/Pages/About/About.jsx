@@ -30,7 +30,7 @@ export default function About() {
           />
           <div className=" flex  mt-6 md:flex-row-reverse gap-1.5 items-center">
             <a
-              href="mailto:Purity@geters-ksa.com"
+              href="mailto:Purity@getes-ksa.com"
               className="hover:text-[#1A5C2C] transition-colors cursor-pointer"
             >
               <AiOutlineMail className="text-[#1A5C2C] cursor-pointer hover:text-[#31974d]" />

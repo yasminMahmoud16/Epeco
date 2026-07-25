@@ -87,7 +87,7 @@ useEffect(() => {
         <div
           className={`absolute  ${
             isArabic ? "top-3 md:top-2 xl:top-10" : "top-10  xl:gap-4"
-          } z-10 max-w-[95%] md:max-w-xl px-4 md:px-9 flex flex-col gap-1 md:gap-4 `}
+          } z-10 max-w-[95%] md:max-w-xl px-4 md:px-9 flex flex-col gap-1 md:gap-4 border md:py-5 rounded-3xl  border-[#5FCF80] bg-[#7AAB87]/20 backdrop-blur-xs `}
         >
           <div
             className={`${
@@ -147,27 +147,27 @@ useEffect(() => {
             </Link>
           </div>
 
-          {/* customers  md:bottom-10 left-4 lg:bottom-0 xl:bottom-16  xl:left-9 gap-4 xl:gap-10" bottom-4 right-4 xl:bottom-8 xl:right-9 gap-4 xl:gap-10 */}
+          {/* customers  */}
           <div
             className={`hidden  ${
               isArabic ? " " : ""
             }  md:flex gap-10 items-center justify-center z-10 rounded-2xl px-3 py-2 xl:px-5 xl:py-2.5 border border-white bg-white/10 backdrop-blur-xs text-base xl:text-xl text-[#F0EDE6]`}
           >
             <div className="flex flex-col items-center justify-center">
-              <p className="font-bold text-md xl:text-3xl xl:mb-1">+40</p>
+              <p className="font-bold text-md xl:text-3xl xl:mb-1">+1500</p>
               <p className="font-normal text-sm xl:text-xl">
                 {t("home.SatisfiedCustomer")}
               </p>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <p className="font-bold text-md xl:text-3xl xl:mb-1">+15</p>
+              <p className="font-bold text-md xl:text-3xl xl:mb-1">+25</p>
               <p className="font-normal text-sm xl:text-xl">
                 {t("home.ProfessionalExperience")}
               </p>
             </div>
             <div className="flex flex-col items-center justify-center">
               <p className="font-bold text-md xl:text-3xl lg:mb-1">
-                200
+                2000
                 <span className="text-[#5FCF80] font-bold text-lg xl:text-3xl">
                   +
                 </span>

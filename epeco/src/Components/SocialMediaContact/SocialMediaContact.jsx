@@ -58,7 +58,7 @@ export default function SocialMediaContact() {
                     <FiPhone className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
 
                     <span
-                      className="text-xs md:text-sm text-gray-600"
+                      className="text-xs md:text-sm text-[#1A5C2C] font-semibold"
                       dir="ltr"
                     >
                       {phone}
@@ -82,7 +82,7 @@ export default function SocialMediaContact() {
                     className="flex items-center justify-start gap-2"
                   >
                     <HiOutlineMail className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
-                    <span className="text-xs md:text-sm text-gray-600 truncate text-left">
+                    <span className="text-xs md:text-sm text-[#1A5C2C] font-semibold truncate text-left">
                       {email}
                     </span>
                   </div>
@@ -106,7 +106,9 @@ export default function SocialMediaContact() {
                   className="flex items-center justify-start gap-1 text-xs md:text-sm text-gray-500"
                 >
                   <HiOutlineLocationMarker className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
-                  <p>{t("contactInfo.headOffice.address")}</p>
+                  <p className="font-semibold text-[#1A5C2C]">
+                    {t("contactInfo.headOffice.address")}
+                  </p>
                 </div>
                 <div className="space-y-2 md:space-y-3">
                   {headsNums.map((phone) => (
@@ -115,7 +117,10 @@ export default function SocialMediaContact() {
                       className="flex items-start  justify-start gap-2"
                     >
                       <FiPhone className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
-                      <p className="text-xs md:text-sm text-gray-600" dir="ltr">
+                      <p
+                        className="text-xs md:text-sm text-[#1A5C2C] font-semibold"
+                        dir="ltr"
+                      >
                         {phone}
                       </p>
                     </div>
@@ -137,7 +142,9 @@ export default function SocialMediaContact() {
                   className="flex items-center justify-start gap-1 text-xs md:text-sm text-gray-500 "
                 >
                   <HiOutlineLocationMarker className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
-                  <p>{t("contactInfo.easternRegion.address")}</p>
+                  <p className="font-semibold text-[#1A5C2C]">
+                    {t("contactInfo.easternRegion.address")}
+                  </p>
                 </div>
                 <div className="space-y-2 md:space-y-3">
                   <div
@@ -145,7 +152,10 @@ export default function SocialMediaContact() {
                     className="flex items-center justify-start gap-2"
                   >
                     <FiPhone className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
-                    <p className="text-xs md:text-sm text-gray-600" dir="ltr">
+                    <p
+                      className="text-xs md:text-sm text-[#1A5C2C] font-semibold"
+                      dir="ltr"
+                    >
                       {t("contactInfo.easternRegion.phone")}
                     </p>
                   </div>
@@ -154,7 +164,7 @@ export default function SocialMediaContact() {
                     className="flex items-center justify-start gap-2"
                   >
                     <HiOutlineMail className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
-                    <span className="text-xs md:text-sm text-gray-600">
+                    <span className="text-xs md:text-sm text-[#1A5C2C] font-semibold">
                       {t("contactInfo.easternRegion.email")}
                     </span>
                   </div>
@@ -172,7 +182,7 @@ export default function SocialMediaContact() {
             >
               {t("contactInfo.workingHours.title")}
             </h3>
-            <p className="text-xs md:text-sm text-gray-600 leading-6 md:leading-7 font-bold">
+            <p className="text-xs md:text-sm text-[#1A2E1D] font-se leading-6 md:leading-7 font-bold">
               {t("contactInfo.workingHours.days")}
             </p>
             <p className="text-[#1A5C2C] text-xs md:text-sm leading-6 md:leading-7 font-bold">
