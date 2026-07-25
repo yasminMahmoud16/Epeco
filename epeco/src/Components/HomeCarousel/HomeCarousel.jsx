@@ -6,7 +6,7 @@ import { IoIosArrowRoundBack } from "react-icons/io";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import {Autoplay, EffectFade } from "swiper/modules";
+import { Autoplay, EffectFade } from "swiper/modules";
 import { useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import "swiper/css";
@@ -20,18 +20,18 @@ export default function HomeCarousel() {
   const swiperRef = useRef(null);
   const { i18n, t } = useTranslation();
   const isArabic = i18n.language === "ar";
-  
-useEffect(() => {
-  const swiper = swiperRef.current;
-  if (!swiper) return;
 
-  swiper.changeDirection(i18n.language === "ar" ? "rtl" : "ltr");
-  swiper.loopDestroy();
-  swiper.loopCreate();
-  swiper.update();
-  swiper.slideTo(0, 0);
-  swiper.autoplay.start();
-}, [i18n.language]);
+  useEffect(() => {
+    const swiper = swiperRef.current;
+    if (!swiper) return;
+
+    swiper.changeDirection(i18n.language === "ar" ? "rtl" : "ltr");
+    swiper.loopDestroy();
+    swiper.loopCreate();
+    swiper.update();
+    swiper.slideTo(0, 0);
+    swiper.autoplay.start();
+  }, [i18n.language]);
 
   return (
     <>
@@ -86,8 +86,8 @@ useEffect(() => {
 
         <div
           className={`absolute  ${
-            isArabic ? "top-3 md:top-2 xl:top-10" : "top-10  xl:gap-4"
-          } z-10 max-w-[95%] md:max-w-xl px-4 md:px-9 flex flex-col gap-1 md:gap-4 border md:py-5 rounded-3xl  border-[#5FCF80] bg-[#7AAB87]/20 backdrop-blur-xs `}
+            isArabic ? "top-3 md:top-5 xl:top-16 mr-2 md:mr-8" : "top-10  xl:gap-8 ml-2  md:ml-8"
+          }  z-10 max-w-[95%] md:max-w-xl px-4 md:px-9 flex flex-col gap-1 md:gap-4 border py-5 rounded-3xl  border-[#5FCF80] bg-[#7AAB87]/20 backdrop-blur- `}
         >
           <div
             className={`${
@@ -126,9 +126,7 @@ useEffect(() => {
               {t("home.descriptionHero")}
             </p>
           </div>
-        </div>
 
-        <div className=" absolute bottom-8 lg:bottom-15 left-0 right-0 z-10 w-full  flex items-center justify-between px-9">
           {/* buttons */}
 
           <div className="flex items-center gap-4">
@@ -146,42 +144,44 @@ useEffect(() => {
               {isArabic ? <IoIosArrowRoundBack /> : <IoIosArrowRoundForward />}
             </Link>
           </div>
+        </div>
 
-          {/* customers  */}
-          <div
-            className={`hidden  ${
-              isArabic ? " " : ""
-            }  md:flex gap-10 items-center justify-center z-10 rounded-2xl px-3 py-2 xl:px-5 xl:py-2.5 border border-white bg-white/10 backdrop-blur-xs text-base xl:text-xl text-[#F0EDE6]`}
-          >
-            <div className="flex flex-col items-center justify-center">
-              <p className="font-bold text-md xl:text-3xl xl:mb-1">+1500</p>
-              <p className="font-normal text-sm xl:text-xl">
-                {t("home.SatisfiedCustomer")}
-              </p>
-            </div>
-            <div className="flex flex-col items-center justify-center">
-              <p className="font-bold text-md xl:text-3xl xl:mb-1">+25</p>
-              <p className="font-normal text-sm xl:text-xl">
-                {t("home.ProfessionalExperience")}
-              </p>
-            </div>
-            <div className="flex flex-col items-center justify-center">
-              <p className="font-bold text-md xl:text-3xl lg:mb-1">
-                2000
-                <span className="text-[#5FCF80] font-bold text-lg xl:text-3xl">
-                  +
-                </span>
-              </p>
-              <p className="font-normal text-sm xl:text-xl">
-                {t("home.ExecutedProjects")}
-              </p>
-            </div>
+        {/* customers  */}
+        <div
+          className={`hidden   ${
+            isArabic
+              ? " absolute  lg:bottom-10 xl:bottom-15 left-6"
+              : "absolute  lg:bottom-10 xl:bottom-18 right-6"
+          }   lg:flex gap-10 items-center justify-center z-10 rounded-2xl px-3 py-2 xl:px-5 xl:py-2.5 border border-white bg-white/10 backdrop-blur-xs text-base xl:text-xl text-[#F0EDE6]`}
+        >
+          <div className="flex flex-col items-center justify-center">
+            <p className="font-bold text-md xl:text-3xl xl:mb-1">+1500</p>
+            <p className="font-normal text-sm xl:text-xl">
+              {t("home.SatisfiedCustomer")}
+            </p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <p className="font-bold text-md xl:text-3xl xl:mb-1">+25</p>
+            <p className="font-normal text-sm xl:text-xl">
+              {t("home.ProfessionalExperience")}
+            </p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <p className="font-bold text-md xl:text-3xl lg:mb-1">
+              2000
+              <span className="text-[#5FCF80] font-bold text-lg xl:text-3xl">
+                +
+              </span>
+            </p>
+            <p className="font-normal text-sm xl:text-xl">
+              {t("home.ExecutedProjects")}
+            </p>
           </div>
         </div>
       </div>
     </>
   );
-    
+
 }
 
 
