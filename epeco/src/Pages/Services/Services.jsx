@@ -52,8 +52,13 @@ const { t } = useTranslation();
             />
           </div>
 
-          <div className="flex-1">
-            <ArticleDescription list={list} activeSlug={activeSlug} />
+          <div className="flex-1 ">
+            <ArticleDescription
+              list={list}
+              activeSlug={activeSlug}
+              imageClassName="object-fill"
+              overlayClassName=" bg-linear-to-b  from-[#2d7a453c] to-[#7aab8745]"
+            />
           </div>
         </section>
       </>

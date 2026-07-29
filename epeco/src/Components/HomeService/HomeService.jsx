@@ -1,15 +1,16 @@
-import { useTranslation } from "react-i18next";
 import TitleSec from "../../Common/TitleSec/TitleSEC.jsx";
-import i18next from "i18next";
 
 import { MdArrowOutward } from "react-icons/md";
 import { Link } from "react-router";
+import useUrl from "../../Hooks/useUrl.js";
+import useJson from "../../Hooks/useJson.js";
 
 export default function HomeService() {
-  const { t } = useTranslation();
+
+  const { isArabic ,t} =useJson();
+  const { baseUrl } = useUrl();
   const galleries = t("services.galleries", { returnObjects: true });
-  const isArabic = i18next.language === "ar";
-  const baseUrl = "https://yasminMahmoud16.github.io/Epeco/";
+
 
   return (
     <>

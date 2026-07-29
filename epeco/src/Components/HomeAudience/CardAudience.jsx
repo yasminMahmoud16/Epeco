@@ -1,9 +1,9 @@
-import i18next from "i18next";
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
 import { Link } from "react-router";
+import useJson from "../../Hooks/useJson.js";
 
 export default function CardAudience({ title, description, linkText = "", href }) {
-  const isArabic = i18next.language === "ar";
+  const { isArabic } =useJson();
 
     return (
       <>

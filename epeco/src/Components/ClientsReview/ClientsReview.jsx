@@ -1,11 +1,10 @@
-import { useTranslation } from "react-i18next";
 import TitleSec from "../../Common/TitleSec/TitleSEC.jsx";
 import { FaStar } from "react-icons/fa6";
-import i18next from "i18next";
+import useJson from "../../Hooks/useJson.js";
 
 export default function ClientsReview() {
-  const { t } = useTranslation();
-        const isArabic = i18next.language === "ar";
+  const { isArabic ,t} =useJson();
+
 
       const reviews = t("clients.reviews", {
         returnObjects: true,

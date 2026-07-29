@@ -1,14 +1,13 @@
 import { useForm } from "react-hook-form";
 import { validationContactSchema } from "../../Utils/i18n/validation.js";
-import { useTranslation } from "react-i18next";
 import { zodResolver } from "@hookform/resolvers/zod";
 import clipGroup from "../../assets/Images/Clip path group.png"
 import map from "../../assets/Images/map.png"
-import i18next from "i18next";
+import useJson from "../../Hooks/useJson.js";
 
 export default function ContactForm() {
-    const { t } = useTranslation();
-    const isArabic = i18next.language === "ar";
+  const { isArabic ,t} =useJson();
+
 
 
     const schema = validationContactSchema(t);

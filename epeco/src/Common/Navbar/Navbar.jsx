@@ -1,17 +1,16 @@
-import { useTranslation } from "react-i18next";
 import LangSwitchIcon from "../../Components/LangSwitchIcon/LangSwitchIcon.jsx";
 import logo from "../../assets/Images/EPECO flayer 2 1.png";
 import {  Link, NavLink } from "react-router";
 import {  useRef, useState } from "react";
-import i18next from "i18next";
 import useScroll from "../../Hooks/useScroll.js";
 import useOpen from "../../Hooks/useOpen.js";
+import useJson from "../../Hooks/useJson.js";
 
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-    const isArabic = i18next.language === "ar";
-  const { t } = useTranslation();
+  const { isArabic ,t} =useJson();
+
 
   const showNavbar = useScroll();
   const menuRef = useRef(null);

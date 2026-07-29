@@ -1,15 +1,13 @@
-import { useTranslation } from "react-i18next";
 import ArticleSubNav from "../../Common/ArticleSubNav/ArticleSubNav.jsx";
 import TitleSec from "../../Common/TitleSec/TitleSEC.jsx";
-import i18next from "i18next";
 import ContactForm from "../../Components/ContactForm/ContactForm.jsx";
 import SocialMediaContact from "../../Components/SocialMediaContact/SocialMediaContact.jsx";
+import useJson from "../../Hooks/useJson.js";
 
 
 export default function Contact() {
-    const isArabic = i18next.language === "ar";
+  const { isArabic ,t} =useJson();
 
-    const { t } = useTranslation();
     return (
       <>
         <section className="">

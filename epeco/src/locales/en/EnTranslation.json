@@ -64,7 +64,8 @@
         "id": 2,
         "detailsId": 9,
         "gallery1": "Mobile Laboratory Service",
-        "galleryimage": "Gallery2.jpg",
+        "galleryimage": "Gallery2.png",
+
         "size": "normal"
       },
       {
@@ -79,7 +80,8 @@
         "id": 4,
         "detailsId": 2,
         "gallery1": "Sustainability and ESG Consulting",
-        "galleryimage": "Gallery6.png",
+        "galleryimage": "Gallery6.jpg",
+
         "size": "tall"
       },
       {
@@ -260,7 +262,8 @@
         "id": 3,
         "slug": "الإستشارات المتعلقة بالإستدامة ومعايير الـESG (البيئية والاجتماعية والحوكمة)",
         "label": "Preparation of Periodic Environmental Records",
-        "image": "service3.png",
+                "image": "service3.jpg",
+
         "style": "",
         "paragraphs": [
           [
@@ -344,7 +347,7 @@
         "id": 9,
         "slug": "المختبرات البيئية",
         "label": "Environmental Management Plans (EMP) Development",
-        "image": "service9.jpg",
+        "image": "service9.png",
         "style": "",
         "paragraphs": [
           [
@@ -391,7 +394,7 @@
         "id": 3,
         "slug": "شركات إدارة النفايات",
         "label": "Waste Management & Recycling Companies",
-        "image": "audience3.jpg",
+        "image": "audience3.png",
         "style": "",
         "paragraphs": [
           [
@@ -478,32 +481,7 @@
     "mainTitle": "  Clients",
     "main": "Home",
         "list": [
-      {
-        "id": 1,
-        "slug": "محطات شركة \"التضامنية\" لتوليد الطاقة الكهربائية",
-        "label": "Al-Tadamuniah Power Generation Plant Project",
-        "logo":"Client1.1.png",
-        "images":[
-          "Client1.png"
-        ] ,
-        "intro":"A leading, trusted powerhouse in infrastructure and power generation. We take pride in being the strategic environmental consulting partner, providing integrated management plans that ensure their vital power plants operate with maximum environmental and operational efficiency.",
-        "intro2":"Environmental Compliance Management for Al-Tadamuniah Power Generation Plants, encompassing:",
-        "style":"bulleted",
-        "paragraphs": [
-          [
-            {
-              "text": "Conducting comprehensive technical studies to assess environmental impacts resulting from power generation, while developing innovative solutions to control thermal and gaseous emissions."
-            },
-            {
-              "text": " Managing and facilitating all regulatory and oversight procedures with relevant authorities to ensure the plants secure the necessary environmental permits for legal and sustainable operations."
-            },
-            {
-              "text": " Developing and implementing integrated Environmental Management Plans (EMP) that optimize resource "
-            }
-          ]
-        ]
-      },
-      {
+                {
         "id": 2,
         "slug": "شركة إيربرودكتس عبد الله هاشم للغازات الصناعية",
         "label": "Air Products Abdullah Hashim Industrial Gases Co. (AHG)",
@@ -530,7 +508,7 @@
 
         "ending":"The consulting office's role centers on achieving peak environmental compliance and aligning workflow operations across the company's facilities with applicable regulatory and environmental requirements, ensuring safe and sustainable operations."
       },
-      {
+            {
         "id": 3,
         "slug":" محطات وقود \"الدريس\"",
         "label": "Aldrees Petrol Stations / For Aldrees Gas Stations",
@@ -552,31 +530,6 @@
             },
             {
               "text": "  Delivering seamless and highly efficient environmental consulting and follow-up services to fully cover Aldrees’s extensive network of stations scattered throughout all regions of the Kingdom of Saudi Arabia."
-            }
-          ]
-        ]
-      },
-      {
-        "id": 4,
-        "slug":" شركة مرامر للمقاولات",
-        "label":" Maramer Contracting Company",
-        "logo":"Client4.2.png",
-        "images":[
-          "Client4.1.png"
-                ],
-        "style": "bulleted",
-        "intro":"A premier Saudi joint-stock leader in major construction and infrastructure. We are proud at Naqaa Al-Bee’ah to secure all their required environmental licenses and provide seamless field monitoring and compliance services for their large-scale projects.",
-        "intro2":"Environmental Impact Assessment (EIA) for the Wastewater Lifting ",
-        "paragraphs": [
-          [
-            {
-              "text": " Station ProjectAl-Kharj Governorate – Riyadh Region"
-            },
-            {
-              "text": " Preparing a comprehensive Environmental Impact Assessment study to guarantee the operational safety of the station. "
-            },
-            {
-              "text": " optimize emission and waste management efficiency, and achieve absolute compliance with the approved environmental regulations in the Riyadh Region."
             }
           ]
         ]
@@ -611,6 +564,191 @@
         ]
       },
       {
+        "id": 1,
+        "slug": "الشركة التضامنية للإعمار والتجارة",
+        "label": "Al-Tadamuniah Power Generation Plant Project",
+        "logo":"Client1.1.png",
+        "images":[
+          "Client1.png"
+        ] ,
+        "intro":"A leading, trusted powerhouse in infrastructure and power generation. We take pride in being the strategic environmental consulting partner, providing integrated management plans that ensure their vital power plants operate with maximum environmental and operational efficiency.",
+        "intro2":"Environmental Compliance Management for Al-Tadamuniah Power Generation Plants, encompassing:",
+        "style":"bulleted",
+        "paragraphs": [
+          [
+            {
+              "text": "Conducting comprehensive technical studies to assess environmental impacts resulting from power generation, while developing innovative solutions to control thermal and gaseous emissions."
+            },
+            {
+              "text": " Managing and facilitating all regulatory and oversight procedures with relevant authorities to ensure the plants secure the necessary environmental permits for legal and sustainable operations."
+            },
+            {
+              "text": " Developing and implementing integrated Environmental Management Plans (EMP) that optimize resource "
+            }
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "slug":" شركة مرامر للمقاولات",
+        "label":" Maramer Contracting Company",
+        "logo":"Client4.2.png",
+        "images":[
+          "Client4.1.png"
+                ],
+        "style": "bulleted",
+        "intro":"A premier Saudi joint-stock leader in major construction and infrastructure. We are proud at Naqaa Al-Bee’ah to secure all their required environmental licenses and provide seamless field monitoring and compliance services for their large-scale projects.",
+        "intro2":"Environmental Impact Assessment (EIA) for the Wastewater Lifting ",
+        "paragraphs": [
+          [
+            {
+              "text": " Station ProjectAl-Kharj Governorate – Riyadh Region"
+            },
+            {
+              "text": " Preparing a comprehensive Environmental Impact Assessment study to guarantee the operational safety of the station. "
+            },
+            {
+              "text": " optimize emission and waste management efficiency, and achieve absolute compliance with the approved environmental regulations in the Riyadh Region."
+            }
+          ]
+        ]
+      },
+
+{
+  "id": 40,
+  "slug": "شركة طيف نجد للمقاولات",
+  "label": "Taif Najd Contracting Company",
+  "logo": "clientNew6.png",
+
+  "style": "bulleted",
+  "intro": 
+    "Taif Najd Contracting Company is a Saudi national contractor specializing in construction, infrastructure development, and engineering projects. The company delivers integrated construction solutions while maintaining the highest standards of quality, operational excellence, and project management. Through its commitment to innovation, safety, and sustainable practices, the company actively supports the objectives of Saudi Vision 2030.",
+  "intro2":"As part of its commitment to environmental compliance and sustainable development, the company appointed Environmental Purity for Environmental Consultancy (EPECO) to undertake the environmental studies and consultancy services required for the project. The scope of work included :",
+  "paragraphs": [
+    [
+      {
+        "text":" preparation of an Environmental Impact Assessment (EIA)"
+      },
+      {
+        "text": "emissions monitoring and evaluation, assessment of the project's potential environmental impacts during both the construction and operational phases"
+      },
+      {
+        "text": "Development of effective mitigation measures to minimize environmental impacts and enhance overall environmental performance."
+      }
+    ]
+  ],
+  "ending": [
+
+    "EPECO's services also included the preparation of an Environmental Management Plan (EMP), the development of environmental monitoring and compliance programs, and waste management strategies to promote resource efficiency and responsible environmental practices.",
+    " In addition, EPECO provided technical support in fulfilling regulatory requirements and coordinating with the relevant authorities to obtain the necessary environmental permits and approvals, ensuring that the project is implemented in full compliance with the environmental regulations and sustainability standards of the Kingdom of Saudi Arabia."
+
+  ]
+},
+{
+  "id": 41,
+  "slug": "شركة القدية للإستثمار",
+  "label": "Qiddiya Investment Company (QIC)",
+  "logo": "client1New7.png",
+
+  "style": "bulleted",
+
+
+
+  "intro": 
+    "تQiddiya Investment Company (QIC) is one of Saudi Arabia's leading developers of large-scale destination projects, spearheading the development of Qiddiya City as a world-class destination for entertainment, sports, and culture. Through its visionary developments, the company contributes to economic diversification and supports the objectives of Saudi Vision 2030. QIC is committed to the highest standards of quality, sustainability, and innovation throughout all phases of project development, with a strong focus on enhancing quality of life and preserving natural resources.",
+
+
+  "intro2":" As part of its commitment to environmental compliance, Qiddiya Investment Company appointed Environmental Purity for Environmental Consultancy (EPECO) to provide specialized environmental consultancy services for the project. The scope of work included Dust Monitoring Services:",
+
+
+
+  "paragraphs": [
+    [
+      {
+        "text":"comprising continuous monitoring of ambient particulate matter concentrations (PM₁₀, PM₂.₅, and Total Suspended Particulates (TSP)) within and around the project area."
+      },
+      {
+        "text": "The consultancy also involved analyzing monitoring data in conjunction with meteorological parameters, including wind speed and wind direction, to evaluate dust dispersion patterns and assess the project's environmental impact. Based on the findings, EPECO developed practical dust mitigation measures and prepared regulatory compliance reports in accordance with the requirements of the relevant environmental authorities."
+      }
+
+    ]
+  ],
+  "ending": [
+
+    "In addition, EPECO provided technical support in fulfilling environmental regulatory requirements and coordinating with the competent authorities to obtain the necessary environmental permits and approvals.",
+
+    "The consultancy also included the preparation of a comprehensive Environmental Management Plan (EMP) aimed at optimizing resource utilization, minimizing waste generation, and strengthening environmental, occupational, and community safety practices, ensuring that the project is implemented in full compliance with the environmental regulations and sustainability standards of the Kingdom of Saudi Arabia."
+
+  ]
+},
+{
+  "id": 42,
+  "slug": "شركة سالكو السعودية للمقاولات",
+  "label": "SALCO Saudi Contracting Company",
+  "logo": "clientNew8.png",
+
+  "style": "bulleted",
+
+
+
+  "intro": 
+    "تSALCO Saudi Contracting Company is one of the Kingdom of Saudi Arabia's leading national contractors, with extensive experience in delivering construction and infrastructure projects. The company provides integrated engineering solutions in accordance with the highest standards of quality, efficiency, and operational excellence. ",
+
+
+  "intro2":"Through its commitment to innovation, sustainable construction practices, and effective project management, SALCO actively contributes to the realization of Saudi Vision 2030.",
+
+
+  "intro3":"As part of its commitment to enhancing the environmental performance of its projects, SALCO engaged Environmental Purity for Environmental Consultancy (EPECO) to provide comprehensive environmental consultancy services. The scope of work included:",
+  "paragraphs": [
+    [
+      {
+        "text": "The preparation of an Environmental Impact Assessment (EIA)"
+      },
+      {
+        "text": "Identification and evaluation of potential emission sources"
+      },
+      {
+        "text": " Assessment of environmental risks associated with project activities, and the development of practical mitigation measures to minimize environmental impacts while ensuring full compliance with applicable environmental regulations and standards."
+      }
+    ]
+  ],
+  "ending": [
+
+    "EPECO's consultancy services also included the development of environmental monitoring and compliance programs, the establishment of waste management strategies and resource conservation measures, and the preparation of a comprehensive Environmental Management Plan (EMP). ",
+    "The plan was designed to implement preventive measures, promote continuous environmental improvement, strengthen regulatory compliance, and support the project's environmental sustainability throughout both the construction and operational phases. "
+
+  ]
+},
+{
+  "id": 43,
+  "slug": "شركة الفنار لإنشاءات",
+  "label": "Alfanar Construction",
+  "logo": "clientNew9.png",
+  "style": "bulleted",
+  "intro": 
+    "Alfanar Construction is a leading construction company specializing in the delivery of building, infrastructure, and civil engineering projects across the Kingdom of Saudi Arabia. The company adopts advanced engineering solutions and efficient construction methodologies, with a strong commitment to quality, operational excellence, and the highest standards of health, safety, and sustainability, supporting the Kingdom's ongoing urban development and the objectives of Saudi Vision 2030.",
+  "intro2":"Recognizing the environmental aspects associated with construction activities, alfanar Construction appointed Environmental Purity for Environmental Consultancy (EPECO) to undertake the environmental studies and consultancy services required for the project. The scope of work included: ",
+  "paragraphs": [
+    [
+      {
+        "text": "Conducting a comprehensive environmental baseline assessment of the project site."
+      },
+      {
+        "text": "Evaluating the potential impacts of construction activities on the surrounding environment."
+      },
+      {
+        "text": "Identifying appropriate mitigation and preventive measures to minimize environmental impacts and maintain ecological balance."
+      }
+
+    ]
+  ],
+  "ending": [
+
+    "EPECO's consultancy services also included the development of environmental monitoring programs throughout the construction phase, the preparation of construction waste management procedures, the implementation of dust and noise control measures, and the development of environmental emergency response plans. ",
+    "These services ensured that the project was executed in full compliance with applicable environmental regulations while achieving the highest standards of environmental performance, regulatory compliance, and sustainable project delivery."
+  ]
+},
+      {
         "id": 6,
         "slug":" شركة تبوك للأسماك (مبادرة إجهاد المناخ)",
         "label":" Tabuk Fisheries Company (Climate Stress Initiative)",
@@ -636,7 +774,7 @@
       },
       {
         "id": 7,
-        "slug":" مشروع نيو مربع ",
+        "slug":"مشروع المربع الجديد ",
         "label":" New Murabba Project",
         "logo":"Client7.3.png",
         "images":[
@@ -659,28 +797,129 @@
           ]
         ]
       },
+
       {
         "id": 8,
-        "slug":" مشروع إنشاء مدينة ضرماء الصناعية",
-        "label":" Dhurma Industrial City Project",
-        "logo":"Client8.2.png",
+        "slug":" شركة ضرماء للكهرباء",
+        "label":"Dhurma Electricity Company",
+        "logo":"clientNew10Logo.png",
         "images":[
-          "Client8.1.png"
+          "clientNew10.jpg"
         ],
-        "style": "",
+        "style": "bulleted",
+
+        "intro":"Dhurma Electricity Company is a key player in the Kingdom of Saudi Arabia's energy sector, contributing to the development, operation, and management of power generation, transmission, and distribution projects. The company is committed to adopting advanced technologies that enhance operational efficiency, service reliability, and energy sustainability, while supporting the objectives of Saudi Vision 2030 and the Kingdom's growing demand for reliable energy infrastructure.",
+
+        "intro2":"Recognizing the importance of balancing industrial development with environmental protection, Dhurma Electricity Company appointed Environmental Purity for Environmental Consultancy (EPECO) to provide specialized environmental consultancy services for the project. The scope of work included:",
 
         "paragraphs": [
           [
             {
-              "text": " As a cornerstone of Saudi Arabia's industrial growth, Dhurma Industrial Zone is a premier investment destination. At Naqaa Al-Bee’ah, we take pride in serving as the certified environmental consultant for key factories and vital facilities across the city—handling comprehensive EIA studies, securing environmental licensing, and guaranteeing peak operational compliance with all oversight regulations."
-            }],
-          [
+              "text": " Assessing the environmental aspects associated with power generation activities."
+            },
+          
+            
             {
-              "text": " On the ground and at the heart of the action, the Naqaa Al-Bee’ah team is laying the environmental and engineering foundations for one of Saudi Arabia’s key rising industrial cities—driven by peak official and regulatory standards."
+              "text": "Evaluating the impacts of air emissions, thermal emissions, and environmental noise generated by the project."
+            },
+          
+            
+            {
+              "text": "Assessing the effectiveness of environmental control systems and recommending practical measures to reduce the project's environmental footprint and enhance environmental performance."
             }
           ]
+        ],
+
+        "ending":"Through these studies, EPECO provided the technical expertise required to support environmental compliance, promote sustainable operational practices, and ensure that the project meets the applicable environmental regulations and standards of the Kingdom of Saudi Arabia."
+      },
+
+      {
+        "id": 80,
+        "slug":" المدينة الصناعية بضرماء",
+        "label":"Dhurma Industrial City",
+        "logo":"Client8.2.png",
+
+        "style": "bulleted",
+
+        "intro":"Dhurma Industrial City is one of the Kingdom of Saudi Arabia's strategic industrial developments, established to support industrial growth by providing an integrated investment environment that attracts a wide range of industrial activities. Through the development of advanced infrastructure and sustainable operational services, the project contributes to economic diversification and aligns with the objectives of Saudi Vision 2030.",
+        "intro2":"To ensure that the industrial city was developed in accordance with the highest environmental standards and international best practices, Environmental Purity for Environmental Consultancy (EPECO) was appointed to deliver a comprehensive package of environmental studies and technical consultancy services. ",
+
+        "intro3":"The scope of work included:",
+
+        "paragraphs": [
+          [
+            {
+              "text": "Preparation of the Environmental Impact Assessment (EIA)."
+            },
           
+            
+            {
+              "text": "Conducting Biodiversity Studies to evaluate the site's ecosystems and natural resources and to develop appropriate conservation and protection measures."
+            }
+          ,
+            
+            {
+              "text": "Carrying out Hydrological Studies to analyze stormwater drainage characteristics, assess flood risks, and recommend effective engineering solutions for surface water management."
+            },
+          
+            
+            {
+              "text": "Preparing Traffic Impact Studies (TIS) to evaluate the efficiency of the road network and assess the anticipated traffic generated by the operation of the industrial city."
+            }
+          ,
+            
+            {
+              "text": " Developing a comprehensive Environmental Management Plan (EMP)."
+            }
+          ,
+            
+            {
+              "text": "Establishing environmental monitoring programs and industrial waste management strategies."
+            }
+          ]
+        ],
+
+        "ending":" These consultancy services ensured compliance with all applicable environmental regulations and statutory requirements while supporting the long-term environmental sustainability of the industrial city throughout its development and operational phases."
+      },
+
+            {
+        "id": 81,
+        "slug":" شركة السويدي الكتريك لنقل وتوزيع الطاقه",
+        "label":"Elsewedy Electric for Power Transmission & Distribution",
+        "logo":"clientNew11Logo.jpg",
+
+        "style": "bulleted",
+
+        "intro":"Elsewedy Electric for Power Transmission & Distribution is a leading engineering and EPC company specializing in power transmission and distribution projects. ",
+        "intro2":"The company delivers integrated solutions covering the design and construction of substations, transmission lines, and distribution networks, utilizing advanced engineering technologies that enhance the efficiency, reliability, and resilience of power systems while supporting sustainable infrastructure development across the Kingdom of Saudi Arabia.",
+        "intro3":"To ensure full compliance with environmental and regulatory requirements, Elsewedy Electric appointed Environmental Purity for Environmental Consultancy (EPECO) to provide comprehensive environmental consultancy services for the project. The scope of work included:",
+
+        "paragraphs": [
+        [
+
+          {
+            "text": "Assessing the environmental sensitivity of the project sites."
+          },
+        
+          
+          {
+            "text": "Evaluating the potential environmental impacts associated with both construction and operational activities."
+          },
+        
+          
+          {
+            "text": "Assessing the effects of electromagnetic fields (EMF), environmental noise, and ambient air quality."
+          }
+        ,
+          
+          {
+            "text": "Developing practical mitigation measures and environmental management strategies to minimize environmental impacts and protect the surrounding environment."
+          }
         ]
+          
+        ],
+
+        "ending":"In addition, EPECO developed environmental monitoring programs for both the construction and operational phases, established procedures for the management of construction materials and waste, prepared environmental emergency response plans, and developed a comprehensive Environmental Management Plan (EMP). These services were designed to ensure continuous environmental performance improvement, maintain compliance with applicable environmental regulations and standards, and support the long-term sustainability of the project."
       }
     ]
   },
@@ -741,7 +980,10 @@
     "easternRegion": {
       "title": "Eastern Province",
       "address": "Dammam, Saudi Arabia",
-      "phone": "+96653 613 8233",
+        "phones":[
+        "+96653 613 8233",
+        "+96656 092 5194"
+      ],
       "email": "info@epco.sa"
     },
     "workingHours": {

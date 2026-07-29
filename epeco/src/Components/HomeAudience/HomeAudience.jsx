@@ -1,13 +1,12 @@
-import { useTranslation } from "react-i18next";
 import TitleSec from "../../Common/TitleSec/TitleSEC.jsx";
-import i18next from "i18next";
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
 import CardAudience from "./CardAudience.jsx";
 import { Link } from "react-router";
+import useJson from "../../Hooks/useJson.js";
 
 export default function HomeAudience() {
-  const { t } = useTranslation();
-  const isArabic = i18next.language === "ar";
+  const { isArabic ,t} =useJson();
+
     const items = t("audience.items", { returnObjects: true });
 
   return (

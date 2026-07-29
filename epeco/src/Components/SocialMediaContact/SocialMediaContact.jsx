@@ -9,11 +9,9 @@ import KSA from "../../assets/Images/السعوديه.png"
 import { HiOutlineMail } from "react-icons/hi";
 import { FiPhone } from "react-icons/fi";
 import { HiOutlineLocationMarker } from "react-icons/hi";
-import { useTranslation } from "react-i18next";
-import i18next from "i18next";
+import useJson from "../../Hooks/useJson.js";
 
 export default function SocialMediaContact() {
-    const { t } = useTranslation();
     const emails = t(
         "contactInfo.email.emails",
         {
@@ -26,8 +24,11 @@ export default function SocialMediaContact() {
     const headsNums = t("contactInfo.headOffice.phones", {
         returnObjects: true,
     });
+    const easternRegionPhones = t("contactInfo.easternRegion.phones", {
+      returnObjects: true,
+    });
 
-    const isArabic = i18next.language === "ar";
+  const { isArabic ,t} =useJson();
 
     return (
       <>
@@ -55,7 +56,7 @@ export default function SocialMediaContact() {
                     key={index}
                     className="flex items-center justify-start gap-2"
                   >
-                    <FiPhone className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
+                    <FiPhone className="h-4 w-4 md:h-5 md:w-5 text-[#1A5C2C] shrink-0" />
 
                     <span
                       className="text-xs md:text-sm text-[#1A5C2C] font-semibold"
@@ -81,7 +82,7 @@ export default function SocialMediaContact() {
                     dir="ltr"
                     className="flex items-center justify-start gap-2"
                   >
-                    <HiOutlineMail className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
+                    <HiOutlineMail className="h-4 w-4 md:h-5 md:w-5 text-[#1A5C2C] shrink-0" />
                     <span className="text-xs md:text-sm text-[#1A5C2C] font-semibold truncate text-left">
                       {email}
                     </span>
@@ -105,7 +106,7 @@ export default function SocialMediaContact() {
                   dir="ltr"
                   className="flex items-center justify-start gap-1 text-xs md:text-sm text-gray-500"
                 >
-                  <HiOutlineLocationMarker className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
+                  <HiOutlineLocationMarker className="h-4 w-4 md:h-5 md:w-5 text-[#1A5C2C] shrink-0" />
                   <p className="font-semibold text-[#1A5C2C]">
                     {t("contactInfo.headOffice.address")}
                   </p>
@@ -116,7 +117,7 @@ export default function SocialMediaContact() {
                       dir="ltr"
                       className="flex items-start  justify-start gap-2"
                     >
-                      <FiPhone className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
+                      <FiPhone className="h-4 w-4 md:h-5 md:w-5 text-[#1A5C2C] shrink-0" />
                       <p
                         className="text-xs md:text-sm text-[#1A5C2C] font-semibold"
                         dir="ltr"
@@ -141,29 +142,36 @@ export default function SocialMediaContact() {
                   dir="ltr"
                   className="flex items-center justify-start gap-1 text-xs md:text-sm text-gray-500 "
                 >
-                  <HiOutlineLocationMarker className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
+                  <HiOutlineLocationMarker className="h-4 w-4 md:h-5 md:w-5 text-[#1A5C2C] shrink-0" />
                   <p className="font-semibold text-[#1A5C2C]">
                     {t("contactInfo.easternRegion.address")}
                   </p>
                 </div>
                 <div className="space-y-2 md:space-y-3">
-                  <div
-                    dir="ltr"
-                    className="flex items-center justify-start gap-2"
-                  >
-                    <FiPhone className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
-                    <p
-                      className="text-xs md:text-sm text-[#1A5C2C] font-semibold"
-                      dir="ltr"
-                    >
-                      {t("contactInfo.easternRegion.phone")}
-                    </p>
+                  <div dir="ltr" className="flex   flex-col  gap-2">
+                    {/* ================================================== */}
+
+                    {easternRegionPhones.map((phone, index) => (
+                      <>
+                        <div className="flex items-center gap-2">
+                          <FiPhone className="h-4 w-4 md:h-5 md:w-5 text-[#1A5C2C] shrink-0" />
+
+                          <p
+                            key={index}
+                            className="text-xs md:text-sm text-[#1A5C2C] font-semibold"
+                            dir="ltr"
+                          >
+                            {phone}
+                          </p>
+                        </div>
+                      </>
+                    ))}
                   </div>
                   <div
                     dir="ltr"
                     className="flex items-center justify-start gap-2"
                   >
-                    <HiOutlineMail className="h-4 w-4 md:h-5 md:w-5 text-[#2D7A45] shrink-0" />
+                    <HiOutlineMail className="h-4 w-4 md:h-5 md:w-5 text-[#1A5C2C] shrink-0" />
                     <span className="text-xs md:text-sm text-[#1A5C2C] font-semibold">
                       {t("contactInfo.easternRegion.email")}
                     </span>

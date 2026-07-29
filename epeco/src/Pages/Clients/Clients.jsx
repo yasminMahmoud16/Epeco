@@ -1,17 +1,16 @@
-import i18next from "i18next";
 import ArticleSubNav from "../../Common/ArticleSubNav/ArticleSubNav.jsx";
 import TitleSec from "../../Common/TitleSec/TitleSEC.jsx";
-import { useTranslation } from "react-i18next";
 import ClientsImg from "../../Components/ClientsImg/ClientsImg.jsx";
 import ClientsReview from "../../Components/ClientsReview/ClientsReview.jsx";
 import { Link } from "react-router";
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
+import useJson from "../../Hooks/useJson.js";
 
 
 export default function Clients() {
 
-    const isArabic = i18next.language === "ar";
-    const { t } = useTranslation();
+  const { isArabic ,t} =useJson();
+
 
 
     return (

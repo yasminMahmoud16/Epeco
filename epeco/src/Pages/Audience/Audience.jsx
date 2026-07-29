@@ -52,8 +52,12 @@ export default function Audience() {
             />
           </div>
 
-          <div className="flex-1">
-            <ArticleDescription list={list} activeSlug={activeSlug} />
+          <div className="flex-1 ">
+            <ArticleDescription
+              list={list}
+              activeSlug={activeSlug}
+              overlayClassName="bg-linear-to-b from-[#2d7a457e] to-[#7aab8780]"
+            />
           </div>
         </section>
       </>

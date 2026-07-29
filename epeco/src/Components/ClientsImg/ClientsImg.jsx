@@ -88,10 +88,10 @@ export default function ClientsImg() {
     ];
     return (
       <>
-        <div className="w-6xl flex flex-wrap items-center justify-center gap-12">
+        <div className=" flex flex-wrap items-center justify-center gap-12">
           {images.map((img, index) => (
             <Link to={t("navbarPath.clientsDetails")}>
-              <img key={index} src={img.src} alt={img.alt} loading="lazy" />
+              <img key={index} src={img.src} alt={img.alt} loading="lazy" className="w-50 h-24 object-contain" />
             </Link>
           ))}
         </div>

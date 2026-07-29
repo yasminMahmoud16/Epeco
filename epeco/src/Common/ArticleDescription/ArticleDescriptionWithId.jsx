@@ -1,12 +1,21 @@
-export default function ArticleDescriptionWithId({ list, activeId }) {
+import useJson from "../../Hooks/useJson.js";
+import useUrl from "../../Hooks/useUrl.js";
+
+export default function ArticleDescriptionWithId({
+  list,
+  activeId,
+  imageClassName = "",
+  overlayClassName = "",
+}) {
   const activeItem = Array.isArray(list)
     ? list.find((item) => item.id === activeId)
     : null;
-  const baseUrl = "https://yasminMahmoud16.github.io/Epeco/";
 
+    const { baseUrl } = useUrl();
   
-  
-  
+
+  const { isArabic } =useJson();
+
   return (
     <>
       <div className="">
@@ -19,32 +28,69 @@ export default function ArticleDescriptionWithId({ list, activeId }) {
                 </h2>
                 {activeItem.style === "bulleted" ? (
                   <>
-                    <p className="text-body leading-[1.65] text-sm md:text-xl text-[#366b43] font-normal text-justify">
+                    <p className="text-body leading-[1.65] text-sm md:text-xl text-[#1A2E1D] font-normal text-justify">
                       {activeItem.intro}
                     </p>
-                    <ul className="list-disc list-inside space-y-3 text-body text-sm md:text-xl text-[#366b43] text-justify">
+                    <p className="text-body leading-[1.65] text-sm md:text-xl text-[#1A2E1D] font-normal text-justify">
+                      {activeItem.intro2}
+                    </p>
+                    <p className="text-body leading-[1.65] text-sm md:text-xl text-[#1A2E1D] font-normal text-justify">
+                      {activeItem.intro3}
+                    </p>
+
+                    <ul
+                      className=" list-inside space-y-3 text-body text-sm md:text-xl text-[#1A2E1D] text-justify "
+                      style={{
+                        listStyleType: "square",
+                      }}
+                    >
                       {activeItem.paragraphs[0].map((segment, index) => (
-                        <li key={index}>
-                          {segment.type === "highlight" ? (
-                            <strong className="font-bold text-[#EFA027]">
-                              {segment.text}
-                            </strong>
-                          ) : (
-                            segment.text
-                          )}
-                        </li>
+                        <>
+                          <li
+                            key={index}
+                            className={`text-justify ${isArabic ? "pr-4" : "pl-4"}`}
+                          >
+                            {segment.type === "highlight" ? (
+                              <strong className="font-bold text-[#EFA027]  ">
+                                {segment.text}
+                              </strong>
+                            ) : (
+                              segment.text
+                            )}
+                          </li>
+                        </>
                       ))}
                     </ul>
 
-                    <p className="text-body leading-[1.65] text-sm md:text-xl text-[#366b43] font-normal text-justify">
-                      {activeItem.ending}
-                    </p>
+                    {Array.isArray(activeItem.ending) ? (
+                      activeItem.ending.map((item, index) =>
+                        typeof item === "string" ? (
+                          <p
+                            key={index}
+                            className="text-body leading-[1.65] text-sm md:text-xl text-[#1A2E1D] font-normal text-justify"
+                          >
+                            {item}
+                          </p>
+                        ) : (
+                          <ul
+                            key={index}
+                            className="list-disc list-inside text-body text-sm md:text-xl text-[#1A2E1D]"
+                          >
+                            <li>{item.text}</li>
+                          </ul>
+                        ),
+                      )
+                    ) : (
+                      <p className="text-body leading-[1.65] text-sm md:text-xl text-[#1A2E1D] font-normal text-justify">
+                        {activeItem.ending}
+                      </p>
+                    )}
                   </>
                 ) : (
                   activeItem.paragraphs.map((paragraph, id) => (
                     <p
                       key={id}
-                      className="text-body leading-[1.65] text-sm md:text-xl text-[#366b43] font-normal text-justify"
+                      className="text-body leading-[1.65] text-sm md:text-xl text-[#1A2E1D] font-normal text-justify"
                     >
                       {paragraph.map((segment, sid) =>
                         segment.type === "highlight" ? (
@@ -63,13 +109,18 @@ export default function ArticleDescriptionWithId({ list, activeId }) {
                 )}
               </div>
               {activeItem.image && (
-                <div className="sm:w-56 w-full shrink-0 aspect-[3/5] overflow-hidden rounded-3xl shadow">
+                <div className=" relative  w-65 h-100 overflow-hidden rounded-3xl shadow">
                   <img
-                    className="h-full w-full object-fill"
+                    className={`h-full w-full object-cover  ${imageClassName}`}
                     src={`${baseUrl}${activeItem.image}`}
                     alt={activeItem.label}
                     loading="lazy"
                   />
+
+                  {/* Overlay */}
+                  <div
+                    className={`absolute inset-0  ${overlayClassName}`}
+                  ></div>
                 </div>
               )}
             </div>

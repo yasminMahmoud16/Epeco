@@ -1,9 +1,9 @@
 
-import i18next from "i18next";
 import certification1 from "../../assets/Images/certification1.png"
 import certification2 from "../../assets/Images/certification2.png"
+import useJson from "../../Hooks/useJson.js";
 export default function CertificationsImg() {
-      const isArabic = i18next.language === "ar";
+  const { isArabic } =useJson();
 
     return (
       <>

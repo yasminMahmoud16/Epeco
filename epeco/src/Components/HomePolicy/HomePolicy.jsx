@@ -1,7 +1,5 @@
-import { useTranslation } from "react-i18next";
 import TitleSec from "../../Common/TitleSec/TitleSEC.jsx";
 import { Link } from "react-router";
-import i18next from "i18next";
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
 import CardSec from "../../Common/Card/CardSec.jsx";
 
@@ -9,10 +7,10 @@ import CardSec from "../../Common/Card/CardSec.jsx";
 import card1 from "../../assets/Images/card1.png"
 import card2 from "../../assets/Images/card2.jpg"
 import card3 from "../../assets/Images/card3.jpg"
+import useJson from "../../Hooks/useJson.js";
 export default function HomePolicy() {
-    const isArabic = i18next.language === "ar";
+  const { isArabic ,t} =useJson();
 
-    const { t } = useTranslation()
     return (
       <>
         <TitleSec

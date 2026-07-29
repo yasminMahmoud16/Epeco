@@ -1,12 +1,12 @@
-import i18next from "i18next";
 import { CgFormatSlash } from "react-icons/cg";
 import { TbBackslash } from "react-icons/tb";
 import TitleSec from "../TitleSec/TitleSEC.jsx";
 import { Link } from "react-router";
+import useJson from "../../Hooks/useJson.js";
 
 export default function ArticleSubNav({ slug=""
   , mainTitle, main }) {
-  const isArabic = i18next.language === "ar";
+  const { isArabic } =useJson();
 
   return (
     <>
