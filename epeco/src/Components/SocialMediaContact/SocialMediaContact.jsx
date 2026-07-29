@@ -12,6 +12,8 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 import useJson from "../../Hooks/useJson.js";
 
 export default function SocialMediaContact() {
+    const { isArabic, t } = useJson();
+
     const emails = t(
         "contactInfo.email.emails",
         {
@@ -28,7 +30,6 @@ export default function SocialMediaContact() {
       returnObjects: true,
     });
 
-  const { isArabic ,t} =useJson();
 
     return (
       <>

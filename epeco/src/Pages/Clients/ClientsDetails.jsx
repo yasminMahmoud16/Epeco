@@ -1,7 +1,6 @@
 import { AiOutlineMail } from "react-icons/ai";
 import ArticleSubNav from "../../Common/ArticleSubNav/ArticleSubNav.jsx";
 import { FiPrinter } from "react-icons/fi";
-import { MdArrowOutward } from "react-icons/md";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import ArticleDescription from "../../Common/ArticleDescription/ArticleDescription.jsx";
@@ -35,7 +34,6 @@ export default function ClientsDetails() {
               className="text-[#1A5C2C] hover:cursor-pointer transition-all duration-300 ease-in-out hover:text-[#31974d]"
               onClick={() => window.print()}
             />
-            <MdArrowOutward className="text-[#1A5C2C]" />
           </div>
         </div>
 

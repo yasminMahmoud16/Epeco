@@ -24,7 +24,7 @@ export default function ArticleList({ mainTitle, list, activeSlug, onSelect ,act
                       ? "text-title"
                       : ""
                   }
-            ${index !== list.length - 1 ? "border-b-[0.5px] border-[#DBE1DD]" : ""}`}
+            ${index !== list.length - 1 ? "border-b-[0.5px] border-[#DBE1DD] " : ""}`}
                 >
                   {item.label}
                 </button>
