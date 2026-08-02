@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "Cairo";
-    src: url("./assets/Fonts/Cairo-Regular.ttf") format("truetype");
+    src: url("./assets/Fonts/cairo-arabic-400-normal.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: "Cairo";
-    src: url("./assets/Fonts/Cairo-Medium.ttf") format("truetype");
+    src: url("./assets/Fonts/cairo-arabic-500-medium.woff2") format("woff2");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -21,7 +21,7 @@
 
 @font-face {
     font-family: "Cairo";
-    src: url("./assets/Fonts/Cairo-SemiBold.ttf") format("truetype");
+    src: url("./assets/Fonts/cairo-arabic-600-semibold.woff2") format("woff2");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -29,8 +29,22 @@
 
 @font-face {
     font-family: "Cairo";
-    src: url("./assets/Fonts/Cairo-Bold.ttf") format("truetype");
+    src: url("./assets/Fonts/cairo-arabic-700-bold.woff2") format("woff2");
     font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Cairo";
+    src: url("./assets/Fonts/cairo-arabic-800-normal.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Cairo";
+    src: url("./assets/Fonts/cairo-arabic-900-normal.woff2") format("woff2");
+    font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
