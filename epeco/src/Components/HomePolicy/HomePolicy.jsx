@@ -4,9 +4,9 @@ import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
 import CardSec from "../../Common/Card/CardSec.jsx";
 
 
-import card1 from "../../assets/Images/card1.png"
-import card2 from "../../assets/Images/card2.jpg"
-import card3 from "../../assets/Images/card3.jpg"
+import card1 from "../../assets/Images/card1.webp"
+import card2 from "../../assets/Images/card2.webp"
+import card3 from "../../assets/Images/card3.webp"
 import useJson from "../../Hooks/useJson.js";
 export default function HomePolicy() {
   const { isArabic ,t} =useJson();

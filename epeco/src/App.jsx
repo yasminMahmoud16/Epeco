@@ -1,19 +1,23 @@
+import { lazy, Suspense } from "react";
+import { createHashRouter, RouterProvider } from "react-router";
+import "./App.css";
+import RouterLayout from "./Layout/RouterLayout.jsx";
+import Loading from "./Components/Loading/Loading.jsx";
 
-import { createHashRouter, RouterProvider } from 'react-router';
-import './App.css'
-import RouterLayout from './Layout/RouterLayout.jsx';
-
-
-// pages 
-import Home from './Pages/Home/Home.jsx';
-import About from './Pages/About/About.jsx';
-import Services from './Pages/Services/Services.jsx';
-import Audience from './Pages/Audience/Audience.jsx';
-import ServicesWithId from './Pages/Services/ServicesWithId.jsx';
-import Contact from './Pages/Contact/Contact.jsx';
-import Clients from './Pages/Clients/Clients.jsx';
-import Certification from './Pages/Certification/Certification.jsx';
-import ClientsDetails from './Pages/Clients/ClientsDetails.jsx';
+// Lazy Pages
+const Home = lazy(() => import("./Pages/Home/Home.jsx"));
+const About = lazy(() => import("./Pages/About/About.jsx"));
+const Services = lazy(() => import("./Pages/Services/Services.jsx"));
+const ServicesWithId = lazy(
+  () => import("./Pages/Services/ServicesWithId.jsx"),
+);
+const Audience = lazy(() => import("./Pages/Audience/Audience.jsx"));
+const Contact = lazy(() => import("./Pages/Contact/Contact.jsx"));
+const Clients = lazy(() => import("./Pages/Clients/Clients.jsx"));
+const ClientsDetails = lazy(() => import("./Pages/Clients/ClientsDetails.jsx"));
+const Certification = lazy(
+  () => import("./Pages/Certification/Certification.jsx"),
+);
 
 const router = createHashRouter([
   {
@@ -24,31 +28,21 @@ const router = createHashRouter([
       { path: "about", element: <About /> },
       { path: "services", element: <Services /> },
       { path: "services/:id", element: <ServicesWithId /> },
-      // { path: "مجالات-العمل", element: <Services /> },
       { path: "audience", element: <Audience /> },
-      // { path: "الجمهور-المستهدف", element: <Audience /> },
       { path: "contact", element: <Contact /> },
-      // { path: "تواصل-معنا", element: <Contact /> },
       { path: "clients", element: <Clients /> },
-      // { path: "عملاؤنا", element: <Clients /> },
       { path: "clients/clients-Details", element: <ClientsDetails /> },
-      // { path: "عملاؤنا/تفاصيل-العملاء", element: <ClientsDetails /> },
       { path: "certifications", element: <Certification /> },
-      // { path: "إعتماداتنا", element: <Certification /> },
     ],
   },
 ]);
 
 function App() {
-
-  return <>
-    <RouterProvider router={router} />
-  </>
-    
-  
-
-    
-  
+  return (
+    <Suspense fallback={<Loading />}>
+      <RouterProvider router={router} />
+    </Suspense>
+  );
 }
 
-export default App
+export default App;

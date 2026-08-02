@@ -5,7 +5,7 @@ import {
     FaTiktok,
     FaFacebookF,
 } from "react-icons/fa6";
-import KSA from "../../assets/Images/السعوديه.png"
+import KSA from "../../assets/Images/السعوديه.webp";
 import { HiOutlineMail } from "react-icons/hi";
 import { FiPhone } from "react-icons/fi";
 import { HiOutlineLocationMarker } from "react-icons/hi";

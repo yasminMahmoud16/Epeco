@@ -57,15 +57,14 @@
         "id": 1,
         "detailsId": 1,
         "gallery1": "Development of Environmental Rehabilitation Plans",
-        "galleryimage": "Gallery1.png",
+        "galleryimage": "Gallery1.webp",
         "size": "tall"
       },
       {
         "id": 2,
         "detailsId": 9,
         "gallery1": "Mobile Laboratory Service",
-        "galleryimage": "Gallery2.png",
-
+        "galleryimage": "Gallery2.webp",
         "size": "normal"
       },
       {
@@ -73,14 +72,14 @@
         "detailsId": 3,
         "gallery1": "Preparation of Periodic Environmental Records",
         "galleryDesc1": "Conducting Environmental Impact Assessments (EIA)",
-        "galleryimage": "Gallery3.png",
+        "galleryimage": "Gallery3.webp",
         "size": "normal"
       },
       {
         "id": 4,
         "detailsId": 2,
         "gallery1": "Sustainability and ESG Consulting",
-        "galleryimage": "Gallery6.jpg",
+        "galleryimage": "Gallery6.webp",
 
         "size": "tall"
       },
@@ -88,7 +87,7 @@
         "id": 5,
         "detailsId": 4,
         "gallery1": "Environmental Licensing & NCEC Regulatory Compliance",
-        "galleryimage": "Gallery5.jpg",
+        "galleryimage": "Gallery5.webp",
         "size": "normal"
       },
       {
@@ -96,7 +95,7 @@
         "detailsId": 8,
         "gallery1": "Environmental Quality Monitoring",
         "galleryDesc1": "Air, Water, and Soil Testing",
-        "galleryimage": "Gallery4.jpg",
+        "galleryimage": "Gallery4.webp",
         "size": "normal"
       }
     ]
@@ -157,7 +156,7 @@
         "id": 1,
         "slug": "مــــن نــحــــن ",
         "label": "Who We Are",
-        "image": "who_we_are.jpg",
+        "image": "who_we_are.webp",
        "paragraphs": [
   [
     {
@@ -187,7 +186,7 @@
         "id": 2,
         "slug": "سياســــتــــنا",
         "label": "Our Policy",
-        "image": "policy.jpg",
+        "image": "policy.webp",
         "style": "bulleted",
         "intro":"We believe that true success lies in creating a lasting, sustainable impact. Therefore, our operational policy is anchored on three non-negotiable pillars:",
         "paragraphs": [
@@ -215,7 +214,7 @@
         "id": 3,
         "slug": "رؤيــــتــــنــــا",
         "label": "Our Mission",
-        "image": "vision.png",
+        "image": "vision.webp",
         "style": "",
         "paragraphs": [
           [
@@ -235,7 +234,7 @@
         "id": 1,
         "slug": "إعداد خطط إعادة التأهيل",
         "label": "Development of Environmental Rehabilitation Plans",
-        "image": "service1.png",
+        "image": "service1.webp",
         "paragraphs": [
           [
             {
@@ -248,7 +247,7 @@
         "id": 2,
         "slug": "إعداد سجلات بيئية دورية",
         "label": "Mobile Laboratory Service",
-        "image": "service2.jpg",
+        "image": "service2.webp",
         "style": "",
         "paragraphs": [
           [
@@ -262,7 +261,7 @@
         "id": 3,
         "slug": "الإستشارات المتعلقة بالإستدامة ومعايير الـESG (البيئية والاجتماعية والحوكمة)",
         "label": "Preparation of Periodic Environmental Records",
-                "image": "service3.jpg",
+                "image": "service3.webp",
 
         "style": "",
         "paragraphs": [
@@ -277,7 +276,7 @@
         "id": 4,
         "slug": "التصاريح والإلتزام بمتطلبات المركز  الوطني للرقابة على الإلتزام البيئي (NCEC)",
         "label": "Sustainability and ESG Consulting",
-        "image": "service4.jpg",
+        "image": "service4.webp",
         "style": "",
         "paragraphs": [
           [
@@ -291,7 +290,7 @@
         "id": 5,
         "slug": "إستــــشـــارات بــــيئيـــــة",
         "label": "NCEC Permits & Regulatory Compliance",
-        "image": "service5.jpg",
+        "image": "service5.webp",
         "style": "",
         "paragraphs": [
           [
@@ -305,7 +304,7 @@
         "id": 6,
         "slug": "إعداد خطط إدارة بيئية",
         "label": "Expert Environmental Consulting",
-        "image": "service6.jpg",
+        "image": "service6.webp",
         "style": "",
         "paragraphs": [
           [
@@ -319,7 +318,7 @@
         "id": 7,
         "slug": "إعداد دراسات تقييم الأثر البيئي",
         "label": "Environmental Impact Assessment (EIA)",
-        "image": "service7.png",
+        "image": "service7.webp",
         "style": "",
         "paragraphs": [
           [
@@ -333,7 +332,7 @@
         "id": 8,
         "slug": "رصد جودة الأوساط",
         "label": "Environmental Quality Monitoring",
-        "image": "service8.jpg",
+        "image": "service8.webp",
         "style": "",
         "paragraphs": [
           [
@@ -347,7 +346,7 @@
         "id": 9,
         "slug": "المختبرات البيئية",
         "label": "Environmental Management Plans (EMP) Development",
-        "image": "service9.png",
+        "image": "service9.webp",
         "style": "",
         "paragraphs": [
           [
@@ -367,7 +366,7 @@
         "id": 1,
         "slug": "شركات الإنشاءات / شركات المقاولات ",
         "label": "Construction & Contracting Companies",
-        "image": "audience1.jpg",
+        "image": "audience1.webp",
         "paragraphs": [
           [
             {
@@ -380,7 +379,7 @@
         "id": 2,
         "slug": "شركات الاستشارات الهندسية",
         "label": "Engineering Consulting Companies",
-        "image": "audience2.jpg",
+        "image": "audience2.webp",
         "style": "",
         "paragraphs": [
           [
@@ -394,7 +393,7 @@
         "id": 3,
         "slug": "شركات إدارة النفايات",
         "label": "Waste Management & Recycling Companies",
-        "image": "audience3.png",
+        "image": "audience3.webp",
         "style": "",
         "paragraphs": [
           [
@@ -408,7 +407,7 @@
         "id": 4,
         "slug": "مرافق المياه ومعالجة مياه الصرف الصحي",
         "label": "Water Utilities and Wastewater Treatment",
-        "image": "audience4.jpg",
+        "image": "audience4.webp",
         "style": "",
         "paragraphs": [
           [
@@ -422,7 +421,7 @@
         "id": 5,
         "slug": "المرافق الصناعية",
         "label": "Industrial Facilities Sector",
-        "image": "audience5.jpg",
+        "image": "audience5.webp",
         "style": "",
         "paragraphs": [
           [
@@ -436,7 +435,7 @@
         "id": 6,
         "slug": "محطات الطاقة والكهرباء",
         "label": "Power & Energy Utilities",
-        "image": "audience6..jpg",
+        "image": "audience6..webp",
         "style": "",
         "paragraphs": [
           [
@@ -450,7 +449,7 @@
         "id": 7,
         "slug": "المستشفيات والمنشآت الطبية",
         "label": "Healthcare & Medical Facilities EIA",
-        "image": "audience7.jpg",
+        "image": "audience7.webp",
         "style": "bulleted",
         "paragraphs": [
           [
@@ -485,10 +484,10 @@
         "id": 2,
         "slug": "شركة إيربرودكتس عبد الله هاشم للغازات الصناعية",
         "label": "Air Products Abdullah Hashim Industrial Gases Co. (AHG)",
-        "logo":"Client2.3.png",
+        "logo":"Client2.3.webp",
         "images":[
-          "Client2.1.png",
-          "Client2.2.png"
+          "Client2.1.webp",
+          "Client2.2.webp"
           
         ],
         "style": "bulleted",
@@ -512,10 +511,10 @@
         "id": 3,
         "slug":" محطات وقود \"الدريس\"",
         "label": "Aldrees Petrol Stations / For Aldrees Gas Stations",
-        "logo":"Client3.3.png",
+        "logo":"Client3.3.webp",
         "images":[
-          "Client3.1.png",
-          "Client3.2.png"
+          "Client3.1.webp",
+          "Client3.2.webp"
         ],
         "style": "bulleted",
         "intro":"One of the largest leading, Tadawul-listed companies in the energy, petroleum services, and logistics sectors. We take pride in our partnership, managing the integrated environmental portfolio for their widespread network of fuel stations and vital facilities across the Kingdom of Saudi Arabia, ensuring the highest standards of compliance and sustainability.",
@@ -538,10 +537,10 @@
         "id": 5,
         "slug":" محطات وقود \"ميدان التنمية \"",
         "label":" Maydan Al-Tanmiah Fuel Stations",
-        "logo":"Client5.3.png",
+        "logo":"Client5.3.webp",
         "images":[
-          "Client5.1.png",
-          "Client5.2.png"
+          "Client5.1.webp",
+          "Client5.2.webp"
             ],
         "style": "bulleted",
         "intro":"A benchmark for sustainable aquaculture and a pioneer in climate stress adaptation. Naqaa Al-Bee’ah is proud to partner with this vital entity, harnessing our environmental consulting and lab services to monitor marine ecosystems, deliver sustainability reporting, and secure the required environmental licenses to foster safe, responsible sector growth.",
@@ -567,9 +566,9 @@
         "id": 1,
         "slug": "الشركة التضامنية للإعمار والتجارة",
         "label": "Al-Tadamuniah Power Generation Plant Project",
-        "logo":"Client1.1.png",
+        "logo":"Client1.1.webp",
         "images":[
-          "Client1.png"
+          "Client1.webp"
         ] ,
         "intro":"A leading, trusted powerhouse in infrastructure and power generation. We take pride in being the strategic environmental consulting partner, providing integrated management plans that ensure their vital power plants operate with maximum environmental and operational efficiency.",
         "intro2":"Environmental Compliance Management for Al-Tadamuniah Power Generation Plants, encompassing:",
@@ -592,9 +591,9 @@
         "id": 4,
         "slug":" شركة مرامر للمقاولات",
         "label":" Maramer Contracting Company",
-        "logo":"Client4.2.png",
+        "logo":"Client4.2.webp",
         "images":[
-          "Client4.1.png"
+          "Client4.1.webp"
                 ],
         "style": "bulleted",
         "intro":"A premier Saudi joint-stock leader in major construction and infrastructure. We are proud at Naqaa Al-Bee’ah to secure all their required environmental licenses and provide seamless field monitoring and compliance services for their large-scale projects.",
@@ -618,7 +617,7 @@
   "id": 40,
   "slug": "شركة طيف نجد للمقاولات",
   "label": "Taif Najd Contracting Company",
-  "logo": "clientNew6.png",
+  "logo": "clientNew6.webp",
 
   "style": "bulleted",
   "intro": 
@@ -648,7 +647,7 @@
   "id": 41,
   "slug": "شركة القدية للإستثمار",
   "label": "Qiddiya Investment Company (QIC)",
-  "logo": "client1New7.png",
+  "logo": "client1New7.webp",
 
   "style": "bulleted",
 
@@ -685,7 +684,7 @@
   "id": 42,
   "slug": "شركة سالكو السعودية للمقاولات",
   "label": "SALCO Saudi Contracting Company",
-  "logo": "clientNew8.png",
+  "logo": "clientNew8.webp",
 
   "style": "bulleted",
 
@@ -723,7 +722,7 @@
   "id": 43,
   "slug": "شركة الفنار لإنشاءات",
   "label": "Alfanar Construction",
-  "logo": "clientNew9.png",
+  "logo": "clientNew9.webp",
   "style": "bulleted",
   "intro": 
     "Alfanar Construction is a leading construction company specializing in the delivery of building, infrastructure, and civil engineering projects across the Kingdom of Saudi Arabia. The company adopts advanced engineering solutions and efficient construction methodologies, with a strong commitment to quality, operational excellence, and the highest standards of health, safety, and sustainability, supporting the Kingdom's ongoing urban development and the objectives of Saudi Vision 2030.",
@@ -752,9 +751,9 @@
         "id": 6,
         "slug":" شركة تبوك للأسماك (مبادرة إجهاد المناخ)",
         "label":" Tabuk Fisheries Company (Climate Stress Initiative)",
-        "logo":"Client6.2.png",
+        "logo":"Client6.2.webp",
         "images":[
-          "Client6.1.png"
+          "Client6.1.webp"
         ],
         "style": "bulleted",
         "intro":"The newest and most ambitious cultural and urban destination in Riyadh, and one of the major giga-projects establishing the concept of smart sustainability globally. We are proud to deliver advanced engineering solutions to prepare and manage the Construction Environmental Management Plan (CEMP), contributing to the building of an architectural icon that harmonizes with the environmental standards of Saudi Arabia’s Vision 2030.",
@@ -776,10 +775,10 @@
         "id": 7,
         "slug":"مشروع المربع الجديد ",
         "label":" New Murabba Project",
-        "logo":"Client7.3.png",
+        "logo":"Client7.3.webp",
         "images":[
-          "Client7.1.png",
-          "Client7.2.png"
+          "Client7.1.webp",
+          "Client7.2.webp"
         ],
         "style": "bulleted",
         "intro": "Riyadh’s latest and most ambitious urban landmark, and a global beacon for smart sustainability. We take pride in providing cutting-edge engineering solutions for the development and management of the Construction Environmental Management Plan (CEMP), helping shape an architectural icon aligned with Saudi Vision 2030 environmental benchmarks.",
@@ -802,9 +801,9 @@
         "id": 8,
         "slug":" شركة ضرماء للكهرباء",
         "label":"Dhurma Electricity Company",
-        "logo":"clientNew10Logo.png",
+        "logo":"clientNew10Logo.webp",
         "images":[
-          "clientNew10.jpg"
+          "clientNew10.webp"
         ],
         "style": "bulleted",
 
@@ -837,7 +836,7 @@
         "id": 80,
         "slug":" المدينة الصناعية بضرماء",
         "label":"Dhurma Industrial City",
-        "logo":"Client8.2.png",
+        "logo":"Client8.2.webp",
 
         "style": "bulleted",
 
@@ -886,7 +885,7 @@
         "id": 81,
         "slug":" شركة السويدي الكتريك لنقل وتوزيع الطاقه",
         "label":"Elsewedy Electric for Power Transmission & Distribution",
-        "logo":"clientNew11Logo.jpg",
+        "logo":"clientNew11Logo.webp",
 
         "style": "bulleted",
 

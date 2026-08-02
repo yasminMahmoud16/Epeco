@@ -1,8 +1,8 @@
 import { useForm } from "react-hook-form";
 import { validationContactSchema } from "../../Utils/Validation/validation.js";
 import { zodResolver } from "@hookform/resolvers/zod";
-import clipGroup from "../../assets/Images/Clip path group.png"
-import map from "../../assets/Images/map.png"
+import clipGroup from "../../assets/Images/Clip path group.webp";
+import map from "../../assets/Images/map.webp";
 import useJson from "../../Hooks/useJson.js";
 
 export default function ContactForm() {
@@ -39,10 +39,7 @@ export default function ContactForm() {
             {t("contact.description")}
           </p>
 
-          <form
-            onSubmit={handleSubmit(onSubmit)}
-            className="space-y-4"
-          >
+          <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
             {/* name */}
             <div>
               <label className="block text-md font-semibold text-[#1A5C2C] leading-[1.65] mb-2">
@@ -155,6 +152,7 @@ export default function ContactForm() {
             </div>
           </form>
         </div>
+
         <div className="hidden md:block max-w-sm mx-auto w-full relative p-6">
           <img
             src={clipGroup}
@@ -165,7 +163,7 @@ export default function ContactForm() {
 
           <div className=" absolute inset-0 flex items-center justify-center px-4">
             <p
-              className={`text-center text-white text-sm sm:text-base ${isArabic ? "md:text-3xl" : "md:text-xl"} md:text-3xl  font-bold  leading-none`}
+              className={`text-center text-white text-sm sm:text-base ${isArabic ? "md:text-xl lg:text-3xl" : "md:text-lg lg:text-2xl"}   font-bold  leading-none`}
             >
               {t("contactInfo.social.map")}
             </p>

@@ -1,5 +1,5 @@
 import LangSwitchIcon from "../../Components/LangSwitchIcon/LangSwitchIcon.jsx";
-import logo from "../../assets/Images/EPECO flayer 2 1.png";
+import logo from "../../assets/Images/EPECO flayer 2 1.webp";
 import {  Link, NavLink } from "react-router";
 import {  useRef, useState } from "react";
 import useScroll from "../../Hooks/useScroll.js";

@@ -1,7 +1,7 @@
-import carouselImage1 from "../../assets/Images/Property 1=Default.png";
-import carouselImage2 from "../../assets/Images/Property 1=Variant4.png";
-import carouselImage3 from "../../assets/Images/Property 1=Variant2.png";
-import carouselImage4 from "../../assets/Images/Property 1=Variant3.png";
+import carouselImage1 from "../../assets/Images/Property 1=Default.webp";
+import carouselImage2 from "../../assets/Images/Property 1=Variant4.webp";
+import carouselImage3 from "../../assets/Images/Property 1=Variant2.webp";
+import carouselImage4 from "../../assets/Images/Property 1=Variant3.webp";
 import { IoIosArrowRoundBack } from "react-icons/io";
 import { IoIosArrowRoundForward } from "react-icons/io";
 

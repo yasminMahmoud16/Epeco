@@ -1,6 +1,6 @@
 
-import certification1 from "../../assets/Images/certification1.png"
-import certification2 from "../../assets/Images/certification2.png"
+import certification1 from "../../assets/Images/certification1.webp";
+import certification2 from "../../assets/Images/certification2.webp";
 import useJson from "../../Hooks/useJson.js";
 export default function CertificationsImg() {
   const { isArabic } =useJson();

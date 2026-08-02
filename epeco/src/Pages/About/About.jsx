@@ -42,7 +42,7 @@ export default function About() {
             {/* <MdArrowOutward className="text-[#1A5C2C]" /> */}
           </div>
         </div>
-        <section className="flex flex-col lg:flex-row gap-8 py-6 px-16 bg-white h-full md:h-screen">
+        <section className="flex flex-col lg:flex-row gap-8 py-6 px-16 bg-white min-h-screen ">
           <div className="shrink-0">
             <ArticleList
               mainTitle={mainTitle}
