@@ -57,7 +57,8 @@ export default function HomeCarousel() {
               src={carouselImage1}
               className="w-full h-full object-cover"
               alt="image"
-              loading="lazy"
+              loading="eager"
+              fetchPriority="high"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -158,8 +159,8 @@ export default function HomeCarousel() {
           {/* customers  */}
           <div
             className={`hidden lg:flex ${
-  isArabic ? "ml-6" : "mr-6"
-} gap-10 items-center justify-center z-10 rounded-2xl px-3 py-2 xl:px-5 xl:py-2.5 border border-white bg-white/10 backdrop-blur-xs text-base xl:text-xl text-[#F0EDE6]`}
+              isArabic ? "ml-6" : "mr-6"
+            } gap-10 items-center justify-center z-10 rounded-2xl px-3 py-2 xl:px-5 xl:py-2.5 border border-white bg-white/10 backdrop-blur-xs text-base xl:text-xl text-[#F0EDE6]`}
           >
             <div className="flex flex-col items-center justify-center">
               <p className="font-bold text-md xl:text-3xl xl:mb-1">+1500</p>
@@ -185,7 +186,6 @@ export default function HomeCarousel() {
               </p>
             </div>
           </div>
-         
         </div>
       </div>
     </>

@@ -1,6 +1,71 @@
 @import "tailwindcss";
 /* @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Cairo:wght@200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
 
+
+
+@font-face {
+    font-family: "Cairo";
+    src: url("./assets/Fonts/Cairo-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("./assets/Fonts/Cairo-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("./assets/Fonts/Cairo-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("./assets/Fonts/Cairo-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/Fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/Fonts/Roboto-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/Fonts/Roboto-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/Fonts/Roboto-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
 body{
     font-family: "Cairo", sans-serif;
     background-color: #ffff;
@@ -12,5 +77,5 @@ body{
 
 @theme{
     --color-title:#249643;
-    --font-RobotoCondensed: 'Roboto Condensed', sans-serif;
+    --font-RobotoCondensed: 'Roboto', sans-serif;
 }
