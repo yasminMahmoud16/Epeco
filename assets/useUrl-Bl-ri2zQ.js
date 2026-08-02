@@ -1,1 +1,0 @@
-function e(){return{baseUrl:`http://localhost:5173/Epeco/`}}export{e as t};
