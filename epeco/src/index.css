@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: "Cairo";
-    src: url("./assets/Fonts/cairo-arabic-500-medium.woff2") format("woff2");
+    src: url("./assets/Fonts/cairo-arabic-500-normal.woff2") format("woff2");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -21,7 +21,7 @@
 
 @font-face {
     font-family: "Cairo";
-    src: url("./assets/Fonts/cairo-arabic-600-semibold.woff2") format("woff2");
+    src: url("./assets/Fonts/cairo-arabic-600-normal.woff2") format("woff2");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -29,7 +29,7 @@
 
 @font-face {
     font-family: "Cairo";
-    src: url("./assets/Fonts/cairo-arabic-700-bold.woff2") format("woff2");
+    src: url("./assets/Fonts/cairo-arabic-700-normal.woff2") format("woff2");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
