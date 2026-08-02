@@ -19,7 +19,7 @@ export default function ArticleDescription({ list, activeSlug , imageClassName =
             <div className="flex flex-col sm:flex-row-reverse gap-6">
               <div className="flex-1 space-y-4 w-fit">
                 <h2
-                  className={`  text-heading mb-8 text-title  leading-12 ${isArabic ? "font-normal text-3xl md:text-4xl" : " font-medium text-3xl md:text-5xl leading-[1.62] "}`}
+                  className={`  text-heading mb-8 text-title  leading-12 ${isArabic ? "font-normal text-3xl md:text-4xl" : " font-medium text-3xl md:text-4xl leading-[1.62] "}`}
                 >
                   {activeItem.label}
                 </h2>
