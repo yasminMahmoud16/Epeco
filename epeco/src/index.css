@@ -75,6 +75,11 @@ body{
 }
 
 
+img{
+
+    width: 100%;
+        height: auto;
+}
 @theme{
     --color-title:#249643;
     --font-RobotoCondensed: 'Roboto', sans-serif;
