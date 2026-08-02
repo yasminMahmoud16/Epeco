@@ -39,10 +39,11 @@ export default function HomePolicy() {
           </div>
         </div>
         <div
-          className={`flex flex-col md:flex-row items-stretch justify-center gap-4 mt-4 `}
+          // className={`flex flex-col md:flex-row items-stretch justify-center gap-4 mt-4 `}
+          className={`grid grid-cols-1 md:grid-cols-2 gap-4 justify-center lg:grid-cols-3 `}
         >
           <CardSec
-            className="p-7 w-full md:w-1/3"
+            className="p-7 w-full "
             titleClassName={`text-xl ${isArabic ? "md:text-3xl" : "md:text-3xl"}  font-bold text-[#2D7A45] leading-tight pb-2`}
             highlightWord={t("policy.cardTitle1")}
             image={card1}
@@ -50,7 +51,7 @@ export default function HomePolicy() {
             descriptionClassName={`text-[#2D7A45] font-semibold  font-RobotoCondensed ${isArabic ? "text-base lg:text-xl" : "text-sm text-xl"}`}
           />
           <CardSec
-            className="p-7 w-full md:w-1/3"
+            className="p-7 w-full "
             titleClassName={`text-xl ${isArabic ? "md:text-3xl" : "md:text-3xl"} font-bold text-[#2D7A45] leading-tight pb-2`}
             highlightWord={t("policy.cardTitle2")}
             image={card2}
@@ -58,7 +59,7 @@ export default function HomePolicy() {
             descriptionClassName={`text-[#2D7A45] font-semibold  font-RobotoCondensed  ${isArabic ? "text-base lg:text-xl" : "text-sm text-xl"}`}
           />
           <CardSec
-            className="p-7 w-full md:w-1/3"
+            className="p-7 w-full "
             titleClassName={`text-xl ${isArabic ? "md:text-3xl" : "md:text-3xl"}  font-bold text-[#2D7A45] leading-tight pb-2`}
             highlightWord={t("policy.cardTitle3")}
             image={card3}

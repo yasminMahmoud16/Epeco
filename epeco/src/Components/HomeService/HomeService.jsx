@@ -26,7 +26,7 @@ export default function HomeService() {
           </h5>
           <TitleSec
             title={t("services.secTitle")}
-            className={`font-normal  mb-4  md:text-5xl text-[#F0EDE6]  ${isArabic ? "text-right" : "text-left text-2xl"}`}
+            className={`font-normal  mb-4  text-3xl lg:text-5xl text-[#F0EDE6]  ${isArabic ? "text-right" : "text-left text-2xl"}`}
           />
         </div>
         <div>

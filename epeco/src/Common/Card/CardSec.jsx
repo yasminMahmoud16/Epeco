@@ -19,7 +19,7 @@ export default function CardSec({
 
       <div className="absolute inset-0 bg-[#F5F0E8]/85" />
 
-      <div className="z-10 w-full max-w-full  md:max-w-full px-6 xl:px-10 mx-auto">
+      <div className="z-10 w-full max-w-full  md:w-full px-6 xl:px-10 mx-auto">
         <h3 className={titleClassName}>{highlightWord}</h3>
 
         <p className={descriptionClassName}>{description}</p>

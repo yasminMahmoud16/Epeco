@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import { validationContactSchema } from "../../Utils/i18n/validation.js";
+import { validationContactSchema } from "../../Utils/Validation/validation.js";
 import { zodResolver } from "@hookform/resolvers/zod";
 import clipGroup from "../../assets/Images/Clip path group.png"
 import map from "../../assets/Images/map.png"
@@ -25,7 +25,8 @@ export default function ContactForm() {
     const onSubmit = () => {
 
         // handle actual submission here (API call, etc.)
-        reset();
+      reset();
+
     };
 
     return (

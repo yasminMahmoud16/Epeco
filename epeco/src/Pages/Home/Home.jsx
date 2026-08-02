@@ -8,19 +8,19 @@ export default function Home() {
     return (
       <>
         <main>
-          <section className="mt-16">
+          <section className="mt-16 min-h-screen">
             <HomeCarousel />
-          </section>
 
-          <section className="flex flex-col items-center justify-center py-6 px-16 gap-0.5 bg-[#F5F0E8] ">
-            <HomePolicy />
-          </section>
+            <div className="flex flex-col items-center justify-center py-6 px-16 gap-0.5 bg-[#F5F0E8] ">
+              <HomePolicy />
+            </div>
 
-          <section className="py-6 px-16 bg-[#053510]">
-            <HomeService />
-          </section>
-          <section className="py-6 px-16 bg-[#F5F0E8] ">
-            <HomeAudience />
+            <div className="py-6 px-16 bg-[#053510]">
+              <HomeService />
+            </div>
+            <div className="py-6 px-16 bg-[#F5F0E8] ">
+              <HomeAudience />
+            </div>
           </section>
         </main>
       </>

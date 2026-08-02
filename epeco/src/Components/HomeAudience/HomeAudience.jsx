@@ -28,15 +28,17 @@ export default function HomeAudience() {
       </div>
 
       <div
-        className={`flex flex-col md:flex-row items-center justify-center xl:justify-start md:flex-wrap gap-7`}
+        className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-4 `}
       >
         {items.map((item) => (
           <CardAudience
+            className="col-span-1"
             key={item.id}
             title={item.title}
             description={item.description}
             linkText={item.linkText}
             href={"/audience"}
+
           />
         ))}
       </div>
