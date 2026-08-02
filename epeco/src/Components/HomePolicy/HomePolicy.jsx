@@ -48,7 +48,7 @@ export default function HomePolicy() {
             highlightWord={t("policy.cardTitle1")}
             image={card1}
             description={t("policy.cardDesc1")}
-            descriptionClassName={`text-[#2D7A45] font-semibold  font-RobotoCondensed ${isArabic ? "text-base lg:text-xl" : "text-sm text-xl"}`}
+            descriptionClassName={`text-[#2D7A45] font-semibold   ${isArabic ? "text-base lg:text-xl" : "text-sm text-xl font-RobotoCondensed"}`}
           />
           <CardSec
             className="p-7 w-full "
@@ -56,7 +56,7 @@ export default function HomePolicy() {
             highlightWord={t("policy.cardTitle2")}
             image={card2}
             description={t("policy.cardDesc2")}
-            descriptionClassName={`text-[#2D7A45] font-semibold  font-RobotoCondensed  ${isArabic ? "text-base lg:text-xl" : "text-sm text-xl"}`}
+            descriptionClassName={`text-[#2D7A45] font-semibold    ${isArabic ? "text-base lg:text-xl" : "text-sm text-xl font-RobotoCondensed"}`}
           />
           <CardSec
             className="p-7 w-full "
@@ -64,7 +64,7 @@ export default function HomePolicy() {
             highlightWord={t("policy.cardTitle3")}
             image={card3}
             description={t("policy.cardDesc3")}
-            descriptionClassName={`text-[#2D7A45] font-semibold  font-RobotoCondensed   ${isArabic ? "text-base lg:text-xl" : "text-sm lg:text-xl"}`}
+            descriptionClassName={`text-[#2D7A45] font-semibold     ${isArabic ? "text-base lg:text-xl" : "text-sm lg:text-xl font-RobotoCondensed"}`}
           />
         </div>
       </>
