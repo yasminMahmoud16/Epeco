@@ -7,8 +7,9 @@ export default function Home() {
   
     return (
       <>
-        <main>
-          <section className="mt-16 min-h-screen">
+        {/* <main> */}
+        <section className="mt-16 min-h-screen">
+
             <HomeCarousel />
 
             <div className="flex flex-col items-center justify-center py-6 px-16 gap-0.5 bg-[#F5F0E8] ">
@@ -22,7 +23,7 @@ export default function Home() {
               <HomeAudience />
             </div>
           </section>
-        </main>
+        {/* </main> */}
       </>
     );
 }

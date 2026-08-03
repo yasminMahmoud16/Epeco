@@ -9,10 +9,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade } from "swiper/modules";
 import { useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/effect-fade";
+
 import { Link } from "react-router";
 import useJson from "../../Hooks/useJson.js";
 
