@@ -25,7 +25,7 @@ export default function ArticleDescription({ list, activeSlug , imageClassName =
                 </h2>
                 {activeItem.style === "bulleted" ? (
                   <>
-                    <p className="text-body leading-[1.65] text-sm md:text-xl text-[#1A2E1D] font-normal text-justify">
+                    <p className="text-body  leading-[1.65] text-sm md:text-xl text-[#1A2E1D] font-normal text-justify">
                       {activeItem.intro}
                     </p>
                     <p className="text-body leading-[1.65] text-sm md:text-xl text-[#1A2E1D] font-normal text-justify">
@@ -35,27 +35,24 @@ export default function ArticleDescription({ list, activeSlug , imageClassName =
                       {activeItem.intro3}
                     </p>
 
-                    <ul
-                      className=" list-inside space-y-3 text-body text-sm md:text-xl text-[#1A2E1D] text-justify "
-                      style={{
-                        listStyleType: "square",
-                      }}
-                    >
+                    <ul className="space-y-3 text-body text-sm md:text-xl text-[#1A2E1D] text-justify">
                       {activeItem.paragraphs[0].map((segment, index) => (
-                        <>
-                          <li
-                            key={index}
-                            className={`text-justify ${isArabic ? "pr-4" : "pl-4"}`}
-                          >
+                        <li
+                          key={index}
+                          className={`flex items-start gap-1.5 text-justify`} // adjust gap-1.5 to taste
+                        >
+                          <span className={`mt-2 h-2 w-2 shrink-0 bg-[#1A5C2C] ${isArabic ? "ml-2" : "mr-2"}`} />{" "}
+                          {/* the square bullet */}
+                          <span className="flex-1 ">
                             {segment.type === "highlight" ? (
-                              <strong className="font-bold text-[#EFA027]  ">
+                              <strong className="font-bold text-[#EFA027]">
                                 {segment.text}
                               </strong>
                             ) : (
                               segment.text
                             )}
-                          </li>
-                        </>
+                          </span>
+                        </li>
                       ))}
                     </ul>
 

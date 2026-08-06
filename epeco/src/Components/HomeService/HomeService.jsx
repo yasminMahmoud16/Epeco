@@ -48,8 +48,8 @@ export default function HomeService() {
           <Link
             key={gallery.id}
             to={`/services/${gallery.detailsId}`}
-            className={`relative overflow-hidden rounded-3xl group ${
-              gallery.size === "tall" ? "row-span-2" : "aspect-[4/3]"
+            className={`relative overflow-hidden rounded-3xl group  ${
+              gallery.size === "tall" ? "row-span-2 " : "aspect-[4/3]"
             }`}
           >
             <img
